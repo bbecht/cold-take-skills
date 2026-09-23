@@ -1,0 +1,132 @@
+{
+  "new_business": {
+    "deals": 210,
+    "won": 58,
+    "lost": 152,
+    "revenue_won": 1319500.0,
+    "win_rate": 28
+  },
+  "renewals_excluded": {
+    "deals": 24,
+    "revenue_won": 221750.0
+  },
+  "by_source": [
+    {
+      "source": "Referrals",
+      "family": "Referrals",
+      "deals": 34,
+      "won": 17,
+      "win_rate": 50,
+      "small_sample": false,
+      "revenue_won": 498000.0,
+      "share_of_revenue": 37.7,
+      "share_of_deals": 16.2,
+      "median_days_to_close_won": 49,
+      "avg_won_deal": 29294,
+      "vague_label": false
+    },
+    {
+      "source": "Organic Search",
+      "family": "Organic Search",
+      "deals": 45,
+      "won": 13,
+      "win_rate": 29,
+      "small_sample": false,
+      "revenue_won": 234250.0,
+      "share_of_revenue": 17.8,
+      "share_of_deals": 21.4,
+      "median_days_to_close_won": 76,
+      "avg_won_deal": 18019,
+      "vague_label": false
+    },
+    {
+      "source": "Offline Sources",
+      "family": "Offline Sources",
+      "deals": 11,
+      "won": 6,
+      "win_rate": 55,
+      "small_sample": false,
+      "revenue_won": 185000.0,
+      "share_of_revenue": 14.0,
+      "share_of_deals": 5.2,
+      "median_days_to_close_won": 40.0,
+      "avg_won_deal": 30833,
+      "vague_label": true
+    },
+    {
+      "source": "Direct Traffic",
+      "family": "Direct Traffic",
+      "deals": 19,
+      "won": 5,
+      "win_rate": 26,
+      "small_sample": false,
+      "revenue_won": 103250.0,
+      "share_of_revenue": 7.8,
+      "share_of_deals": 9.0,
+      "median_days_to_close_won": 58,
+      "avg_won_deal": 20650,
+      "vague_label": true
+    },
+    {
+      "source": "Email Marketing",
+      "family": "Email Marketing",
+      "deals": 21,
+      "won": 5,
+      "win_rate": 24,
+      "small_sample": false,
+      "revenue_won": 98500.0,
+      "share_of_revenue": 7.5,
+      "share_of_deals": 10.0,
+      "median_days_to_close_won": 73,
+      "avg_won_deal": 19700,
+      "vague_label": false
+    },
+    {
+      "source": "Paid Search",
+      "family": "Paid Search",
+      "deals": 27,
+      "won": 5,
+      "win_rate": 19,
+      "small_sample": false,
+      "revenue_won": 80750.0,
+      "share_of_revenue": 6.1,
+      "share_of_deals": 12.9,
+      "median_days_to_close_won": 92,
+      "avg_won_deal": 16150,
+      "vague_label": false
+    },
+    {
+      "source": "Other Campaigns",
+      "family": "Other Campaigns",
+      "deals": 6,
+      "won": 3,
+      "win_rate": null,
+      "small_sample": true,
+      "revenue_won": 66250.0,
+      "share_of_revenue": 5.0,
+      "share_of_deals": 2.9,
+      "median_days_to_close_won": 84,
+      "avg_won_deal": 22083,
+      "vague_label": true
+    },
+    {
+      "source": "Paid Social",
+      "family": "Paid Social",
+      "deals": 47,
+      "won": 4,
+      "win_rate": 9,
+      "small_sample": false,
+      "revenue_won": 53500.0,
+      "share_of_revenue": 4.1,
+      "share_of_deals": 22.4,
+      "median_days_to_close_won": 115.5,
+      "avg_won_deal": 13375,
+      "vague_label": false
+    }
+  ],
+  "channel_detail": [],
+  "data_quality": {},
+  "no_source_share_of_revenue": 0,
+  "vague_source_share_of_revenue": 26.9,
+  "months_covered": 22.1
+}

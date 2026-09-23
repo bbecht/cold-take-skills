@@ -1,0 +1,235 @@
+Record ID,Deal Name,Deal Stage,Pipeline,Amount,Create Date,Close Date,Deal Owner,Deal Type,Original Source Type
+31000000000,Meridian Dental Group - New 2024,Closed Won,Sales Pipeline,37000,2024-10-03 16:15,2024-11-14 16:15,Casey Morgan,New Business,Offline Sources
+31000007919,Lakeshore Labs - New 2024,Closed Won,Sales Pipeline,20500,2024-10-06 13:11,2025-01-12 13:11,Jordan Reyes,New Business,Organic Search
+31000015838,Granite Engineering - New 2024,Closed Lost,Sales Pipeline,20500,2024-10-08 16:11,2025-01-07 16:11,Jordan Reyes,New Business,Paid Search
+31000023757,Granite Property Mgmt - New 2024,Closed Lost,Sales Pipeline,22000,2024-10-09 12:21,2024-11-28 12:21,Casey Morgan,New Business,Referrals
+31000031676,Evergreen Manufacturing - New 2024,Closed Lost,Sales Pipeline,21250,2024-10-10 15:12,2024-12-12 15:12,Taylor Brooks,New Business,Paid Social
+31000039595,Sterling Home Services - New 2024,Closed Lost,Sales Pipeline,11750,2024-10-11 16:32,2024-12-28 16:32,Taylor Brooks,New Business,Organic Search
+31000047514,Keystone Health Partners - New 2024,Closed Lost,Sales Pipeline,12750,2024-10-14 17:27,2025-01-14 17:27,Jordan Reyes,New Business,Paid Social
+31000055433,Brightline Home Services - New 2024,Closed Won,Sales Pipeline,10750,2024-10-15 10:54,2025-02-15 10:54,Casey Morgan,New Business,Paid Social
+31000063352,Granite Manufacturing - New 2024,Closed Lost,Sales Pipeline,32000,2024-10-16 12:02,2024-11-07 12:02,Jordan Reyes,New Business,Offline Sources
+31000071271,Apex Engineering - New 2024,Closed Lost,Sales Pipeline,24500,2024-10-16 12:42,2024-11-02 12:42,Casey Morgan,New Business,Direct Traffic
+31000079190,Bluestone Property Mgmt - New 2024,Closed Won,Sales Pipeline,9750,2024-10-17 15:33,2024-12-19 15:33,Taylor Brooks,New Business,Organic Search
+31000087109,Meridian Clinics - New 2024,Closed Won,Sales Pipeline,16750,2024-10-20 13:46,2025-02-05 13:46,Taylor Brooks,New Business,Paid Social
+31000095028,Westfield Labs - New 2024,Closed Lost,Sales Pipeline,21000,2024-10-23 08:39,2024-12-12 08:39,Jordan Reyes,New Business,Organic Search
+31000102947,Liberty Foods - New 2024,Closed Lost,Sales Pipeline,24500,2024-10-26 10:52,2025-01-25 10:52,Jordan Reyes,New Business,Direct Traffic
+31000110866,Summit Foods - New 2024,Closed Won,Sales Pipeline,10250,2024-10-30 12:17,2025-02-07 12:17,Casey Morgan,New Business,Organic Search
+31000118785,Trident Staffing - New 2024,Closed Lost,Sales Pipeline,18750,2024-10-31 14:55,2024-11-25 14:55,Casey Morgan,New Business,Email Marketing
+31000126704,Beacon Health Partners - New 2024,Closed Lost,Sales Pipeline,24750,2024-11-03 08:51,2024-11-28 08:51,Taylor Brooks,New Business,Offline Sources
+31000134623,Harbor Distribution - New 2024,Closed Lost,Sales Pipeline,17250,2024-11-03 09:49,2025-01-01 09:49,Casey Morgan,New Business,Organic Search
+31000142542,Meridian Staffing - New 2024,Closed Lost,Sales Pipeline,9750,2024-11-04 08:35,2025-02-05 08:35,Jordan Reyes,New Business,Paid Search
+31000150461,Redwood Health Partners - New 2024,Closed Won,Sales Pipeline,26000,2024-11-05 10:22,2025-02-07 10:22,Taylor Brooks,New Business,Organic Search
+31000158380,Vantage Engineering - New 2024,Closed Lost,Sales Pipeline,15250,2024-11-06 08:50,2024-12-31 08:50,Casey Morgan,New Business,Paid Social
+31000166299,Trident Clinics - New 2024,Closed Lost,Sales Pipeline,3750,2024-11-06 11:52,2024-12-27 11:52,Taylor Brooks,New Business,Paid Search
+31000174218,Clearpath Property Mgmt - New 2024,Closed Lost,Sales Pipeline,17750,2024-11-09 12:41,2025-01-04 12:41,Casey Morgan,New Business,Direct Traffic
+31000182137,Evergreen Manufacturing - New 2024,Closed Lost,Sales Pipeline,24500,2024-11-14 10:39,2025-06-14 10:39,Casey Morgan,New Business,Organic Search
+31000190056,Silverline Labs - New 2024,Closed Won,Sales Pipeline,27750,2024-11-15 14:50,2025-01-03 14:50,Jordan Reyes,New Business,Referrals
+31000197975,Redwood Labs - New 2024,Closed Won,Sales Pipeline,17750,2024-11-18 09:13,2025-02-05 09:13,Jordan Reyes,New Business,Referrals
+31000205894,Vantage Clinics - New 2024,Closed Lost,Sales Pipeline,13750,2024-11-18 09:24,2025-01-14 09:24,Taylor Brooks,New Business,Email Marketing
+31000213813,Harbor Manufacturing - New 2024,Closed Won,Sales Pipeline,32750,2024-11-18 16:09,2025-01-15 16:09,Taylor Brooks,New Business,Referrals
+31000221732,Lakeshore Staffing - New 2024,Closed Won,Sales Pipeline,21750,2024-11-19 10:34,2025-02-11 10:34,Jordan Reyes,New Business,Email Marketing
+31000229651,Silverline Dental Group - New 2024,Closed Won,Sales Pipeline,22000,2024-11-19 14:18,2025-02-15 14:18,Jordan Reyes,New Business,Referrals
+31000237570,Keystone Distribution - New 2024,Closed Lost,Sales Pipeline,13250,2024-11-21 16:03,2025-02-25 16:03,Taylor Brooks,New Business,Paid Search
+31000245489,Beacon Property Mgmt - New 2024,Closed Won,Sales Pipeline,13250,2024-11-24 09:28,2025-01-25 09:28,Jordan Reyes,New Business,Direct Traffic
+31000253408,Cedar Distribution - New 2024,Closed Lost,Sales Pipeline,18250,2024-11-24 17:04,2025-02-09 17:04,Jordan Reyes,New Business,Paid Social
+31000261327,Apex Distribution - New 2024,Closed Lost,Sales Pipeline,11000,2024-11-27 15:34,2025-03-28 15:34,Taylor Brooks,New Business,Paid Search
+31000269246,Evergreen Manufacturing - New 2024,Closed Lost,Sales Pipeline,21750,2024-11-29 12:49,2025-04-14 12:49,Casey Morgan,New Business,Organic Search
+31000277165,Cedar Property Mgmt - New 2024,Closed Lost,Sales Pipeline,12000,2024-11-29 16:28,2025-02-18 16:28,Taylor Brooks,New Business,Organic Search
+31000285084,Cobalt Industrial - New 2024,Closed Lost,Sales Pipeline,19000,2024-12-01 14:31,2025-02-25 14:31,Jordan Reyes,New Business,Email Marketing
+31000293003,Maple Health Partners - New 2024,Closed Lost,Sales Pipeline,15750,2024-12-03 10:52,2025-01-15 10:52,Casey Morgan,New Business,Email Marketing
+31000300922,Cedar Foods - New 2024,Closed Lost,Sales Pipeline,19000,2024-12-10 09:51,2025-02-05 09:51,Casey Morgan,New Business,Organic Search
+31000308841,Pinnacle Foods - New 2024,Closed Lost,Sales Pipeline,16750,2024-12-11 15:35,2025-02-19 15:35,Taylor Brooks,New Business,Organic Search
+31000316760,Ironwood Property Mgmt - New 2024,Closed Lost,Sales Pipeline,15000,2024-12-12 13:44,2025-02-28 13:44,Jordan Reyes,New Business,Paid Social
+31000324679,Apex Property Mgmt - New 2024,Closed Lost,Sales Pipeline,18250,2024-12-14 08:53,2025-01-12 08:53,Casey Morgan,New Business,Direct Traffic
+31000332598,Cobalt Distribution - New 2024,Closed Lost,Sales Pipeline,22750,2024-12-14 11:47,2025-02-02 11:47,Taylor Brooks,New Business,Email Marketing
+31000340517,Lakeshore Logistics - New 2024,Closed Lost,Sales Pipeline,10500,2024-12-15 09:30,2025-01-22 09:30,Jordan Reyes,New Business,Organic Search
+31000348436,Lakeshore Home Services - New 2024,Closed Lost,Sales Pipeline,18250,2024-12-18 14:52,2025-01-29 14:52,Jordan Reyes,New Business,Organic Search
+31000356355,Frontier Transport - New 2024,Closed Lost,Sales Pipeline,20750,2024-12-19 16:15,2025-03-24 16:15,Jordan Reyes,New Business,Paid Social
+31000364274,Bluestone Industrial - New 2024,Closed Won,Sales Pipeline,25750,2024-12-26 14:48,2025-04-11 14:48,Taylor Brooks,New Business,Paid Search
+31000372193,Westfield Manufacturing - New 2024,Closed Lost,Sales Pipeline,18000,2024-12-27 09:38,2025-02-01 09:38,Jordan Reyes,New Business,Paid Search
+31000380112,Pinnacle Distribution - New 2024,Closed Lost,Sales Pipeline,18250,2024-12-29 12:40,2025-02-08 12:40,Jordan Reyes,New Business,Organic Search
+31000388031,Maple Home Services - New 2024,Closed Lost,Sales Pipeline,11750,2024-12-29 15:41,2025-03-01 15:41,Casey Morgan,New Business,Email Marketing
+31000395950,Meridian Home Services - Renewal 2025,Closed Won,Sales Pipeline,15500,2025-01-03 15:04,2025-03-26 15:04,Jordan Reyes,Existing Business,Organic Search
+31000403869,Keystone Dental Group - New 2025,Closed Won,Sales Pipeline,19500,2025-01-04 12:29,2025-04-06 12:29,Casey Morgan,New Business,Paid Search
+31000411788,Meridian Clinics - New 2025,Closed Lost,Sales Pipeline,24500,2025-01-05 10:18,2025-02-28 10:18,Jordan Reyes,New Business,Direct Traffic
+31000419707,Bluestone Foods - New 2025,Closed Lost,Sales Pipeline,23250,2025-01-05 17:34,2025-03-21 17:34,Jordan Reyes,New Business,Direct Traffic
+31000427626,Maple Engineering - New 2025,Closed Won,Sales Pipeline,34250,2025-01-06 14:03,2025-03-11 14:03,Taylor Brooks,New Business,Offline Sources
+31000435545,Lakeshore Dental Group - New 2025,Closed Lost,Sales Pipeline,15500,2025-01-10 09:45,2025-04-09 09:45,Taylor Brooks,New Business,Paid Social
+31000443464,Oakridge Clinics - New 2025,Closed Lost,Sales Pipeline,12500,2025-01-17 17:22,2025-02-15 17:22,Jordan Reyes,New Business,Paid Search
+31000451383,Meridian Clinics - New 2025,Closed Lost,Sales Pipeline,15250,2025-01-22 15:40,2025-03-03 15:40,Taylor Brooks,New Business,Paid Social
+31000459302,Redwood Industrial - New 2025,Closed Won,Sales Pipeline,24000,2025-01-23 08:00,2025-04-06 08:00,Taylor Brooks,New Business,Email Marketing
+31000467221,Harbor Industrial - New 2025,Closed Lost,Sales Pipeline,15500,2025-01-26 11:47,2025-03-21 11:47,Taylor Brooks,New Business,Paid Social
+31000475140,Trident Clinics - New 2025,Closed Won,Sales Pipeline,17000,2025-01-30 09:53,2025-03-13 09:53,Taylor Brooks,New Business,Direct Traffic
+31000483059,Apex Foods - New 2025,Closed Lost,Sales Pipeline,22000,2025-02-03 12:34,2025-04-01 12:34,Taylor Brooks,New Business,Email Marketing
+31000490978,Lakeshore Engineering - New 2025,Closed Lost,Sales Pipeline,9250,2025-02-05 16:19,2025-04-04 16:19,Jordan Reyes,New Business,Organic Search
+31000498897,Silverline Health Partners - New 2025,Closed Lost,Sales Pipeline,10750,2025-02-09 10:05,2025-04-21 10:05,Taylor Brooks,New Business,Paid Search
+31000506816,Oakridge Engineering - New 2025,Closed Lost,Sales Pipeline,17750,2025-02-13 17:12,2025-06-30 17:12,Jordan Reyes,New Business,Paid Social
+31000514735,Granite Dental Group - New 2025,Closed Lost,Sales Pipeline,17750,2025-02-19 15:22,2025-06-27 15:22,Casey Morgan,New Business,Paid Social
+31000522654,Westfield Clinics - New 2025,Closed Won,Sales Pipeline,19250,2025-02-20 13:30,2025-05-07 13:30,Taylor Brooks,New Business,Organic Search
+31000530573,Clearpath Builders - New 2025,Closed Lost,Sales Pipeline,20500,2025-02-21 08:49,2025-04-30 08:49,Taylor Brooks,New Business,Organic Search
+31000538492,Westfield Manufacturing - New 2025,Closed Won,Sales Pipeline,16000,2025-02-23 14:20,2025-04-29 14:20,Jordan Reyes,New Business,Direct Traffic
+31000546411,Westfield Logistics - Renewal 2025,Closed Lost,Sales Pipeline,14500,2025-02-23 15:10,2025-05-31 15:10,Taylor Brooks,Existing Business,Paid Social
+31000554330,Summit Builders - New 2025,Closed Lost,Sales Pipeline,39250,2025-02-23 16:47,2025-03-14 16:47,Taylor Brooks,New Business,Referrals
+31000562249,Northgate Industrial - New 2025,Closed Lost,Sales Pipeline,9250,2025-02-24 13:14,2025-05-09 13:14,Taylor Brooks,New Business,Paid Search
+31000570168,Frontier Engineering - New 2025,Closed Won,Sales Pipeline,33750,2025-03-01 10:46,2025-04-28 10:46,Jordan Reyes,New Business,Direct Traffic
+31000578087,Pinnacle Engineering - New 2025,Closed Won,Sales Pipeline,17500,2025-03-01 15:41,2025-08-29 15:41,Casey Morgan,New Business,Paid Social
+31000586006,Beacon Industrial - New 2025,Closed Lost,Sales Pipeline,27750,2025-03-02 13:38,2025-04-26 13:38,Casey Morgan,New Business,Referrals
+31000593925,Northgate Logistics - New 2025,Closed Won,Sales Pipeline,12500,2025-03-25 16:36,2025-06-28 16:36,Taylor Brooks,New Business,Organic Search
+31000601844,Westfield Dental Group - New 2025,Closed Lost,Sales Pipeline,16250,2025-03-26 12:45,2025-05-10 12:45,Jordan Reyes,New Business,Paid Social
+31000609763,Summit Distribution - New 2025,Closed Lost,Sales Pipeline,16250,2025-03-31 08:08,2025-06-03 08:08,Jordan Reyes,New Business,Paid Social
+31000617682,Ironwood Property Mgmt - New 2025,Closed Lost,Sales Pipeline,27000,2025-03-31 08:22,2025-05-09 08:22,Jordan Reyes,New Business,Direct Traffic
+31000625601,Vantage Logistics - Renewal 2025,Closed Won,Sales Pipeline,38750,2025-04-01 14:28,2025-06-06 14:28,Taylor Brooks,Existing Business,Referrals
+31000633520,Vantage Distribution - New 2025,Closed Won,Sales Pipeline,19000,2025-04-06 15:27,2025-05-24 15:27,Casey Morgan,New Business,Other Campaigns
+31000641439,Ironwood Logistics - Renewal 2025,Closed Lost,Sales Pipeline,21750,2025-04-07 15:48,2025-06-05 15:48,Jordan Reyes,Existing Business,Paid Social
+31000649358,Riverbend Manufacturing - New 2025,Closed Won,Sales Pipeline,11750,2025-04-10 09:44,2025-06-03 09:44,Taylor Brooks,New Business,Organic Search
+31000657277,Cobalt Labs - New 2025,Closed Lost,Sales Pipeline,35750,2025-04-12 10:54,2025-05-08 10:54,Jordan Reyes,New Business,Referrals
+31000665196,Harbor Labs - New 2025,Closed Won,Sales Pipeline,24000,2025-04-13 12:12,2025-05-14 12:12,Casey Morgan,New Business,Email Marketing
+31000673115,Cedar Dental Group - New 2025,Closed Lost,Sales Pipeline,17500,2025-04-15 10:27,2025-05-12 10:27,Casey Morgan,New Business,Direct Traffic
+31000681034,Oakridge Engineering - New 2025,Closed Lost,Sales Pipeline,27500,2025-04-18 17:54,2025-06-01 17:54,Jordan Reyes,New Business,Referrals
+31000688953,Westfield Staffing - New 2025,Closed Lost,Sales Pipeline,11500,2025-04-21 13:01,2025-05-31 13:01,Jordan Reyes,New Business,Other Campaigns
+31000696872,Cedar Clinics - New 2025,Closed Lost,Sales Pipeline,14000,2025-04-21 16:23,2025-06-22 16:23,Casey Morgan,New Business,Organic Search
+31000704791,Trident Distribution - New 2025,Closed Won,Sales Pipeline,18750,2025-04-27 11:13,2025-06-08 11:13,Taylor Brooks,New Business,Offline Sources
+31000712710,Cobalt Property Mgmt - New 2025,Closed Won,Sales Pipeline,37500,2025-05-03 09:39,2025-06-02 09:39,Taylor Brooks,New Business,Referrals
+31000720629,Brightline Transport - New 2025,Closed Lost,Sales Pipeline,17750,2025-05-08 13:33,2025-06-12 13:33,Casey Morgan,New Business,Email Marketing
+31000728548,Evergreen Labs - Renewal 2025,Closed Won,Sales Pipeline,32250,2025-05-17 14:07,2025-06-25 14:07,Jordan Reyes,Existing Business,Referrals
+31000736467,Ironwood Clinics - New 2025,Closed Won,Sales Pipeline,14000,2025-05-18 10:38,2025-08-02 10:38,Taylor Brooks,New Business,Organic Search
+31000744386,Maple Labs - New 2025,Closed Lost,Sales Pipeline,26500,2025-05-22 13:31,2025-07-21 13:31,Casey Morgan,New Business,Email Marketing
+31000752305,Beacon Dental Group - New 2025,Closed Lost,Sales Pipeline,12500,2025-05-25 13:05,2025-09-23 13:05,Jordan Reyes,New Business,Organic Search
+31000760224,Riverbend Industrial - New 2025,Closed Lost,Sales Pipeline,17750,2025-05-26 09:56,2025-07-07 09:56,Casey Morgan,New Business,Paid Search
+31000768143,Trident Health Partners - Renewal 2025,Closed Lost,Sales Pipeline,21250,2025-05-31 14:56,2025-06-29 14:56,Jordan Reyes,Existing Business,Paid Search
+31000776062,Westfield Manufacturing - New 2025,Closed Won,Sales Pipeline,14250,2025-06-02 08:11,2025-07-26 08:11,Taylor Brooks,New Business,Paid Search
+31000783981,Westfield Home Services - New 2025,Closed Lost,Sales Pipeline,7250,2025-06-02 17:12,2025-06-23 17:12,Taylor Brooks,New Business,Referrals
+31000791900,Granite Home Services - New 2025,Closed Lost,Sales Pipeline,20750,2025-06-15 14:22,2025-11-05 14:22,Jordan Reyes,New Business,Paid Social
+31000799819,Bluestone Home Services - New 2025,Closed Lost,Sales Pipeline,25750,2025-06-28 12:41,2025-08-23 12:41,Taylor Brooks,New Business,Organic Search
+31000807738,Vantage Engineering - New 2025,Closed Won,Sales Pipeline,20250,2025-07-02 10:19,2025-11-03 10:19,Jordan Reyes,New Business,Referrals
+31000815657,Pinnacle Builders - New 2025,Closed Lost,Sales Pipeline,18250,2025-07-02 10:39,2025-08-26 10:39,Casey Morgan,New Business,Paid Social
+31000823576,Westfield Logistics - New 2025,Closed Lost,Sales Pipeline,12000,2025-07-08 14:54,2025-09-23 14:54,Taylor Brooks,New Business,Paid Social
+31000831495,Beacon Foods - New 2025,Closed Lost,Sales Pipeline,17250,2025-07-10 08:11,2025-10-17 08:11,Taylor Brooks,New Business,Paid Social
+31000839414,Sterling Foods - New 2025,Closed Lost,Sales Pipeline,23500,2025-07-10 12:57,2025-08-19 12:57,Jordan Reyes,New Business,Organic Search
+31000847333,Sterling Labs - New 2025,Closed Lost,Sales Pipeline,20750,2025-07-12 09:44,2025-08-23 09:44,Casey Morgan,New Business,Referrals
+31000855252,Westfield Property Mgmt - New 2025,Closed Lost,Sales Pipeline,32250,2025-07-12 17:18,2025-09-06 17:18,Jordan Reyes,New Business,Referrals
+31000863171,Evergreen Industrial - New 2025,Closed Lost,Sales Pipeline,16500,2025-07-27 11:16,2025-09-11 11:16,Casey Morgan,New Business,Referrals
+31000871090,Cedar Transport - New 2025,Closed Lost,Sales Pipeline,38000,2025-07-27 14:11,2025-10-02 14:11,Casey Morgan,New Business,Direct Traffic
+31000879009,Redwood Dental Group - New 2025,Closed Lost,Sales Pipeline,19500,2025-07-27 17:55,2025-10-06 17:55,Jordan Reyes,New Business,Organic Search
+31000886928,Trident Distribution - New 2025,Closed Won,Sales Pipeline,33000,2025-08-06 10:13,2025-09-11 10:13,Casey Morgan,New Business,Offline Sources
+31000894847,Trident Labs - New 2025,Closed Won,Sales Pipeline,28500,2025-08-10 14:33,2025-10-25 14:33,Taylor Brooks,New Business,Referrals
+31000902766,Evergreen Foods - Renewal 2025,Closed Lost,Sales Pipeline,18500,2025-08-11 17:48,2025-09-17 17:48,Taylor Brooks,Existing Business,Offline Sources
+31000910685,Riverbend Transport - New 2025,Closed Lost,Sales Pipeline,20500,2025-08-13 10:30,2025-09-20 10:30,Taylor Brooks,New Business,Organic Search
+31000918604,Beacon Industrial - New 2025,Closed Lost,Sales Pipeline,25500,2025-08-16 11:20,2025-09-15 11:20,Taylor Brooks,New Business,Referrals
+31000926523,Cedar Clinics - New 2025,Closed Won,Sales Pipeline,13500,2025-08-16 17:52,2025-10-11 17:52,Casey Morgan,New Business,Email Marketing
+31000934442,Granite Clinics - New 2025,Closed Lost,Sales Pipeline,12500,2025-08-17 15:15,2025-10-15 15:15,Casey Morgan,New Business,Email Marketing
+31000942361,Oakridge Labs - Renewal 2025,Closed Won,Sales Pipeline,19750,2025-08-18 08:53,2025-10-27 08:53,Casey Morgan,Existing Business,Referrals
+31000950280,Vantage Engineering - New 2025,Closed Won,Sales Pipeline,31000,2025-08-19 14:31,2025-10-17 14:31,Casey Morgan,New Business,Referrals
+31000958199,Brightline Property Mgmt - New 2025,Closed Won,Sales Pipeline,24750,2025-08-22 15:41,2025-12-01 15:41,Jordan Reyes,New Business,Organic Search
+31000966118,Brightline Industrial - New 2025,Closed Lost,Sales Pipeline,19500,2025-08-25 12:53,2025-10-25 12:53,Casey Morgan,New Business,Paid Social
+31000974037,Clearpath Foods - New 2025,Closed Lost,Sales Pipeline,14750,2025-08-27 12:12,2025-10-15 12:12,Casey Morgan,New Business,Paid Social
+31000981956,Cedar Health Partners - New 2025,Closed Lost,Sales Pipeline,18250,2025-08-29 09:50,2025-12-28 09:50,Taylor Brooks,New Business,Email Marketing
+31000989875,Riverbend Foods - Renewal 2025,Closed Lost,Sales Pipeline,24250,2025-08-29 11:04,2025-11-08 11:04,Casey Morgan,Existing Business,Paid Social
+31000997794,Redwood Industrial - New 2025,Closed Lost,Sales Pipeline,23250,2025-08-30 11:17,2025-09-29 11:17,Taylor Brooks,New Business,Referrals
+31001005713,Sterling Foods - New 2025,Closed Lost,Sales Pipeline,20250,2025-09-01 17:12,2025-10-06 17:12,Casey Morgan,New Business,Organic Search
+31001013632,Clearpath Home Services - New 2025,Closed Lost,Sales Pipeline,15750,2025-09-03 15:57,2025-12-25 15:57,Jordan Reyes,New Business,Paid Social
+31001021551,Granite Home Services - New 2025,Closed Lost,Sales Pipeline,8000,2025-09-16 14:00,2025-11-13 14:00,Taylor Brooks,New Business,Paid Search
+31001029470,Brightline Foods - New 2025,Closed Lost,Sales Pipeline,8000,2025-09-21 08:06,2026-01-12 08:06,Casey Morgan,New Business,Organic Search
+31001037389,Cedar Foods - New 2025,Closed Lost,Sales Pipeline,6000,2025-09-27 12:05,2025-11-17 12:05,Casey Morgan,New Business,Paid Search
+31001045308,Cedar Transport - New 2025,Closed Won,Sales Pipeline,8500,2025-09-29 11:00,2025-12-17 11:00,Jordan Reyes,New Business,Paid Social
+31001053227,Cobalt Distribution - New 2025,Closed Won,Sales Pipeline,13000,2025-10-03 14:32,2025-12-28 14:32,Casey Morgan,New Business,Paid Search
+31001061146,Pinnacle Labs - New 2025,Closed Lost,Sales Pipeline,17000,2025-10-04 17:23,2025-12-18 17:23,Jordan Reyes,New Business,Paid Social
+31001069065,Vantage Logistics - New 2025,Closed Lost,Sales Pipeline,19250,2025-10-05 16:43,2025-12-15 16:43,Taylor Brooks,New Business,Paid Social
+31001076984,Oakridge Manufacturing - New 2025,Closed Lost,Sales Pipeline,17000,2025-10-06 13:30,2026-01-22 13:30,Casey Morgan,New Business,Paid Social
+31001084903,Beacon Property Mgmt - New 2025,Closed Lost,Sales Pipeline,6250,2025-10-06 15:21,2026-01-02 15:21,Taylor Brooks,New Business,Paid Social
+31001092822,Ironwood Clinics - Renewal 2025,Closed Lost,Sales Pipeline,10000,2025-10-07 15:36,2025-11-24 15:36,Taylor Brooks,Existing Business,Paid Social
+31001100741,Northgate Labs - New 2025,Closed Lost,Sales Pipeline,13250,2025-10-13 11:57,2025-11-09 11:57,Casey Morgan,New Business,Paid Search
+31001108660,Cobalt Dental Group - Renewal 2025,Closed Lost,Sales Pipeline,13500,2025-10-25 12:46,2026-01-08 12:46,Taylor Brooks,Existing Business,Paid Social
+31001116579,Ironwood Logistics - New 2025,Closed Won,Sales Pipeline,24750,2025-10-27 11:39,2025-12-13 11:39,Jordan Reyes,New Business,Organic Search
+31001124498,Clearpath Distribution - New 2025,Closed Won,Sales Pipeline,25500,2025-10-27 12:00,2025-12-01 12:00,Casey Morgan,New Business,Referrals
+31001132417,Ironwood Staffing - New 2025,Closed Lost,Sales Pipeline,14750,2025-10-28 10:12,2025-11-15 10:12,Casey Morgan,New Business,Offline Sources
+31001140336,Vantage Health Partners - New 2025,Closed Won,Sales Pipeline,29000,2025-10-28 13:06,2025-12-17 13:06,Jordan Reyes,New Business,Organic Search
+31001148255,Westfield Distribution - New 2025,Closed Lost,Sales Pipeline,14500,2025-10-29 14:45,2026-03-19 14:45,Casey Morgan,New Business,Paid Social
+31001156174,Meridian Foods - New 2025,Closed Won,Sales Pipeline,22000,2025-10-29 14:51,2026-01-21 14:51,Taylor Brooks,New Business,Other Campaigns
+31001164093,Silverline Builders - New 2025,Closed Lost,Sales Pipeline,41500,2025-10-30 11:24,2026-01-17 11:24,Taylor Brooks,New Business,Referrals
+31001172012,Pinnacle Clinics - New 2025,Closed Lost,Sales Pipeline,5750,2025-10-31 14:53,2025-12-23 14:53,Jordan Reyes,New Business,Paid Social
+31001179931,Cobalt Industrial - New 2025,Closed Lost,Sales Pipeline,4250,2025-10-31 17:30,2026-01-28 17:30,Taylor Brooks,New Business,Paid Social
+31001187850,Lakeshore Engineering - New 2025,Closed Lost,Sales Pipeline,16500,2025-11-01 16:35,2025-12-06 16:35,Casey Morgan,New Business,Paid Social
+31001195769,Westfield Distribution - Renewal 2025,Closed Lost,Sales Pipeline,19500,2025-11-03 12:48,2025-12-09 12:48,Jordan Reyes,Existing Business,Offline Sources
+31001203688,Brightline Foods - New 2025,Closed Lost,Sales Pipeline,15500,2025-11-05 13:07,2026-02-03 13:07,Casey Morgan,New Business,Paid Search
+31001211607,Beacon Builders - New 2025,Closed Lost,Sales Pipeline,17500,2025-11-05 17:10,2025-12-07 17:10,Casey Morgan,New Business,Email Marketing
+31001219526,Cobalt Labs - New 2025,Closed Lost,Sales Pipeline,27000,2025-11-09 16:17,2026-01-03 16:17,Jordan Reyes,New Business,Organic Search
+31001227445,Clearpath Distribution - New 2025,Closed Lost,Sales Pipeline,20500,2025-11-14 09:21,2026-02-04 09:21,Casey Morgan,New Business,Email Marketing
+31001235364,Evergreen Distribution - New 2025,Closed Lost,Sales Pipeline,19250,2025-11-14 16:19,2026-02-14 16:19,Taylor Brooks,New Business,Paid Social
+31001243283,Meridian Clinics - New 2025,Closed Lost,Sales Pipeline,15500,2025-11-16 10:39,2026-01-07 10:39,Casey Morgan,New Business,Direct Traffic
+31001251202,Pinnacle Property Mgmt - New 2025,Closed Won,Sales Pipeline,45000,2025-11-19 16:07,2025-12-11 16:07,Jordan Reyes,New Business,Referrals
+31001259121,Brightline Logistics - New 2025,Closed Lost,Sales Pipeline,15000,2025-11-22 17:58,2026-02-01 17:58,Casey Morgan,New Business,Paid Social
+31001267040,Clearpath Industrial - New 2025,Closed Lost,Sales Pipeline,30000,2025-11-28 12:53,2026-01-22 12:53,Casey Morgan,New Business,Referrals
+31001274959,Redwood Foods - New 2025,Closed Lost,Sales Pipeline,30250,2025-11-29 10:43,2026-01-31 10:43,Casey Morgan,New Business,Referrals
+31001282878,Granite Clinics - New 2025,Closed Lost,Sales Pipeline,20000,2025-12-02 08:41,2026-01-11 08:41,Casey Morgan,New Business,Other Campaigns
+31001290797,Keystone Manufacturing - New 2025,Closed Lost,Sales Pipeline,20750,2025-12-06 10:35,2026-01-22 10:35,Casey Morgan,New Business,Direct Traffic
+31001298716,Beacon Home Services - New 2025,Closed Lost,Sales Pipeline,23250,2025-12-09 09:26,2026-03-02 09:26,Jordan Reyes,New Business,Paid Search
+31001306635,Riverbend Clinics - New 2025,Closed Lost,Sales Pipeline,21500,2025-12-12 16:53,2026-04-14 16:53,Taylor Brooks,New Business,Paid Social
+31001314554,Sterling Property Mgmt - New 2025,Closed Lost,Sales Pipeline,17500,2025-12-13 08:20,2026-02-22 08:20,Taylor Brooks,New Business,Paid Social
+31001322473,Pinnacle Engineering - Renewal 2025,Closed Won,Sales Pipeline,23000,2025-12-13 10:46,2026-02-06 10:46,Casey Morgan,Existing Business,Email Marketing
+31001330392,Evergreen Builders - New 2025,Closed Lost,Sales Pipeline,10500,2025-12-15 10:13,2026-05-13 10:13,Taylor Brooks,New Business,Paid Social
+31001338311,Apex Foods - New 2025,Closed Lost,Sales Pipeline,14500,2025-12-16 13:44,2026-03-15 13:44,Casey Morgan,New Business,Organic Search
+31001346230,Bluestone Logistics - New 2025,Closed Lost,Sales Pipeline,36500,2025-12-20 16:54,2026-02-02 16:54,Casey Morgan,New Business,Offline Sources
+31001354149,Redwood Distribution - New 2025,Closed Won,Sales Pipeline,21250,2025-12-21 10:51,2026-04-11 10:51,Taylor Brooks,New Business,Organic Search
+31001362068,Liberty Manufacturing - New 2025,Closed Lost,Sales Pipeline,24250,2025-12-22 17:51,2026-01-31 17:51,Jordan Reyes,New Business,Email Marketing
+31001369987,Ironwood Home Services - New 2025,Closed Lost,Sales Pipeline,13250,2025-12-25 08:36,2026-03-27 08:36,Casey Morgan,New Business,Paid Social
+31001377906,Brightline Logistics - New 2025,Closed Lost,Sales Pipeline,13000,2025-12-25 12:02,2026-04-22 12:02,Taylor Brooks,New Business,Paid Search
+31001385825,Cobalt Labs - New 2025,Closed Lost,Sales Pipeline,14500,2025-12-27 15:17,2026-04-02 15:17,Casey Morgan,New Business,Paid Social
+31001393744,Redwood Clinics - New 2025,Closed Lost,Sales Pipeline,21000,2025-12-29 16:09,2026-03-30 16:09,Casey Morgan,New Business,Organic Search
+31001401663,Pinnacle Distribution - New 2025,Closed Won,Sales Pipeline,15250,2025-12-30 12:39,2026-03-19 12:39,Taylor Brooks,New Business,Email Marketing
+31001409582,Apex Manufacturing - New 2025,Closed Lost,Sales Pipeline,18250,2025-12-31 10:35,2026-03-04 10:35,Casey Morgan,New Business,Paid Search
+31001417501,Meridian Property Mgmt - New 2026,Closed Won,Sales Pipeline,24500,2026-01-06 16:57,2026-03-17 16:57,Taylor Brooks,New Business,Referrals
+31001425420,Pinnacle Foods - New 2026,Closed Won,Sales Pipeline,33000,2026-01-10 10:29,2026-02-27 10:29,Taylor Brooks,New Business,Referrals
+31001433339,Oakridge Builders - New 2026,Closed Lost,Sales Pipeline,12250,2026-01-15 13:03,2026-03-12 13:03,Taylor Brooks,New Business,Direct Traffic
+31001441258,Cedar Manufacturing - Renewal 2026,Closed Lost,Sales Pipeline,22500,2026-01-16 17:58,2026-02-04 17:58,Taylor Brooks,Existing Business,Email Marketing
+31001449177,Keystone Manufacturing - New 2026,Closed Lost,Sales Pipeline,14000,2026-01-20 16:45,2026-04-09 16:45,Taylor Brooks,New Business,Paid Social
+31001457096,Trident Home Services - New 2026,Closed Lost,Sales Pipeline,16750,2026-01-22 12:20,2026-04-28 12:20,Jordan Reyes,New Business,Organic Search
+31001465015,Lakeshore Clinics - New 2026,Closed Won,Sales Pipeline,35000,2026-01-27 16:20,2026-03-08 16:20,Casey Morgan,New Business,Referrals
+31001472934,Westfield Transport - New 2026,Closed Lost,Sales Pipeline,19000,2026-01-28 08:44,2026-02-18 08:44,Taylor Brooks,New Business,Other Campaigns
+31001480853,Silverline Property Mgmt - New 2026,Closed Lost,Sales Pipeline,26500,2026-02-01 13:31,2026-03-28 13:31,Taylor Brooks,New Business,Organic Search
+31001488772,Vantage Dental Group - Renewal 2026,Closed Won,Sales Pipeline,11250,2026-02-08 14:49,2026-05-20 14:49,Jordan Reyes,Existing Business,Paid Search
+31001496691,Trident Foods - New 2026,Closed Won,Sales Pipeline,23000,2026-02-10 11:33,2026-03-14 11:33,Jordan Reyes,New Business,Referrals
+31001504610,Westfield Home Services - Renewal 2026,Closed Lost,Sales Pipeline,48250,2026-02-14 11:47,2026-03-09 11:47,Casey Morgan,Existing Business,Offline Sources
+31001512529,Bluestone Transport - New 2026,Closed Lost,Sales Pipeline,18750,2026-02-16 13:23,2026-04-06 13:23,Casey Morgan,New Business,Paid Social
+31001520448,Northgate Foods - New 2026,Closed Lost,Sales Pipeline,14750,2026-02-18 16:51,2026-04-29 16:51,Jordan Reyes,New Business,Paid Social
+31001528367,Cedar Logistics - New 2026,Closed Lost,Sales Pipeline,20250,2026-02-20 08:35,2026-06-05 08:35,Taylor Brooks,New Business,Paid Social
+31001536286,Apex Labs - Renewal 2026,Closed Lost,Sales Pipeline,13750,2026-02-21 16:27,2026-04-06 16:27,Jordan Reyes,Existing Business,Paid Search
+31001544205,Vantage Health Partners - New 2026,Closed Lost,Sales Pipeline,13750,2026-02-25 12:30,2026-03-23 12:30,Casey Morgan,New Business,Email Marketing
+31001552124,Riverbend Foods - New 2026,Closed Won,Sales Pipeline,25250,2026-02-25 17:10,2026-05-31 17:10,Taylor Brooks,New Business,Other Campaigns
+31001560043,Summit Builders - New 2026,Closed Won,Sales Pipeline,8250,2026-02-27 15:37,2026-07-04 15:37,Casey Morgan,New Business,Paid Search
+31001567962,Harbor Staffing - New 2026,Closed Lost,Sales Pipeline,18000,2026-03-02 11:35,2026-04-01 11:35,Taylor Brooks,New Business,Organic Search
+31001575881,Northgate Logistics - New 2026,Closed Lost,Sales Pipeline,10750,2026-03-04 13:11,2026-04-06 13:11,Casey Morgan,New Business,Organic Search
+31001583800,Keystone Industrial - New 2026,Closed Lost,Sales Pipeline,33750,2026-03-04 14:38,2026-04-27 14:38,Taylor Brooks,New Business,Referrals
+31001591719,Clearpath Manufacturing - Renewal 2026,Closed Lost,Sales Pipeline,4500,2026-03-13 11:17,2026-04-30 11:17,Taylor Brooks,Existing Business,Email Marketing
+31001599638,Pinnacle Staffing - Renewal 2026,Closed Won,Sales Pipeline,34250,2026-03-21 11:02,2026-04-17 11:02,Casey Morgan,Existing Business,Referrals
+31001607557,Silverline Clinics - Renewal 2026,Closed Lost,Sales Pipeline,3000,2026-03-27 14:48,2026-05-10 14:48,Taylor Brooks,Existing Business,Direct Traffic
+31001615476,Vantage Engineering - New 2026,Closed Lost,Sales Pipeline,22500,2026-03-28 16:01,2026-06-15 16:01,Jordan Reyes,New Business,Direct Traffic
+31001623395,Trident Staffing - New 2026,Closed Lost,Sales Pipeline,13250,2026-04-05 17:33,2026-06-16 17:33,Casey Morgan,New Business,Paid Search
+31001631314,Brightline Industrial - New 2026,Closed Lost,Sales Pipeline,14000,2026-04-10 13:40,2026-07-08 13:40,Jordan Reyes,New Business,Paid Social
+31001639233,Granite Manufacturing - New 2026,Closed Lost,Sales Pipeline,12750,2026-04-17 10:23,2026-05-30 10:23,Casey Morgan,New Business,Organic Search
+31001647152,Cedar Home Services - New 2026,Closed Lost,Sales Pipeline,13750,2026-04-18 14:34,2026-08-19 14:34,Casey Morgan,New Business,Paid Social
+31001655071,Beacon Property Mgmt - New 2026,Closed Lost,Sales Pipeline,22250,2026-04-19 08:42,2026-05-17 08:42,Casey Morgan,New Business,Paid Search
+31001662990,Cobalt Foods - New 2026,Closed Lost,Sales Pipeline,20750,2026-04-20 15:35,2026-08-03 15:35,Casey Morgan,New Business,Paid Social
+31001670909,Cobalt Staffing - New 2026,Closed Lost,Sales Pipeline,9500,2026-04-22 14:09,2026-06-17 14:09,Jordan Reyes,New Business,Paid Social
+31001678828,Meridian Engineering - New 2026,Closed Lost,Sales Pipeline,19750,2026-04-27 16:29,2026-06-28 16:29,Taylor Brooks,New Business,Paid Search
+31001686747,Riverbend Clinics - New 2026,Closed Lost,Sales Pipeline,25000,2026-05-06 14:04,2026-06-27 14:04,Taylor Brooks,New Business,Organic Search
+31001694666,Harbor Manufacturing - New 2026,Closed Won,Sales Pipeline,23250,2026-05-12 10:40,2026-06-27 10:40,Taylor Brooks,New Business,Direct Traffic
+31001702585,Keystone Dental Group - New 2026,Closed Lost,Sales Pipeline,17500,2026-05-13 11:22,2026-08-09 11:22,Casey Morgan,New Business,Paid Search
+31001710504,Pinnacle Distribution - New 2026,Closed Won,Sales Pipeline,36250,2026-05-24 14:43,2026-07-21 14:43,Taylor Brooks,New Business,Referrals
+31001718423,Granite Manufacturing - New 2026,Closed Lost,Sales Pipeline,19750,2026-05-25 14:17,2026-08-12 14:17,Casey Morgan,New Business,Paid Search
+31001726342,Summit Foods - New 2026,Closed Lost,Sales Pipeline,16500,2026-05-28 11:53,2026-07-26 11:53,Taylor Brooks,New Business,Direct Traffic
+31001734261,Oakridge Staffing - Renewal 2026,Closed Won,Sales Pipeline,47000,2026-06-01 14:09,2026-06-30 14:09,Jordan Reyes,Existing Business,Referrals
+31001742180,Clearpath Foods - New 2026,Closed Lost,Sales Pipeline,22750,2026-06-02 11:07,2026-08-17 11:07,Taylor Brooks,New Business,Email Marketing
+31001750099,Bluestone Builders - New 2026,Closed Lost,Sales Pipeline,23500,2026-06-09 11:51,2026-08-08 11:51,Taylor Brooks,New Business,Organic Search
+31001758018,Redwood Property Mgmt - New 2026,Closed Won,Sales Pipeline,10500,2026-06-13 08:29,2026-08-17 08:29,Casey Morgan,New Business,Organic Search
+31001765937,Sterling Builders - New 2026,Closed Lost,Sales Pipeline,23250,2026-06-17 16:12,2026-07-03 16:12,Taylor Brooks,New Business,Referrals
+31001773856,Sterling Foods - Renewal 2026,Closed Lost,Sales Pipeline,26250,2026-06-22 17:28,2026-08-10 17:28,Casey Morgan,Existing Business,Referrals
+31001781775,Trident Industrial - New 2026,Closed Lost,Sales Pipeline,41000,2026-06-30 11:34,2026-07-17 11:34,Casey Morgan,New Business,Referrals
+31001789694,Silverline Transport - New 2026,Closed Won,Sales Pipeline,27250,2026-07-04 10:34,2026-08-06 10:34,Jordan Reyes,New Business,Offline Sources
+31001797613,Cobalt Foods - Renewal 2026,Closed Lost,Sales Pipeline,24750,2026-07-06 11:49,2026-07-23 11:49,Taylor Brooks,Existing Business,Offline Sources
+31001805532,Liberty Industrial - New 2026,Closed Lost,Sales Pipeline,37000,2026-07-06 14:26,2026-07-30 14:26,Taylor Brooks,New Business,Offline Sources
+31001813451,Cedar Clinics - New 2026,Closed Won,Sales Pipeline,34750,2026-07-11 13:27,2026-08-18 13:27,Casey Morgan,New Business,Offline Sources
+31001821370,Westfield Engineering - New 2026,Closed Won,Sales Pipeline,29750,2026-07-13 14:43,2026-08-17 14:43,Taylor Brooks,New Business,Referrals
+31001829289,Beacon Engineering - Renewal 2026,Closed Lost,Sales Pipeline,12750,2026-07-17 14:13,2026-08-25 14:13,Jordan Reyes,Existing Business,Email Marketing
+31001837208,Cobalt Manufacturing - New 2026,Closed Lost,Sales Pipeline,17250,2026-07-29 13:25,2026-09-06 13:25,Jordan Reyes,New Business,Organic Search
+31001845127,Redwood Labs - New 2026,Closed Won,Sales Pipeline,28500,2026-07-30 13:52,2026-08-29 13:52,Jordan Reyes,New Business,Referrals

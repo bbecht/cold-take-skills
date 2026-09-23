@@ -1,0 +1,181 @@
+Opportunity ID,Opportunity Name,Account Name,Stage,Amount,Created Date,Close Date,Opportunity Owner,Type,Lead Source
+006Dn0000004800AAA,Ironwood Distribution - New,Ironwood Distribution,Closed Lost,19750,10/3/2024,11/14/2024,Drew Patel,New Customer,Advertisement
+006Dn0000004801AAA,Oakridge Home Services - New,Oakridge Home Services,Closed Won,23500,10/11/2024,11/27/2024,Drew Patel,New Customer,Employee Referral
+006Dn0000004802AAA,Keystone Health Partners - New,Keystone Health Partners,Closed Won,35250,10/12/2024,5/11/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004803AAA,Ironwood Foods - New,Ironwood Foods,Closed Lost,11500,10/15/2024,1/17/2025,Drew Patel,New Customer,Web
+006Dn0000004804AAA,Redwood Logistics - Upgrade,Redwood Logistics,Closed Lost,15000,10/16/2024,11/5/2024,Morgan Ellis,Existing Customer - Upgrade,Phone Inquiry
+006Dn0000004805AAA,Oakridge Dental Group - Upgrade,Oakridge Dental Group,Closed Lost,9250,10/20/2024,1/7/2025,Sam Ortiz,Existing Customer - Upgrade,Purchased List
+006Dn0000004806AAA,Westfield Transport - New,Westfield Transport,Closed Won,19750,10/22/2024,12/20/2024,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004807AAA,Brightline Labs - New,Brightline Labs,Closed Won,24000,11/1/2024,12/24/2024,Drew Patel,New Customer,Phone Inquiry
+006Dn0000004808AAA,Pinnacle Logistics - New,Pinnacle Logistics,Closed Lost,30500,11/11/2024,1/16/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004809AAA,Riverbend Industrial - New,Riverbend Industrial,Closed Lost,19000,11/14/2024,1/18/2025,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004810AAA,Clearpath Engineering - New,Clearpath Engineering,Closed Lost,6500,11/18/2024,2/2/2025,Morgan Ellis,New Customer,Purchased List
+006Dn0000004811AAA,Evergreen Builders - New,Evergreen Builders,Closed Lost,15750,11/20/2024,1/24/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004812AAA,Ironwood Clinics - New,Ironwood Clinics,Closed Lost,5500,11/22/2024,2/14/2025,Sam Ortiz,New Customer,Advertisement
+006Dn0000004813AAA,Liberty Logistics - New,Liberty Logistics,Closed Lost,16500,11/30/2024,1/20/2025,Sam Ortiz,New Customer,Web
+006Dn0000004814AAA,Oakridge Distribution - New,Oakridge Distribution,Closed Lost,9000,12/5/2024,3/30/2025,Riley Chen,New Customer,Web
+006Dn0000004815AAA,Riverbend Labs - New,Riverbend Labs,Closed Lost,28250,12/7/2024,1/4/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004816AAA,Keystone Clinics - New,Keystone Clinics,Closed Lost,39000,12/8/2024,3/14/2025,Morgan Ellis,New Customer,Trade Show
+006Dn0000004817AAA,Westfield Health Partners - New,Westfield Health Partners,Closed Lost,22750,12/12/2024,2/7/2025,Sam Ortiz,New Customer,Web
+006Dn0000004818AAA,Granite Health Partners - New,Granite Health Partners,Closed Lost,22750,12/19/2024,4/18/2025,Riley Chen,New Customer,Web
+006Dn0000004819AAA,Pinnacle Manufacturing - New,Pinnacle Manufacturing,Closed Won,19250,12/21/2024,2/10/2025,Sam Ortiz,New Customer,Employee Referral
+006Dn0000004820AAA,Redwood Transport - New,Redwood Transport,Closed Lost,7750,12/24/2024,2/7/2025,Morgan Ellis,New Customer,Advertisement
+006Dn0000004821AAA,Granite Distribution - New,Granite Distribution,Closed Lost,14750,12/28/2024,3/11/2025,Sam Ortiz,New Customer,Purchased List
+006Dn0000004822AAA,Lakeshore Logistics - New,Lakeshore Logistics,Closed Lost,16000,1/6/2025,3/2/2025,Riley Chen,New Customer,Web
+006Dn0000004823AAA,Westfield Clinics - New,Westfield Clinics,Closed Lost,16000,1/6/2025,3/16/2025,Riley Chen,New Customer,Web
+006Dn0000004824AAA,Liberty Logistics - New,Liberty Logistics,Closed Lost,15500,1/8/2025,3/14/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004825AAA,Vantage Distribution - New,Vantage Distribution,Closed Won,51750,1/8/2025,3/16/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004826AAA,Evergreen Distribution - New,Evergreen Distribution,Closed Won,24000,1/11/2025,2/25/2025,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004827AAA,Pinnacle Health Partners - New,Pinnacle Health Partners,Closed Lost,28250,1/14/2025,2/15/2025,Drew Patel,New Customer,Employee Referral
+006Dn0000004828AAA,Summit Staffing - New,Summit Staffing,Closed Won,22000,1/20/2025,4/14/2025,Morgan Ellis,New Customer,Web
+006Dn0000004829AAA,Silverline Distribution - New,Silverline Distribution,Closed Won,15750,1/20/2025,3/4/2025,Morgan Ellis,New Customer,Web
+006Dn0000004830AAA,Cedar Transport - New,Cedar Transport,Closed Lost,19500,1/24/2025,4/3/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004831AAA,Bluestone Distribution - New,Bluestone Distribution,Closed Won,18500,1/25/2025,4/23/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004832AAA,Trident Property Mgmt - New,Trident Property Mgmt,Closed Lost,29750,1/25/2025,3/14/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004833AAA,Meridian Transport - New,Meridian Transport,Closed Won,17500,1/26/2025,2/22/2025,Drew Patel,New Customer,Employee Referral
+006Dn0000004834AAA,Brightline Industrial - New,Brightline Industrial,Closed Lost,28250,1/27/2025,3/17/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004835AAA,Brightline Transport - New,Brightline Transport,Closed Lost,15250,1/28/2025,4/29/2025,Morgan Ellis,New Customer,Web
+006Dn0000004836AAA,Brightline Clinics - New,Brightline Clinics,Closed Lost,18250,1/30/2025,4/10/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004837AAA,Meridian Builders - New,Meridian Builders,Closed Lost,14250,2/5/2025,4/26/2025,Morgan Ellis,New Customer,Purchased List
+006Dn0000004838AAA,Maple Health Partners - New,Maple Health Partners,Closed Lost,36750,2/9/2025,4/14/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004839AAA,Westfield Engineering - New,Westfield Engineering,Closed Lost,11000,2/9/2025,4/16/2025,Sam Ortiz,New Customer,Advertisement
+006Dn0000004840AAA,Pinnacle Labs - New,Pinnacle Labs,Closed Lost,18750,2/12/2025,3/23/2025,Morgan Ellis,New Customer,Employee Referral
+006Dn0000004841AAA,Liberty Health Partners - New,Liberty Health Partners,Closed Won,31000,2/13/2025,4/27/2025,Morgan Ellis,New Customer,Employee Referral
+006Dn0000004842AAA,Westfield Dental Group - Upgrade,Westfield Dental Group,Closed Lost,16250,2/23/2025,5/28/2025,Riley Chen,Existing Customer - Upgrade,Web
+006Dn0000004843AAA,Maple Dental Group - New,Maple Dental Group,Closed Won,52250,2/24/2025,8/3/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004844AAA,Redwood Home Services - New,Redwood Home Services,Closed Lost,5000,3/1/2025,4/25/2025,Morgan Ellis,New Customer,Advertisement
+006Dn0000004845AAA,Trident Engineering - New,Trident Engineering,Closed Won,18750,3/3/2025,6/14/2025,Drew Patel,New Customer,Web
+006Dn0000004846AAA,Silverline Labs - New,Silverline Labs,Closed Lost,19750,3/6/2025,4/11/2025,Drew Patel,New Customer,Web
+006Dn0000004847AAA,Redwood Clinics - New,Redwood Clinics,Closed Lost,36000,3/6/2025,4/28/2025,Sam Ortiz,New Customer,Trade Show
+006Dn0000004848AAA,Trident Staffing - New,Trident Staffing,Closed Lost,19750,3/7/2025,6/23/2025,Morgan Ellis,New Customer,Advertisement
+006Dn0000004849AAA,Frontier Foods - New,Frontier Foods,Closed Won,27000,3/11/2025,4/7/2025,Riley Chen,New Customer,Employee Referral
+006Dn0000004850AAA,Northgate Dental Group - New,Northgate Dental Group,Closed Won,7250,3/19/2025,6/29/2025,Drew Patel,New Customer,Purchased List
+006Dn0000004851AAA,Brightline Labs - Upgrade,Brightline Labs,Closed Won,34250,3/22/2025,6/21/2025,Morgan Ellis,Existing Customer - Upgrade,Trade Show
+006Dn0000004852AAA,Keystone Manufacturing - New,Keystone Manufacturing,Closed Won,27000,3/27/2025,5/23/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004853AAA,Riverbend Builders - New,Riverbend Builders,Closed Lost,15500,4/4/2025,7/7/2025,Morgan Ellis,New Customer,Advertisement
+006Dn0000004854AAA,Summit Labs - New,Summit Labs,Closed Lost,37250,4/5/2025,5/27/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004855AAA,Cobalt Transport - New,Cobalt Transport,Closed Lost,11000,4/7/2025,5/31/2025,Riley Chen,New Customer,Advertisement
+006Dn0000004856AAA,Harbor Engineering - New,Harbor Engineering,Closed Lost,16000,4/16/2025,5/26/2025,Morgan Ellis,New Customer,Web
+006Dn0000004857AAA,Apex Labs - New,Apex Labs,Closed Lost,12000,4/23/2025,6/26/2025,Riley Chen,New Customer,Purchased List
+006Dn0000004858AAA,Northgate Foods - New,Northgate Foods,Closed Won,15750,4/23/2025,6/3/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004859AAA,Vantage Distribution - New,Vantage Distribution,Closed Lost,23250,4/24/2025,6/28/2025,Sam Ortiz,New Customer,Web
+006Dn0000004860AAA,Pinnacle Staffing - New,Pinnacle Staffing,Closed Lost,25000,4/24/2025,8/31/2025,Drew Patel,New Customer,Trade Show
+006Dn0000004861AAA,Liberty Builders - New,Liberty Builders,Closed Lost,30750,4/26/2025,5/31/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004862AAA,Beacon Health Partners - New,Beacon Health Partners,Closed Lost,24750,4/27/2025,5/19/2025,Drew Patel,New Customer,Employee Referral
+006Dn0000004863AAA,Ironwood Industrial - New,Ironwood Industrial,Closed Lost,13250,5/10/2025,9/25/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004864AAA,Westfield Health Partners - New,Westfield Health Partners,Closed Won,29500,5/14/2025,7/4/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004865AAA,Lakeshore Logistics - New,Lakeshore Logistics,Closed Won,25500,5/17/2025,7/10/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004866AAA,Silverline Distribution - New,Silverline Distribution,Closed Lost,32750,5/22/2025,9/9/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004867AAA,Silverline Foods - New,Silverline Foods,Closed Won,14500,5/22/2025,7/12/2025,Morgan Ellis,New Customer,Web
+006Dn0000004868AAA,Riverbend Builders - New,Riverbend Builders,Closed Lost,5750,5/26/2025,9/30/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004869AAA,Evergreen Labs - New,Evergreen Labs,Closed Lost,12750,5/27/2025,7/9/2025,Sam Ortiz,New Customer,Advertisement
+006Dn0000004870AAA,Apex Staffing - New,Apex Staffing,Closed Lost,17000,5/28/2025,6/25/2025,Riley Chen,New Customer,Phone Inquiry
+006Dn0000004871AAA,Frontier Clinics - New,Frontier Clinics,Closed Lost,25500,5/30/2025,8/5/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004872AAA,Frontier Dental Group - New,Frontier Dental Group,Closed Lost,14000,6/9/2025,7/28/2025,Morgan Ellis,New Customer,Purchased List
+006Dn0000004873AAA,Northgate Staffing - New,Northgate Staffing,Closed Won,16500,6/10/2025,9/11/2025,Riley Chen,New Customer,Web
+006Dn0000004874AAA,Granite Transport - New,Granite Transport,Closed Lost,12750,6/16/2025,7/29/2025,Riley Chen,New Customer,Web
+006Dn0000004875AAA,Clearpath Property Mgmt - New,Clearpath Property Mgmt,Closed Lost,13000,6/25/2025,8/25/2025,Sam Ortiz,New Customer,Advertisement
+006Dn0000004876AAA,Evergreen Staffing - New,Evergreen Staffing,Closed Lost,12500,7/2/2025,9/6/2025,Sam Ortiz,New Customer,Web
+006Dn0000004877AAA,Beacon Builders - New,Beacon Builders,Closed Won,39250,7/7/2025,9/7/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004878AAA,Pinnacle Foods - New,Pinnacle Foods,Closed Won,50250,7/7/2025,11/16/2025,Riley Chen,New Customer,Trade Show
+006Dn0000004879AAA,Granite Labs - New,Granite Labs,Closed Lost,18500,7/7/2025,9/22/2025,Sam Ortiz,New Customer,Web
+006Dn0000004880AAA,Sterling Clinics - New,Sterling Clinics,Closed Lost,11500,7/9/2025,9/23/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004881AAA,Apex Dental Group - New,Apex Dental Group,Closed Lost,20750,7/10/2025,8/25/2025,Sam Ortiz,New Customer,Phone Inquiry
+006Dn0000004882AAA,Liberty Staffing - New,Liberty Staffing,Closed Won,15750,7/11/2025,8/20/2025,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004883AAA,Westfield Staffing - New,Westfield Staffing,Closed Won,33750,7/13/2025,8/11/2025,Drew Patel,New Customer,Partner Referral
+006Dn0000004884AAA,Sterling Staffing - New,Sterling Staffing,Closed Won,9750,7/15/2025,9/16/2025,Morgan Ellis,New Customer,Web
+006Dn0000004885AAA,Sterling Health Partners - New,Sterling Health Partners,Closed Won,25250,7/24/2025,9/8/2025,Riley Chen,New Customer,Employee Referral
+006Dn0000004886AAA,Pinnacle Clinics - New,Pinnacle Clinics,Closed Lost,16000,7/31/2025,9/3/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004887AAA,Evergreen Industrial - New,Evergreen Industrial,Closed Won,14750,7/31/2025,8/29/2025,Drew Patel,New Customer,Phone Inquiry
+006Dn0000004888AAA,Ironwood Builders - New,Ironwood Builders,Closed Lost,14000,8/4/2025,10/26/2025,Riley Chen,New Customer,Advertisement
+006Dn0000004889AAA,Meridian Transport - Upgrade,Meridian Transport,Closed Lost,10250,8/8/2025,10/18/2025,Drew Patel,Existing Customer - Upgrade,Purchased List
+006Dn0000004890AAA,Frontier Property Mgmt - New,Frontier Property Mgmt,Closed Lost,14500,8/9/2025,11/12/2025,Morgan Ellis,New Customer,Advertisement
+006Dn0000004891AAA,Pinnacle Engineering - New,Pinnacle Engineering,Closed Won,24750,8/10/2025,9/2/2025,Sam Ortiz,New Customer,Phone Inquiry
+006Dn0000004892AAA,Maple Manufacturing - New,Maple Manufacturing,Closed Lost,39250,8/11/2025,10/16/2025,Morgan Ellis,New Customer,Trade Show
+006Dn0000004893AAA,Bluestone Dental Group - Upgrade,Bluestone Dental Group,Closed Won,22750,8/12/2025,10/4/2025,Riley Chen,Existing Customer - Upgrade,Partner Referral
+006Dn0000004894AAA,Trident Property Mgmt - New,Trident Property Mgmt,Closed Lost,5750,8/26/2025,2/7/2026,Drew Patel,New Customer,Purchased List
+006Dn0000004895AAA,Evergreen Transport - New,Evergreen Transport,Closed Lost,10750,8/26/2025,12/1/2025,Riley Chen,New Customer,Purchased List
+006Dn0000004896AAA,Beacon Builders - New,Beacon Builders,Closed Lost,8750,8/27/2025,11/24/2025,Sam Ortiz,New Customer,Purchased List
+006Dn0000004897AAA,Lakeshore Home Services - New,Lakeshore Home Services,Closed Won,14250,8/28/2025,1/29/2026,Morgan Ellis,New Customer,Web
+006Dn0000004898AAA,Bluestone Logistics - New,Bluestone Logistics,Closed Lost,23000,9/8/2025,12/11/2025,Drew Patel,New Customer,Web
+006Dn0000004899AAA,Clearpath Home Services - New,Clearpath Home Services,Closed Won,11250,9/8/2025,10/20/2025,Sam Ortiz,New Customer,Employee Referral
+006Dn0000004900AAA,Redwood Distribution - Upgrade,Redwood Distribution,Closed Lost,70250,9/15/2025,11/21/2025,Morgan Ellis,Existing Customer - Upgrade,Trade Show
+006Dn0000004901AAA,Maple Clinics - New,Maple Clinics,Closed Lost,14250,9/15/2025,2/28/2026,Sam Ortiz,New Customer,Purchased List
+006Dn0000004902AAA,Evergreen Dental Group - New,Evergreen Dental Group,Closed Won,45000,9/25/2025,11/8/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004903AAA,Evergreen Home Services - Upgrade,Evergreen Home Services,Closed Lost,58250,10/3/2025,12/19/2025,Sam Ortiz,Existing Customer - Upgrade,Trade Show
+006Dn0000004904AAA,Cobalt Transport - New,Cobalt Transport,Closed Lost,26500,10/5/2025,11/12/2025,Riley Chen,New Customer,Web
+006Dn0000004905AAA,Ironwood Staffing - New,Ironwood Staffing,Closed Won,23750,10/7/2025,11/6/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004906AAA,Northgate Logistics - New,Northgate Logistics,Closed Lost,19250,10/8/2025,12/5/2025,Riley Chen,New Customer,Employee Referral
+006Dn0000004907AAA,Westfield Manufacturing - Upgrade,Westfield Manufacturing,Closed Lost,9500,10/11/2025,1/14/2026,Sam Ortiz,Existing Customer - Upgrade,Web
+006Dn0000004908AAA,Ironwood Transport - New,Ironwood Transport,Closed Lost,27000,10/11/2025,12/27/2025,Riley Chen,New Customer,Web
+006Dn0000004909AAA,Brightline Manufacturing - New,Brightline Manufacturing,Closed Won,13750,10/12/2025,2/8/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004910AAA,Liberty Distribution - New,Liberty Distribution,Closed Lost,10500,10/14/2025,1/19/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004911AAA,Oakridge Property Mgmt - New,Oakridge Property Mgmt,Closed Lost,15500,10/19/2025,12/1/2025,Sam Ortiz,New Customer,Web
+006Dn0000004912AAA,Harbor Industrial - New,Harbor Industrial,Closed Lost,12500,10/19/2025,1/16/2026,Riley Chen,New Customer,Advertisement
+006Dn0000004913AAA,Meridian Dental Group - New,Meridian Dental Group,Closed Won,78250,10/26/2025,2/14/2026,Morgan Ellis,New Customer,Trade Show
+006Dn0000004914AAA,Westfield Builders - New,Westfield Builders,Closed Lost,22250,10/27/2025,1/7/2026,Sam Ortiz,New Customer,Web
+006Dn0000004915AAA,Redwood Builders - New,Redwood Builders,Closed Won,46250,10/29/2025,12/19/2025,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004916AAA,Ironwood Distribution - New,Ironwood Distribution,Closed Lost,19000,11/1/2025,1/6/2026,Drew Patel,New Customer,Web
+006Dn0000004917AAA,Frontier Clinics - New,Frontier Clinics,Closed Lost,26250,11/3/2025,11/20/2025,Riley Chen,New Customer,Partner Referral
+006Dn0000004918AAA,Ironwood Manufacturing - New,Ironwood Manufacturing,Closed Lost,41000,11/14/2025,3/9/2026,Sam Ortiz,New Customer,Trade Show
+006Dn0000004919AAA,Maple Manufacturing - New,Maple Manufacturing,Closed Won,3000,11/15/2025,5/1/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004920AAA,Apex Property Mgmt - New,Apex Property Mgmt,Closed Lost,12000,11/16/2025,12/28/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004921AAA,Cobalt Logistics - New,Cobalt Logistics,Closed Lost,17250,11/17/2025,12/23/2025,Drew Patel,New Customer,Advertisement
+006Dn0000004922AAA,Bluestone Industrial - New,Bluestone Industrial,Closed Lost,14250,11/19/2025,12/25/2025,Sam Ortiz,New Customer,Purchased List
+006Dn0000004923AAA,Redwood Health Partners - New,Redwood Health Partners,Closed Lost,16000,11/19/2025,1/21/2026,Morgan Ellis,New Customer,Web
+006Dn0000004924AAA,Frontier Engineering - New,Frontier Engineering,Closed Lost,3750,11/23/2025,1/1/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004925AAA,Vantage Dental Group - New,Vantage Dental Group,Closed Lost,29250,11/27/2025,12/28/2025,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004926AAA,Sterling Health Partners - New,Sterling Health Partners,Closed Lost,23250,11/28/2025,1/15/2026,Sam Ortiz,New Customer,Web
+006Dn0000004927AAA,Westfield Home Services - New,Westfield Home Services,Closed Lost,45500,11/29/2025,3/27/2026,Sam Ortiz,New Customer,Trade Show
+006Dn0000004928AAA,Northgate Home Services - New,Northgate Home Services,Closed Lost,16000,12/1/2025,1/22/2026,Morgan Ellis,New Customer,Advertisement
+006Dn0000004929AAA,Frontier Home Services - New,Frontier Home Services,Closed Lost,19250,12/2/2025,1/19/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004930AAA,Silverline Logistics - New,Silverline Logistics,Closed Lost,30500,12/11/2025,2/20/2026,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004931AAA,Pinnacle Industrial - New,Pinnacle Industrial,Closed Lost,12500,12/12/2025,1/30/2026,Drew Patel,New Customer,Purchased List
+006Dn0000004932AAA,Keystone Home Services - New,Keystone Home Services,Closed Won,15000,12/16/2025,1/11/2026,Drew Patel,New Customer,Phone Inquiry
+006Dn0000004933AAA,Keystone Health Partners - New,Keystone Health Partners,Closed Lost,15000,12/17/2025,1/28/2026,Riley Chen,New Customer,Advertisement
+006Dn0000004934AAA,Meridian Dental Group - New,Meridian Dental Group,Closed Lost,14750,12/18/2025,3/9/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004935AAA,Granite Labs - New,Granite Labs,Closed Lost,14250,12/21/2025,1/12/2026,Morgan Ellis,New Customer,Employee Referral
+006Dn0000004936AAA,Lakeshore Health Partners - New,Lakeshore Health Partners,Closed Lost,35500,1/9/2026,4/5/2026,Sam Ortiz,New Customer,Trade Show
+006Dn0000004937AAA,Silverline Engineering - New,Silverline Engineering,Closed Won,15500,1/15/2026,7/7/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004938AAA,Apex Builders - New,Apex Builders,Closed Won,21250,1/19/2026,3/31/2026,Sam Ortiz,New Customer,Web
+006Dn0000004939AAA,Summit Engineering - New,Summit Engineering,Closed Lost,10750,1/22/2026,2/23/2026,Riley Chen,New Customer,Web
+006Dn0000004940AAA,Granite Logistics - New,Granite Logistics,Closed Lost,50000,2/7/2026,4/17/2026,Morgan Ellis,New Customer,Trade Show
+006Dn0000004941AAA,Pinnacle Logistics - New,Pinnacle Logistics,Closed Lost,16250,2/8/2026,3/21/2026,Sam Ortiz,New Customer,Web
+006Dn0000004942AAA,Sterling Manufacturing - New,Sterling Manufacturing,Closed Lost,12250,2/9/2026,3/30/2026,Drew Patel,New Customer,Web
+006Dn0000004943AAA,Clearpath Home Services - New,Clearpath Home Services,Closed Won,14750,2/12/2026,4/29/2026,Sam Ortiz,New Customer,Web
+006Dn0000004944AAA,Redwood Builders - New,Redwood Builders,Closed Won,11000,2/17/2026,6/8/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004945AAA,Redwood Staffing - New,Redwood Staffing,Closed Lost,19500,2/20/2026,5/13/2026,Morgan Ellis,New Customer,Web
+006Dn0000004946AAA,Meridian Foods - New,Meridian Foods,Closed Lost,12000,3/9/2026,7/24/2026,Morgan Ellis,New Customer,Advertisement
+006Dn0000004947AAA,Bluestone Staffing - New,Bluestone Staffing,Closed Lost,18750,3/17/2026,5/23/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004948AAA,Silverline Staffing - New,Silverline Staffing,Closed Lost,16750,3/24/2026,5/22/2026,Sam Ortiz,New Customer,Web
+006Dn0000004949AAA,Vantage Dental Group - New,Vantage Dental Group,Closed Lost,8750,3/26/2026,5/8/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004950AAA,Westfield Foods - New,Westfield Foods,Closed Lost,13250,3/26/2026,9/5/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004951AAA,Cobalt Dental Group - Upgrade,Cobalt Dental Group,Closed Lost,12000,3/27/2026,5/12/2026,Sam Ortiz,Existing Customer - Upgrade,Purchased List
+006Dn0000004952AAA,Cobalt Industrial - New,Cobalt Industrial,Closed Lost,36000,4/1/2026,6/23/2026,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004953AAA,Vantage Foods - New,Vantage Foods,Closed Won,20500,4/2/2026,5/28/2026,Morgan Ellis,New Customer,Web
+006Dn0000004954AAA,Evergreen Industrial - New,Evergreen Industrial,Closed Lost,22500,4/7/2026,8/21/2026,Morgan Ellis,New Customer,Web
+006Dn0000004955AAA,Riverbend Health Partners - New,Riverbend Health Partners,Closed Lost,28250,4/10/2026,4/21/2026,Riley Chen,New Customer,Partner Referral
+006Dn0000004956AAA,Keystone Labs - New,Keystone Labs,Closed Won,69000,4/11/2026,8/30/2026,Morgan Ellis,New Customer,Trade Show
+006Dn0000004957AAA,Northgate Clinics - New,Northgate Clinics,Closed Lost,17750,4/20/2026,7/19/2026,Morgan Ellis,New Customer,Web
+006Dn0000004958AAA,Clearpath Staffing - New,Clearpath Staffing,Closed Lost,23000,4/20/2026,5/27/2026,Morgan Ellis,New Customer,Web
+006Dn0000004959AAA,Keystone Health Partners - New,Keystone Health Partners,Closed Lost,40500,4/21/2026,6/8/2026,Drew Patel,New Customer,Trade Show
+006Dn0000004960AAA,Redwood Foods - New,Redwood Foods,Closed Won,10000,4/22/2026,8/8/2026,Morgan Ellis,New Customer,Web
+006Dn0000004961AAA,Summit Labs - New,Summit Labs,Closed Lost,11000,4/26/2026,6/16/2026,Riley Chen,New Customer,Web
+006Dn0000004962AAA,Westfield Distribution - New,Westfield Distribution,Closed Won,23750,4/30/2026,6/6/2026,Sam Ortiz,New Customer,Partner Referral
+006Dn0000004963AAA,Trident Health Partners - Upgrade,Trident Health Partners,Closed Lost,12000,4/30/2026,7/7/2026,Drew Patel,Existing Customer - Upgrade,Web
+006Dn0000004964AAA,Westfield Staffing - New,Westfield Staffing,Closed Lost,25250,5/7/2026,6/26/2026,Drew Patel,New Customer,Web
+006Dn0000004965AAA,Lakeshore Engineering - New,Lakeshore Engineering,Closed Lost,23500,5/13/2026,6/20/2026,Riley Chen,New Customer,Web
+006Dn0000004966AAA,Keystone Staffing - New,Keystone Staffing,Closed Lost,9500,5/22/2026,7/22/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004967AAA,Apex Transport - New,Apex Transport,Closed Lost,14000,5/30/2026,8/2/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004968AAA,Westfield Foods - New,Westfield Foods,Closed Lost,17500,6/11/2026,7/8/2026,Morgan Ellis,New Customer,Phone Inquiry
+006Dn0000004969AAA,Ironwood Manufacturing - New,Ironwood Manufacturing,Closed Lost,13000,6/19/2026,9/4/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004970AAA,Bluestone Transport - New,Bluestone Transport,Closed Lost,12750,6/20/2026,8/13/2026,Drew Patel,New Customer,Advertisement
+006Dn0000004971AAA,Maple Engineering - New,Maple Engineering,Closed Won,35000,6/24/2026,8/5/2026,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004972AAA,Beacon Labs - New,Beacon Labs,Closed Lost,34500,7/2/2026,7/22/2026,Drew Patel,New Customer,Partner Referral
+006Dn0000004973AAA,Keystone Dental Group - New,Keystone Dental Group,Closed Won,28250,7/7/2026,9/2/2026,Drew Patel,New Customer,Partner Referral
+006Dn0000004974AAA,Harbor Staffing - New,Harbor Staffing,Closed Lost,10250,7/8/2026,9/13/2026,Morgan Ellis,New Customer,Web
+006Dn0000004975AAA,Cedar Home Services - New,Cedar Home Services,Closed Lost,50000,7/9/2026,9/13/2026,Morgan Ellis,New Customer,Partner Referral
+006Dn0000004976AAA,Maple Home Services - New,Maple Home Services,Closed Lost,17000,7/13/2026,8/27/2026,Riley Chen,New Customer,Web
+006Dn0000004977AAA,Redwood Home Services - New,Redwood Home Services,Closed Lost,21500,7/13/2026,8/29/2026,Sam Ortiz,New Customer,Advertisement
+006Dn0000004978AAA,Frontier Staffing - New,Frontier Staffing,Closed Lost,12000,8/6/2026,9/14/2026,Sam Ortiz,New Customer,Web
+006Dn0000004979AAA,Vantage Manufacturing - New,Vantage Manufacturing,Closed Lost,21000,8/10/2026,9/7/2026,Morgan Ellis,New Customer,Advertisement

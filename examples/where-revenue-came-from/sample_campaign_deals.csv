@@ -1,0 +1,320 @@
+Record ID,Deal Name,Deal Stage,Pipeline,Amount,Create Date,Close Date,Deal Type,Original Traffic Source,Original Traffic Source Drill-Down 1,Original Traffic Source Drill-Down 2
+52000000000,Pinnacle Distribution - New,Closed Won,Sales Pipeline,16000,2025-02-13 16:00,2025-04-04 16:00,New Business,Paid Social,LinkedIn,linkedin-content-guide-vp-sales-202502
+52000000577,Bluestone Engineering - New,Closed Lost,Sales Pipeline,23250,2025-07-29 17:00,2025-09-18 17:00,New Business,Direct Traffic,,
+52000001154,Granite Foods - New,Closed Lost,Sales Pipeline,17250,2026-02-16 08:00,2026-03-22 08:00,New Business,Paid Social,Facebook,
+52000001731,Meridian Manufacturing - New,Closed Lost,Sales Pipeline,6250,2025-02-04 13:00,2025-03-07 13:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202502
+52000002308,Summit Transport - New,Closed Lost,Sales Pipeline,21500,2025-10-13 14:00,2025-12-11 14:00,New Business,Direct Traffic,,
+52000002885,Granite Engineering - New,Closed Won,Sales Pipeline,21500,2025-07-03 15:00,2025-09-13 15:00,New Business,Direct Traffic,,
+52000003462,Granite Logistics - New,Closed Lost,Sales Pipeline,33250,2025-03-19 08:00,2025-04-24 08:00,New Business,Referrals,partnersite.com,
+52000004039,Apex Engineering - New,Closed Lost,Sales Pipeline,22250,2025-10-06 12:00,2025-12-27 12:00,New Business,Paid Social,LinkedIn,q3-push-202510
+52000004616,Meridian Labs - New,Closed Lost,Sales Pipeline,16000,2025-02-20 17:00,2025-04-23 17:00,New Business,Paid Search,spring-promo-202502,pipeline software vs spreadsheet
+52000005193,Summit Foods - New,Closed Lost,Sales Pipeline,35750,2024-10-18 11:00,2024-11-02 11:00,New Business,Referrals,industryblog.com,
+52000005770,Bluestone Labs - New,Closed Lost,Sales Pipeline,12500,2026-02-08 11:00,2026-03-27 11:00,New Business,Organic Search,google,
+52000006347,Pinnacle Builders - New,Closed Won,Sales Pipeline,25250,2026-05-22 16:00,2026-07-02 16:00,New Business,Referrals,partnersite.com,
+52000006924,Apex Labs - New,Closed Lost,Sales Pipeline,33750,2026-06-21 16:00,2026-09-01 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202606
+52000007501,Redwood Labs - New,Closed Won,Sales Pipeline,33000,2026-06-27 10:00,2026-07-21 10:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202606
+52000008078,Harbor Engineering - New,Closed Lost,Sales Pipeline,18000,2025-09-30 12:00,2025-11-21 12:00,New Business,Paid Search,google-search-generic-demandgen-vp-202509,b2b lead gen agency
+52000008655,Keystone Health Partners - New,Closed Won,Sales Pipeline,34500,2026-01-07 17:00,2026-03-11 17:00,New Business,Referrals,industryblog.com,
+52000009232,Lakeshore Foods - New,Closed Won,Sales Pipeline,12500,2025-11-26 12:00,2026-02-17 12:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202511,demand generation help
+52000009809,Northgate Staffing - New,Closed Lost,Sales Pipeline,14750,2026-01-07 14:00,2026-03-06 14:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202601
+52000010386,Cedar Distribution - New,Closed Lost,Sales Pipeline,11000,2025-12-02 12:00,2025-12-19 12:00,New Business,Paid Search,google-search-vs-competitory-ops-202512,b2b lead gen agency
+52000010963,Summit Health Partners - New,Closed Lost,Sales Pipeline,6500,2025-07-31 09:00,2025-09-08 09:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202507
+52000011540,Apex Foods - New,Closed Won,Sales Pipeline,42250,2025-01-11 17:00,2025-04-01 17:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202501
+52000012117,Riverbend Manufacturing - New,Closed Lost,Sales Pipeline,22500,2026-04-24 08:00,2026-08-09 08:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202604
+52000012694,Northgate Transport - New,Closed Lost,Sales Pipeline,28250,2026-07-04 08:00,2026-08-15 08:00,New Business,Paid Search,google-search-generic-demandgen-vp-202607,pipeline software vs spreadsheet
+52000013271,Oakridge Engineering - New,Closed Won,Sales Pipeline,10000,2024-11-29 14:00,2025-01-13 14:00,New Business,Organic Search,google,
+52000013848,Clearpath Labs - New,Closed Lost,Sales Pipeline,8250,2025-12-07 15:00,2026-03-06 15:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202512
+52000014425,Northgate Distribution - New,Closed Lost,Sales Pipeline,14250,2026-03-08 09:00,2026-05-31 09:00,New Business,Organic Search,google,
+52000015002,Pinnacle Labs - New,Closed Won,Sales Pipeline,25500,2026-04-22 08:00,2026-06-17 08:00,New Business,Paid Search,google-search-generic-demandgen-vp-202604,pipeline software vs spreadsheet
+52000015579,Harbor Health Partners - New,Closed Lost,Sales Pipeline,12250,2024-10-11 13:00,2024-12-13 13:00,New Business,Referrals,partnersite.com,
+52000016156,Oakridge Builders - New,Closed Lost,Sales Pipeline,21750,2025-04-27 08:00,2025-06-14 08:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202504,pipeline software vs spreadsheet
+52000016733,Meridian Transport - New,Closed Lost,Sales Pipeline,26750,2026-06-05 11:00,2026-06-24 11:00,New Business,Referrals,industryblog.com,
+52000017310,Silverline Transport - New,Closed Lost,Sales Pipeline,11250,2025-09-05 12:00,2025-12-07 12:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202509
+52000017887,Ironwood Foods - New,Closed Won,Sales Pipeline,25500,2025-01-12 13:00,2025-02-18 13:00,New Business,Other Campaigns,event-webinar-pipeline-math-202501,email / newsletter
+52000018464,Clearpath Manufacturing - New,Closed Lost,Sales Pipeline,14500,2024-10-10 09:00,2024-12-20 09:00,New Business,Paid Social,LinkedIn,
+52000019041,Trident Distribution - New,Closed Lost,Sales Pipeline,14500,2026-05-07 15:00,2026-07-01 15:00,New Business,Paid Search,google-search-generic-demandgen-vp-202605,
+52000019618,Apex Manufacturing - New,Closed Won,Sales Pipeline,21250,2026-06-27 13:00,2026-08-12 13:00,New Business,Paid Search,google-search-brand-core-all-202606,
+52000020195,Summit Engineering - New,Closed Lost,Sales Pipeline,20000,2025-01-07 12:00,2025-04-08 12:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202501
+52000020772,Silverline Health Partners - New,Closed Lost,Sales Pipeline,16250,2025-02-18 09:00,2025-05-03 09:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202502
+52000021349,Riverbend Engineering - New,Closed Lost,Sales Pipeline,16250,2024-10-08 15:00,2024-11-16 15:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202410,brand strategy consultant
+52000021926,Pinnacle Foods - New,Closed Lost,Sales Pipeline,24250,2026-04-28 10:00,2026-06-03 10:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202604
+52000022503,Granite Builders - New,Closed Lost,Sales Pipeline,21750,2025-06-20 15:00,2025-08-09 15:00,New Business,Referrals,partnersite.com,
+52000023080,Granite Foods - New,Closed Won,Sales Pipeline,18250,2024-11-16 08:00,2025-02-25 08:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202411
+52000023657,Granite Health Partners - New,Closed Lost,Sales Pipeline,9750,2024-10-25 09:00,2025-02-16 09:00,New Business,Paid Search,google-search-generic-demandgen-vp-202410,brand strategy consultant
+52000024234,Bluestone Staffing - New,Closed Won,Sales Pipeline,14500,2025-05-03 15:00,2025-07-22 15:00,New Business,Paid Search,,demand generation help
+52000024811,Summit Staffing - New,Closed Lost,Sales Pipeline,24250,2025-10-13 12:00,2025-12-24 12:00,New Business,Direct Traffic,,
+52000025388,Keystone Transport - New,Closed Won,Sales Pipeline,9500,2026-04-14 09:00,2026-07-07 09:00,New Business,Direct Traffic,,
+52000025965,Redwood Transport - New,Closed Lost,Sales Pipeline,11000,2025-12-14 08:00,2026-02-17 08:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202512,brand strategy consultant
+52000026542,Meridian Foods - New,Closed Lost,Sales Pipeline,20000,2025-05-26 10:00,2025-08-18 10:00,New Business,Other Campaigns,event-webinar-pipeline-math-202505,email / newsletter
+52000027119,Northgate Staffing - New,Closed Lost,Sales Pipeline,24250,2025-12-04 09:00,2026-01-17 09:00,New Business,Direct Traffic,,
+52000027696,Redwood Engineering - New,Closed Won,Sales Pipeline,23500,2026-08-05 11:00,2026-08-27 11:00,New Business,Paid Search,bing-search-brand-core-all-202608,brand strategy consultant
+52000028273,Lakeshore Builders - New,Closed Lost,Sales Pipeline,13500,2024-11-26 15:00,2025-01-16 15:00,New Business,Paid Search,,b2b lead gen agency
+52000028850,Redwood Staffing - New,Closed Lost,Sales Pipeline,14500,2025-11-06 17:00,2025-12-25 17:00,New Business,Organic Search,google,
+52000029427,Northgate Transport - New,Closed Won,Sales Pipeline,32000,2025-04-04 08:00,2025-05-25 08:00,New Business,Paid Search,bing-search-brand-core-all-202504,pipeline software vs spreadsheet
+52000030004,Apex Engineering - New,Closed Lost,Sales Pipeline,26250,2026-02-24 14:00,2026-03-26 14:00,New Business,Referrals,industryblog.com,
+52000030581,Bluestone Builders - New,Closed Lost,Sales Pipeline,19750,2025-07-17 10:00,2025-08-29 10:00,New Business,Paid Search,bing-search-brand-core-all-202507,
+52000031158,Redwood Health Partners - New,Closed Won,Sales Pipeline,27000,2024-12-23 12:00,2025-03-13 12:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202412,
+52000031735,Trident Distribution - New,Closed Lost,Sales Pipeline,26250,2025-07-16 12:00,2025-08-11 12:00,New Business,Paid Search,google-search-vs-competitory-ops-202507,pipeline software vs spreadsheet
+52000032312,Summit Builders - New,Closed Lost,Sales Pipeline,39750,2024-12-31 15:00,2025-02-04 15:00,New Business,Referrals,industryblog.com,
+52000032889,Apex Engineering - New,Closed Won,Sales Pipeline,16500,2025-08-13 14:00,2025-11-06 14:00,New Business,Organic Search,google,
+52000033466,Ironwood Distribution - New,Closed Won,Sales Pipeline,37750,2025-07-02 08:00,2025-08-20 08:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202507
+52000034043,Clearpath Distribution - New,Closed Lost,Sales Pipeline,23000,2026-03-03 14:00,2026-04-13 14:00,New Business,Paid Search,bing-search-brand-core-all-202603,pipeline software vs spreadsheet
+52000034620,Trident Manufacturing - New,Closed Lost,Sales Pipeline,9750,2025-09-16 17:00,2025-11-16 17:00,New Business,Organic Search,google,
+52000035197,Keystone Labs - New,Closed Lost,Sales Pipeline,23750,2026-02-27 13:00,2026-04-21 13:00,New Business,Paid Search,google-search-vs-competitory-ops-202602,brand strategy consultant
+52000035774,Cedar Distribution - New,Closed Lost,Sales Pipeline,13250,2025-09-14 13:00,2025-12-11 13:00,New Business,Other Campaigns,event-webinar-pipeline-math-202509,email / newsletter
+52000036351,Clearpath Transport - New,Closed Won,Sales Pipeline,18000,2026-07-30 12:00,2026-09-11 12:00,New Business,Paid Search,google-search-rlsa-site-visitors-202607,brand strategy consultant
+52000036928,Trident Distribution - New,Closed Lost,Sales Pipeline,11750,2025-12-30 09:00,2026-02-20 09:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202512
+52000037505,Brightline Labs - New,Closed Lost,Sales Pipeline,42500,2025-03-16 13:00,2025-06-29 13:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202503
+52000038082,Summit Logistics - New,Closed Lost,Sales Pipeline,11000,2025-10-29 14:00,2025-12-01 14:00,New Business,Paid Search,google-search-brand-core-all-202510,pipeline software vs spreadsheet
+52000038659,Redwood Logistics - New,Closed Lost,Sales Pipeline,30500,2026-03-20 11:00,2026-06-24 11:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202603,demand generation help
+52000039236,Harbor Engineering - New,Closed Lost,Sales Pipeline,23000,2025-08-27 10:00,2025-10-25 10:00,New Business,Paid Search,google-search-generic-demandgen-vp-202508,b2b lead gen agency
+52000039813,Bluestone Logistics - New,Closed Lost,Sales Pipeline,24250,2025-06-14 12:00,2025-09-05 12:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202506
+52000040390,Lakeshore Staffing - New,Closed Lost,Sales Pipeline,18750,2025-04-13 10:00,2025-06-17 10:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202504
+52000040967,Trident Logistics - New,Closed Lost,Sales Pipeline,12000,2025-04-15 16:00,2025-06-27 16:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202504
+52000041544,Trident Manufacturing - New,Closed Lost,Sales Pipeline,8000,2026-04-19 15:00,2026-08-09 15:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202604
+52000042121,Granite Staffing - New,Closed Won,Sales Pipeline,18250,2025-12-13 17:00,2026-02-19 17:00,New Business,Direct Traffic,,
+52000042698,Ironwood Logistics - New,Closed Won,Sales Pipeline,21250,2026-04-24 10:00,2026-06-13 10:00,New Business,Referrals,partnersite.com,
+52000043275,Redwood Distribution - New,Closed Lost,Sales Pipeline,24500,2025-10-18 12:00,2025-11-18 12:00,New Business,Paid Search,google-search-rlsa-site-visitors-202510,brand strategy consultant
+52000043852,Silverline Engineering - New,Closed Lost,Sales Pipeline,14000,2024-11-30 09:00,2025-02-11 09:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202411
+52000044429,Ironwood Builders - New,Closed Lost,Sales Pipeline,12250,2026-06-03 12:00,2026-08-27 12:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202606
+52000045006,Silverline Transport - New,Closed Lost,Sales Pipeline,14250,2025-03-25 15:00,2025-05-12 15:00,New Business,Direct Traffic,,
+52000045583,Oakridge Distribution - New,Closed Lost,Sales Pipeline,11750,2025-01-18 12:00,2025-04-26 12:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202501,pipeline software vs spreadsheet
+52000046160,Northgate Labs - New,Closed Lost,Sales Pipeline,16750,2025-10-09 14:00,2026-01-29 14:00,New Business,Paid Search,google-search-vs-competitory-ops-202510,
+52000046737,Trident Logistics - New,Closed Lost,Sales Pipeline,9000,2025-06-12 11:00,2025-07-15 11:00,New Business,Paid Search,,demand generation help
+52000047314,Pinnacle Engineering - New,Closed Lost,Sales Pipeline,10500,2025-06-16 08:00,2025-07-23 08:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202506
+52000047891,Westfield Health Partners - New,Closed Won,Sales Pipeline,4500,2025-02-09 10:00,2025-03-26 10:00,New Business,Organic Search,google,
+52000048468,Summit Foods - New,Closed Lost,Sales Pipeline,14500,2026-04-25 10:00,2026-06-18 10:00,New Business,Other Campaigns,event-webinar-pipeline-math-202604,email / newsletter
+52000049045,Northgate Health Partners - New,Closed Won,Sales Pipeline,11500,2025-10-13 08:00,2025-12-19 08:00,New Business,Other Campaigns,event-webinar-pipeline-math-202510,email / newsletter
+52000049622,Silverline Labs - New,Closed Lost,Sales Pipeline,25250,2026-03-20 12:00,2026-07-04 12:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202603
+52000050199,Harbor Distribution - New,Closed Lost,Sales Pipeline,15750,2025-02-07 13:00,2025-03-11 13:00,New Business,Paid Search,google-search-generic-demandgen-vp-202502,demand generation help
+52000050776,Meridian Foods - New,Closed Lost,Sales Pipeline,24500,2025-09-17 17:00,2025-11-01 17:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202509
+52000051353,Pinnacle Transport - New,Closed Won,Sales Pipeline,13000,2025-03-11 16:00,2025-05-21 16:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202503
+52000051930,Riverbend Labs - New,Closed Lost,Sales Pipeline,19250,2025-01-21 09:00,2025-05-14 09:00,New Business,Paid Search,google-search-generic-demandgen-vp-202501,b2b lead gen agency
+52000052507,Oakridge Foods - New,Closed Lost,Sales Pipeline,16250,2024-12-02 13:00,2025-01-05 13:00,New Business,Paid Search,google-search-brand-core-all-202412,demand generation help
+52000053084,Clearpath Distribution - New,Closed Won,Sales Pipeline,20000,2026-02-11 14:00,2026-06-11 14:00,New Business,Organic Search,google,
+52000053661,Cedar Engineering - New,Closed Lost,Sales Pipeline,23750,2024-10-08 08:00,2024-12-02 08:00,New Business,Organic Search,google,
+52000054238,Meridian Logistics - New,Closed Lost,Sales Pipeline,42500,2026-03-05 11:00,2026-06-25 11:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202603
+52000054815,Summit Distribution - New,Closed Lost,Sales Pipeline,27250,2025-06-10 13:00,2025-07-26 13:00,New Business,Organic Search,google,
+52000055392,Silverline Staffing - New,Closed Lost,Sales Pipeline,19500,2025-02-21 13:00,2025-06-06 13:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202502
+52000055969,Oakridge Logistics - New,Closed Lost,Sales Pipeline,15750,2026-04-22 15:00,2026-06-20 15:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202604
+52000056546,Ironwood Distribution - New,Closed Won,Sales Pipeline,25250,2025-06-02 14:00,2025-08-15 14:00,New Business,Paid Search,google-search-vs-competitory-ops-202506,
+52000057123,Riverbend Builders - New,Closed Won,Sales Pipeline,25500,2025-11-08 13:00,2025-12-12 13:00,New Business,Paid Search,google-search-brand-core-all-202511,demand generation help
+52000057700,Redwood Health Partners - New,Closed Won,Sales Pipeline,49250,2025-01-16 08:00,2025-06-12 08:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202501
+52000058277,Westfield Engineering - New,Closed Lost,Sales Pipeline,17750,2026-01-16 13:00,2026-03-23 13:00,New Business,Paid Search,google-search-generic-demandgen-vp-202601,b2b lead gen agency
+52000058854,Pinnacle Foods - New,Closed Lost,Sales Pipeline,14750,2025-07-02 14:00,2025-08-16 14:00,New Business,Paid Search,google-search-generic-demandgen-vp-202507,b2b lead gen agency
+52000059431,Meridian Foods - New,Closed Won,Sales Pipeline,12500,2026-04-04 12:00,2026-05-24 12:00,New Business,Paid Social,Facebook,meta-retargeting-site-visitors-all-202604
+52000060008,Harbor Builders - New,Closed Lost,Sales Pipeline,10500,2026-03-29 13:00,2026-05-30 13:00,New Business,Other Campaigns,event-webinar-pipeline-math-202603,email / newsletter
+52000060585,Ironwood Engineering - New,Closed Lost,Sales Pipeline,18500,2026-04-16 16:00,2026-07-01 16:00,New Business,Direct Traffic,,
+52000061162,Summit Labs - New,Closed Lost,Sales Pipeline,23500,2026-06-12 17:00,2026-09-06 17:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202606
+52000061739,Northgate Builders - New,Closed Lost,Sales Pipeline,17750,2025-08-10 12:00,2025-12-15 12:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202508,pipeline software vs spreadsheet
+52000062316,Pinnacle Engineering - New,Closed Won,Sales Pipeline,18750,2026-01-26 09:00,2026-04-24 09:00,New Business,Other Campaigns,event-webinar-pipeline-math-202601,email / newsletter
+52000062893,Silverline Health Partners - New,Closed Lost,Sales Pipeline,27750,2025-03-16 17:00,2025-06-03 17:00,New Business,Paid Search,google-search-vs-competitory-ops-202503,demand generation help
+52000063470,Redwood Builders - New,Closed Lost,Sales Pipeline,20000,2026-02-05 17:00,2026-03-18 17:00,New Business,Paid Search,google-search-brand-core-all-202602,
+52000064047,Riverbend Distribution - New,Closed Lost,Sales Pipeline,27500,2026-06-09 16:00,2026-08-04 16:00,New Business,Paid Search,google-search-vs-competitory-ops-202606,pipeline software vs spreadsheet
+52000064624,Pinnacle Staffing - New,Closed Lost,Sales Pipeline,13000,2025-12-27 12:00,2026-02-02 12:00,New Business,Paid Search,,demand generation help
+52000065201,Apex Staffing - New,Closed Lost,Sales Pipeline,13250,2025-11-23 14:00,2026-02-22 14:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202511
+52000065778,Meridian Transport - New,Closed Lost,Sales Pipeline,17500,2024-12-24 14:00,2025-01-10 14:00,New Business,Paid Search,google-search-brand-core-all-202412,b2b lead gen agency
+52000066355,Clearpath Foods - New,Closed Lost,Sales Pipeline,15750,2026-01-11 12:00,2026-03-06 12:00,New Business,Organic Search,google,
+52000066932,Westfield Logistics - New,Closed Won,Sales Pipeline,23250,2026-03-25 16:00,2026-05-14 16:00,New Business,Other Campaigns,event-webinar-pipeline-math-202603,email / newsletter
+52000067509,Meridian Manufacturing - New,Closed Lost,Sales Pipeline,22000,2025-12-08 08:00,2026-02-09 08:00,New Business,Paid Social,LinkedIn,linkedin-content-guide-vp-sales-202512
+52000068086,Riverbend Logistics - New,Closed Lost,Sales Pipeline,25250,2025-11-04 12:00,2025-12-31 12:00,New Business,Organic Search,google,
+52000068663,Lakeshore Health Partners - New,Closed Lost,Sales Pipeline,23000,2025-06-30 16:00,2025-09-29 16:00,New Business,Organic Search,google,
+52000069240,Redwood Foods - New,Closed Won,Sales Pipeline,27500,2024-11-20 14:00,2025-01-27 14:00,New Business,Referrals,industryblog.com,
+52000069817,Apex Engineering - New,Closed Lost,Sales Pipeline,25750,2025-12-06 16:00,2026-03-11 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202512
+52000070394,Lakeshore Staffing - New,Closed Lost,Sales Pipeline,21500,2025-04-21 11:00,2025-08-19 11:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202504
+52000070971,Northgate Foods - New,Closed Lost,Sales Pipeline,16500,2025-05-15 08:00,2025-07-24 08:00,New Business,Other Campaigns,event-webinar-pipeline-math-202505,email / newsletter
+52000071548,Riverbend Transport - New,Closed Won,Sales Pipeline,28500,2026-07-13 10:00,2026-08-20 10:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202607
+52000072125,Riverbend Builders - New,Closed Lost,Sales Pipeline,16250,2026-06-16 17:00,2026-07-18 17:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202606,
+52000072702,Meridian Builders - New,Closed Lost,Sales Pipeline,19500,2026-08-17 13:00,2026-09-13 13:00,New Business,Referrals,industryblog.com,
+52000073279,Keystone Staffing - New,Closed Lost,Sales Pipeline,19750,2025-07-11 09:00,2025-09-16 09:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202507,brand strategy consultant
+52000073856,Keystone Distribution - New,Closed Lost,Sales Pipeline,14250,2026-05-13 11:00,2026-07-02 11:00,New Business,Other Campaigns,event-webinar-pipeline-math-202605,email / newsletter
+52000074433,Westfield Manufacturing - New,Closed Lost,Sales Pipeline,27000,2025-05-29 14:00,2025-06-30 14:00,New Business,Paid Social,LinkedIn,linkedin-awareness-category-ceo-202505
+52000075010,Silverline Manufacturing - New,Closed Lost,Sales Pipeline,14250,2025-01-01 16:00,2025-02-02 16:00,New Business,Paid Social,Facebook,meta-retargeting-site-visitors-all-202501
+52000075587,Granite Manufacturing - New,Closed Won,Sales Pipeline,16500,2025-12-30 16:00,2026-03-12 16:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202512
+52000076164,Meridian Foods - New,Closed Lost,Sales Pipeline,23000,2025-01-23 11:00,2025-02-24 11:00,New Business,Paid Search,google-search-brand-core-all-202501,
+52000076741,Bluestone Transport - New,Closed Lost,Sales Pipeline,3000,2025-03-26 10:00,2025-07-02 10:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202503
+52000077318,Clearpath Transport - New,Closed Lost,Sales Pipeline,18750,2025-11-10 16:00,2025-12-10 16:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202511,brand strategy consultant
+52000077895,Bluestone Labs - New,Closed Won,Sales Pipeline,72000,2025-04-03 08:00,2025-08-09 08:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202504
+52000078472,Keystone Engineering - New,Closed Lost,Sales Pipeline,15500,2026-06-09 15:00,2026-08-07 15:00,New Business,Organic Search,google,
+52000079049,Summit Foods - New,Closed Won,Sales Pipeline,23500,2025-03-05 09:00,2025-04-20 09:00,New Business,Paid Search,bing-search-brand-core-all-202503,
+52000079626,Cedar Labs - New,Closed Won,Sales Pipeline,4250,2025-06-29 16:00,2025-08-09 16:00,New Business,Organic Search,google,
+52000080203,Oakridge Transport - New,Closed Won,Sales Pipeline,14750,2025-11-14 13:00,2025-12-27 13:00,New Business,Paid Search,google-search-generic-demandgen-vp-202511,b2b lead gen agency
+52000080780,Oakridge Engineering - New,Closed Lost,Sales Pipeline,9250,2024-11-07 17:00,2025-01-14 17:00,New Business,Organic Search,google,
+52000081357,Meridian Manufacturing - New,Closed Won,Sales Pipeline,12500,2025-06-05 14:00,2025-08-25 14:00,New Business,Paid Social,LinkedIn,linkedin-awareness-category-ceo-202506
+52000081934,Trident Staffing - New,Closed Lost,Sales Pipeline,29750,2025-06-20 10:00,2025-10-15 10:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202506
+52000082511,Northgate Distribution - New,Closed Lost,Sales Pipeline,8000,2024-10-21 15:00,2025-01-18 15:00,New Business,Paid Search,google-search-generic-demandgen-vp-202410,demand generation help
+52000083088,Westfield Builders - New,Closed Won,Sales Pipeline,23250,2025-04-11 09:00,2025-06-21 09:00,New Business,Paid Social,LinkedIn,linkedin-content-report-ceo-202504
+52000083665,Ironwood Labs - New,Closed Lost,Sales Pipeline,20500,2025-02-02 08:00,2025-05-06 08:00,New Business,Paid Search,,brand strategy consultant
+52000084242,Summit Distribution - New,Closed Lost,Sales Pipeline,26000,2025-04-07 09:00,2025-05-19 09:00,New Business,Paid Search,google-search-generic-demandgen-vp-202504,b2b lead gen agency
+52000084819,Apex Health Partners - New,Closed Lost,Sales Pipeline,12500,2025-05-12 14:00,2025-07-10 14:00,New Business,Organic Search,google,
+52000085396,Oakridge Labs - New,Closed Lost,Sales Pipeline,34250,2026-04-17 16:00,2026-05-15 16:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202604
+52000085973,Pinnacle Health Partners - New,Closed Lost,Sales Pipeline,14250,2026-05-20 13:00,2026-07-17 13:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202605
+52000086550,Cedar Builders - New,Closed Won,Sales Pipeline,23250,2024-11-12 13:00,2025-01-17 13:00,New Business,Referrals,industryblog.com,
+52000087127,Silverline Foods - New,Closed Lost,Sales Pipeline,21250,2024-12-15 17:00,2025-02-26 17:00,New Business,Organic Search,google,
+52000087704,Bluestone Logistics - New,Closed Lost,Sales Pipeline,19500,2025-11-10 09:00,2025-12-22 09:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202511
+52000088281,Northgate Foods - New,Closed Won,Sales Pipeline,20500,2024-11-24 11:00,2024-12-12 11:00,New Business,Paid Search,bing-search-brand-core-all-202411,
+52000088858,Westfield Labs - New,Closed Lost,Sales Pipeline,22500,2025-03-06 17:00,2025-04-24 17:00,New Business,Paid Search,google-search-generic-demandgen-vp-202503,demand generation help
+52000089435,Silverline Transport - New,Closed Won,Sales Pipeline,25250,2026-03-11 17:00,2026-04-30 17:00,New Business,Organic Search,google,
+52000090012,Trident Labs - New,Closed Won,Sales Pipeline,17000,2025-11-22 09:00,2025-12-28 09:00,New Business,Paid Search,google-search-rlsa-site-visitors-202511,b2b lead gen agency
+52000090589,Westfield Labs - New,Closed Won,Sales Pipeline,3000,2025-01-11 13:00,2025-02-24 13:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202501
+52000091166,Harbor Builders - New,Closed Won,Sales Pipeline,25250,2025-07-08 16:00,2025-10-05 16:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202507,b2b lead gen agency
+52000091743,Silverline Logistics - New,Closed Won,Sales Pipeline,20250,2026-03-27 14:00,2026-08-25 14:00,New Business,Paid Search,google-search-generic-demandgen-vp-202603,b2b lead gen agency
+52000092320,Lakeshore Builders - New,Closed Won,Sales Pipeline,21000,2025-11-18 11:00,2025-12-17 11:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202511
+52000092897,Apex Labs - New,Closed Lost,Sales Pipeline,25750,2024-12-15 10:00,2025-01-16 10:00,New Business,Paid Search,google-search-brand-core-all-202412,b2b lead gen agency
+52000093474,Brightline Health Partners - New,Closed Lost,Sales Pipeline,23500,2026-04-06 16:00,2026-07-31 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202604
+52000094051,Granite Transport - New,Closed Won,Sales Pipeline,26000,2025-04-19 08:00,2025-05-25 08:00,New Business,Paid Search,bing-search-brand-core-all-202504,brand strategy consultant
+52000094628,Oakridge Manufacturing - New,Closed Won,Sales Pipeline,17000,2025-12-25 16:00,2026-02-11 16:00,New Business,Referrals,partnersite.com,
+52000095205,Trident Distribution - New,Closed Lost,Sales Pipeline,5000,2025-10-18 11:00,2025-12-23 11:00,New Business,Paid Social,Facebook,meta-retargeting-site-visitors-all-202510
+52000095782,Trident Health Partners - New,Closed Lost,Sales Pipeline,15500,2026-05-11 12:00,2026-07-31 12:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202605,pipeline software vs spreadsheet
+52000096359,Riverbend Labs - New,Closed Lost,Sales Pipeline,21250,2026-05-27 13:00,2026-08-27 13:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202605,b2b lead gen agency
+52000096936,Meridian Staffing - New,Closed Lost,Sales Pipeline,12500,2026-05-17 12:00,2026-07-10 12:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202605,brand strategy consultant
+52000097513,Brightline Distribution - New,Closed Lost,Sales Pipeline,16250,2025-04-18 11:00,2025-07-12 11:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202504
+52000098090,Lakeshore Builders - New,Closed Lost,Sales Pipeline,18000,2025-08-20 09:00,2025-09-24 09:00,New Business,Paid Social,LinkedIn,linkedin-content-report-ceo-202508
+52000098667,Trident Engineering - New,Closed Lost,Sales Pipeline,13250,2025-05-26 11:00,2025-08-14 11:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202505,demand generation help
+52000099244,Redwood Logistics - New,Closed Lost,Sales Pipeline,13750,2025-02-06 12:00,2025-07-18 12:00,New Business,Paid Social,LinkedIn,linkedin-awareness-category-ceo-202502
+52000099821,Cedar Labs - New,Closed Won,Sales Pipeline,28750,2025-03-07 17:00,2025-07-12 17:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202503
+52000100398,Cedar Health Partners - New,Closed Lost,Sales Pipeline,34750,2026-02-18 16:00,2026-05-05 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202602
+52000100975,Ironwood Logistics - New,Closed Lost,Sales Pipeline,24750,2025-06-14 15:00,2025-07-25 15:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202506,demand generation help
+52000101552,Harbor Staffing - New,Closed Lost,Sales Pipeline,17750,2024-11-12 14:00,2024-12-08 14:00,New Business,Paid Search,google-search-generic-demandgen-vp-202411,demand generation help
+52000102129,Cedar Logistics - New,Closed Won,Sales Pipeline,28750,2025-10-07 12:00,2025-11-17 12:00,New Business,Referrals,industryblog.com,
+52000102706,Apex Health Partners - New,Closed Lost,Sales Pipeline,11250,2025-12-30 08:00,2026-03-24 08:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202512
+52000103283,Bluestone Staffing - New,Closed Lost,Sales Pipeline,8250,2025-02-20 17:00,2025-07-30 17:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202502
+52000103860,Redwood Foods - New,Closed Lost,Sales Pipeline,21250,2025-09-29 09:00,2025-11-19 09:00,New Business,Paid Social,LinkedIn,linkedin-content-report-ceo-202509
+52000104437,Apex Logistics - New,Closed Won,Sales Pipeline,32750,2026-07-09 12:00,2026-08-24 12:00,New Business,Referrals,partnersite.com,
+52000105014,Pinnacle Staffing - New,Closed Lost,Sales Pipeline,16750,2026-05-08 11:00,2026-08-01 11:00,New Business,Other Campaigns,event-webinar-pipeline-math-202605,email / newsletter
+52000105591,Ironwood Builders - New,Closed Lost,Sales Pipeline,20500,2026-02-08 13:00,2026-04-18 13:00,New Business,Organic Search,google,
+52000106168,Granite Staffing - New,Closed Lost,Sales Pipeline,17250,2024-12-14 17:00,2025-03-15 17:00,New Business,Organic Search,google,
+52000106745,Brightline Staffing - New,Closed Lost,Sales Pipeline,33500,2025-11-22 14:00,2026-03-08 14:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202511
+52000107322,Redwood Staffing - New,Closed Lost,Sales Pipeline,16000,2024-11-30 13:00,2025-02-11 13:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202411
+52000107899,Trident Foods - New,Closed Lost,Sales Pipeline,9500,2026-04-19 12:00,2026-06-09 12:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202604
+52000108476,Ironwood Distribution - New,Closed Won,Sales Pipeline,14500,2026-06-07 11:00,2026-07-31 11:00,New Business,Referrals,partnersite.com,
+52000109053,Brightline Distribution - New,Closed Lost,Sales Pipeline,17500,2025-11-11 12:00,2026-01-02 12:00,New Business,Other Campaigns,event-webinar-pipeline-math-202511,email / newsletter
+52000109630,Apex Builders - New,Closed Lost,Sales Pipeline,15500,2025-08-27 10:00,2025-10-18 10:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202508,b2b lead gen agency
+52000110207,Riverbend Builders - New,Closed Lost,Sales Pipeline,25500,2026-05-28 15:00,2026-06-13 15:00,New Business,Referrals,industryblog.com,
+52000110784,Pinnacle Labs - New,Closed Won,Sales Pipeline,18000,2026-03-31 14:00,2026-07-20 14:00,New Business,Organic Search,google,
+52000111361,Pinnacle Labs - New,Closed Lost,Sales Pipeline,16000,2024-11-17 09:00,2024-12-16 09:00,New Business,Direct Traffic,,
+52000111938,Granite Builders - New,Closed Lost,Sales Pipeline,27500,2025-10-31 15:00,2025-12-24 15:00,New Business,Referrals,partnersite.com,
+52000112515,Oakridge Distribution - New,Closed Lost,Sales Pipeline,11500,2026-02-11 17:00,2026-03-27 17:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202602,demand generation help
+52000113092,Apex Foods - New,Closed Lost,Sales Pipeline,13500,2026-02-21 11:00,2026-04-24 11:00,New Business,Organic Search,google,
+52000113669,Summit Health Partners - New,Closed Lost,Sales Pipeline,12000,2026-05-15 14:00,2026-07-20 14:00,New Business,Paid Search,google-search-rlsa-site-visitors-202605,demand generation help
+52000114246,Bluestone Foods - New,Closed Lost,Sales Pipeline,15750,2024-10-19 11:00,2025-02-12 11:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202410
+52000114823,Harbor Labs - New,Closed Lost,Sales Pipeline,23250,2025-03-29 10:00,2025-05-23 10:00,New Business,Other Campaigns,event-webinar-pipeline-math-202503,email / newsletter
+52000115400,Northgate Manufacturing - New,Closed Lost,Sales Pipeline,31750,2026-01-30 12:00,2026-03-19 12:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202601
+52000115977,Harbor Builders - New,Closed Lost,Sales Pipeline,17000,2025-09-11 08:00,2025-10-24 08:00,New Business,Direct Traffic,,
+52000116554,Riverbend Staffing - New,Closed Won,Sales Pipeline,8000,2026-03-24 08:00,2026-08-04 08:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202603
+52000117131,Cedar Logistics - New,Closed Lost,Sales Pipeline,19500,2025-04-18 16:00,2025-06-08 16:00,New Business,Paid Search,google-search-rlsa-site-visitors-202504,b2b lead gen agency
+52000117708,Brightline Logistics - New,Closed Won,Sales Pipeline,30500,2026-05-10 08:00,2026-07-22 08:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202605
+52000118285,Clearpath Health Partners - New,Closed Lost,Sales Pipeline,24500,2025-08-19 17:00,2025-09-05 17:00,New Business,Referrals,partnersite.com,
+52000118862,Keystone Staffing - New,Closed Lost,Sales Pipeline,23250,2025-07-29 08:00,2025-11-02 08:00,New Business,Organic Search,google,
+52000119439,Summit Manufacturing - New,Closed Lost,Sales Pipeline,18000,2025-10-28 14:00,2026-01-16 14:00,New Business,Other Campaigns,event-webinar-pipeline-math-202510,email / newsletter
+52000120016,Lakeshore Transport - New,Closed Lost,Sales Pipeline,24250,2025-08-24 12:00,2025-09-28 12:00,New Business,Organic Search,google,
+52000120593,Meridian Logistics - New,Closed Lost,Sales Pipeline,27500,2026-04-04 16:00,2026-05-30 16:00,New Business,Paid Search,bing-search-brand-core-all-202604,brand strategy consultant
+52000121170,Oakridge Transport - New,Closed Lost,Sales Pipeline,14500,2025-11-13 13:00,2025-12-29 13:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202511
+52000121747,Meridian Engineering - New,Closed Lost,Sales Pipeline,34250,2026-06-02 11:00,2026-08-19 11:00,New Business,Paid Search,google-search-vs-competitory-ops-202606,pipeline software vs spreadsheet
+52000122324,Cedar Staffing - New,Closed Lost,Sales Pipeline,18750,2024-12-12 17:00,2024-12-27 17:00,New Business,Paid Search,bing-search-brand-core-all-202412,pipeline software vs spreadsheet
+52000122901,Ironwood Labs - New,Closed Won,Sales Pipeline,15500,2025-05-12 09:00,2025-08-02 09:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202505
+52000123478,Clearpath Builders - New,Closed Lost,Sales Pipeline,18750,2024-11-23 16:00,2025-03-08 16:00,New Business,Paid Search,google-search-generic-demandgen-vp-202411,pipeline software vs spreadsheet
+52000124055,Summit Engineering - New,Closed Won,Sales Pipeline,12750,2026-02-02 11:00,2026-03-28 11:00,New Business,Paid Search,google-search-generic-demandgen-vp-202602,brand strategy consultant
+52000124632,Keystone Labs - New,Closed Lost,Sales Pipeline,24500,2026-05-26 10:00,2026-07-21 10:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202605,pipeline software vs spreadsheet
+52000125209,Harbor Foods - New,Closed Won,Sales Pipeline,21250,2025-11-08 16:00,2026-02-27 16:00,New Business,Organic Search,google,
+52000125786,Silverline Builders - New,Closed Lost,Sales Pipeline,18250,2025-08-23 12:00,2025-11-22 12:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202508
+52000126363,Silverline Staffing - New,Closed Won,Sales Pipeline,13500,2025-11-10 11:00,2026-01-12 11:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202511
+52000126940,Riverbend Engineering - New,Closed Lost,Sales Pipeline,30000,2024-11-15 11:00,2024-12-04 11:00,New Business,Paid Search,bing-search-brand-core-all-202411,brand strategy consultant
+52000127517,Clearpath Staffing - New,Closed Lost,Sales Pipeline,12750,2024-10-06 14:00,2024-11-12 14:00,New Business,Other Campaigns,event-webinar-pipeline-math-202410,email / newsletter
+52000128094,Westfield Distribution - New,Closed Lost,Sales Pipeline,14000,2026-04-24 09:00,2026-07-10 09:00,New Business,Paid Search,google-search-generic-demandgen-vp-202604,pipeline software vs spreadsheet
+52000128671,Bluestone Builders - New,Closed Lost,Sales Pipeline,12000,2026-08-11 15:00,2026-09-02 15:00,New Business,Direct Traffic,,
+52000129248,Summit Staffing - New,Closed Won,Sales Pipeline,12000,2025-01-01 11:00,2025-03-09 11:00,New Business,Other Campaigns,event-webinar-pipeline-math-202501,email / newsletter
+52000129825,Silverline Transport - New,Closed Lost,Sales Pipeline,24250,2026-03-13 13:00,2026-03-31 13:00,New Business,Referrals,industryblog.com,
+52000130402,Trident Builders - New,Closed Won,Sales Pipeline,33500,2026-06-06 16:00,2026-08-21 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202606
+52000130979,Harbor Logistics - New,Closed Won,Sales Pipeline,33750,2025-02-12 09:00,2025-04-09 09:00,New Business,Paid Search,,brand strategy consultant
+52000131556,Redwood Health Partners - New,Closed Lost,Sales Pipeline,27000,2025-07-06 17:00,2025-08-16 17:00,New Business,Direct Traffic,,
+52000132133,Oakridge Logistics - New,Closed Lost,Sales Pipeline,19500,2025-08-19 09:00,2025-10-12 09:00,New Business,Paid Search,,pipeline software vs spreadsheet
+52000132710,Meridian Distribution - New,Closed Lost,Sales Pipeline,16500,2025-08-02 16:00,2025-10-19 16:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202508
+52000133287,Harbor Staffing - New,Closed Won,Sales Pipeline,23000,2024-12-01 14:00,2025-03-14 14:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202412,
+52000133864,Redwood Engineering - New,Closed Lost,Sales Pipeline,50250,2026-03-15 16:00,2026-08-26 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202603
+52000134441,Granite Manufacturing - New,Closed Won,Sales Pipeline,29750,2026-04-30 16:00,2026-06-29 16:00,New Business,Paid Social,LinkedIn,linkedin-awareness-category-ceo-202604
+52000135018,Lakeshore Logistics - New,Closed Lost,Sales Pipeline,28250,2025-05-23 13:00,2025-06-29 13:00,New Business,Paid Social,Facebook,linkedin-content-report-ceo-202505
+52000135595,Redwood Staffing - New,Closed Won,Sales Pipeline,24500,2026-07-03 13:00,2026-09-13 13:00,New Business,Other Campaigns,event-webinar-pipeline-math-202607,email / newsletter
+52000136172,Oakridge Manufacturing - New,Closed Lost,Sales Pipeline,19250,2026-01-19 08:00,2026-03-27 08:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202601
+52000136749,Keystone Distribution - New,Closed Lost,Sales Pipeline,19250,2024-10-13 13:00,2025-01-25 13:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202410
+52000137326,Redwood Builders - New,Closed Won,Sales Pipeline,34250,2025-06-19 14:00,2025-08-20 14:00,New Business,Paid Search,google-search-brand-core-all-202506,demand generation help
+52000137903,Pinnacle Foods - New,Closed Won,Sales Pipeline,24750,2026-03-29 09:00,2026-05-02 09:00,New Business,Referrals,partnersite.com,
+52000138480,Ironwood Transport - New,Closed Lost,Sales Pipeline,12750,2025-07-26 14:00,2025-10-03 14:00,New Business,Paid Search,test-campaign-2,demand generation help
+52000139057,Oakridge Engineering - New,Closed Lost,Sales Pipeline,20500,2025-12-30 11:00,2026-02-07 11:00,New Business,Paid Search,test-campaign-2,demand generation help
+52000139634,Northgate Manufacturing - New,Closed Won,Sales Pipeline,18750,2025-12-09 09:00,2026-03-25 09:00,New Business,Paid Search,google-search-generic-demandgen-vp-202512,
+52000140211,Westfield Distribution - New,Closed Lost,Sales Pipeline,17250,2026-04-12 09:00,2026-05-19 09:00,New Business,Other Campaigns,event-webinar-pipeline-math-202604,email / newsletter
+52000140788,Pinnacle Manufacturing - New,Closed Lost,Sales Pipeline,14500,2025-08-27 14:00,2025-12-09 14:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202508
+52000141365,Apex Engineering - New,Closed Won,Sales Pipeline,16000,2025-12-06 14:00,2026-01-17 14:00,New Business,Direct Traffic,,
+52000141942,Harbor Logistics - New,Closed Lost,Sales Pipeline,20500,2026-04-09 10:00,2026-05-13 10:00,New Business,Other Campaigns,event-webinar-pipeline-math-202604,email / newsletter
+52000142519,Cedar Builders - New,Closed Won,Sales Pipeline,18000,2025-06-16 17:00,2025-08-18 17:00,New Business,Paid Search,google-search-brand-core-all-202506,b2b lead gen agency
+52000143096,Brightline Manufacturing - New,Closed Lost,Sales Pipeline,21500,2024-11-29 16:00,2025-01-15 16:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202411,b2b lead gen agency
+52000143673,Clearpath Distribution - New,Closed Lost,Sales Pipeline,18250,2025-04-02 09:00,2025-06-02 09:00,New Business,Other Campaigns,event-webinar-pipeline-math-202504,email / newsletter
+52000144250,Pinnacle Foods - New,Closed Lost,Sales Pipeline,19750,2025-10-30 08:00,2025-12-05 08:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202510
+52000144827,Lakeshore Foods - New,Closed Won,Sales Pipeline,22250,2025-03-19 08:00,2025-04-22 08:00,New Business,Referrals,partnersite.com,
+52000145404,Apex Engineering - New,Closed Won,Sales Pipeline,37250,2024-10-23 14:00,2024-12-17 14:00,New Business,Referrals,industryblog.com,
+52000145981,Harbor Logistics - New,Closed Lost,Sales Pipeline,12250,2025-12-21 13:00,2026-01-14 13:00,New Business,Organic Search,google,
+52000146558,Keystone Transport - New,Closed Lost,Sales Pipeline,23250,2025-08-20 10:00,2025-09-27 10:00,New Business,Paid Search,bing-search-brand-core-all-202508,brand strategy consultant
+52000147135,Silverline Manufacturing - New,Closed Lost,Sales Pipeline,29500,2024-11-14 13:00,2025-01-15 13:00,New Business,Referrals,industryblog.com,
+52000147712,Oakridge Logistics - New,Closed Won,Sales Pipeline,25000,2025-03-13 13:00,2025-04-17 13:00,New Business,Organic Search,google,
+52000148289,Oakridge Manufacturing - New,Closed Lost,Sales Pipeline,8000,2026-01-16 15:00,2026-04-24 15:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202601
+52000148866,Redwood Staffing - New,Closed Lost,Sales Pipeline,9750,2025-04-12 09:00,2025-07-05 09:00,New Business,Organic Search,google,
+52000149443,Summit Foods - New,Closed Lost,Sales Pipeline,17750,2025-04-06 16:00,2025-06-15 16:00,New Business,Paid Search,test-campaign-2,pipeline software vs spreadsheet
+52000150020,Granite Labs - New,Closed Lost,Sales Pipeline,11500,2024-12-17 08:00,2025-02-15 08:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202412
+52000150597,Brightline Manufacturing - New,Closed Lost,Sales Pipeline,15750,2025-08-26 08:00,2025-11-09 08:00,New Business,Organic Search,google,
+52000151174,Trident Staffing - New,Closed Lost,Sales Pipeline,31250,2026-07-23 09:00,2026-08-17 09:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202607
+52000151751,Pinnacle Builders - New,Closed Lost,Sales Pipeline,28250,2024-11-02 10:00,2024-12-16 10:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202411
+52000152328,Summit Engineering - New,Closed Lost,Sales Pipeline,21250,2025-06-14 13:00,2025-11-02 13:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202506,demand generation help
+52000152905,Ironwood Foods - New,Closed Lost,Sales Pipeline,14500,2025-05-30 08:00,2025-07-30 08:00,New Business,Paid Social,Facebook,linkedin-content-report-ceo-202505
+52000153482,Clearpath Builders - New,Closed Won,Sales Pipeline,31500,2026-07-30 15:00,2026-09-04 15:00,New Business,Paid Search,bing-search-brand-core-all-202607,
+52000154059,Cedar Staffing - New,Closed Won,Sales Pipeline,33000,2026-07-28 17:00,2026-09-09 17:00,New Business,Referrals,partnersite.com,
+52000154636,Harbor Manufacturing - New,Closed Lost,Sales Pipeline,23000,2025-07-22 13:00,2025-10-09 13:00,New Business,Paid Search,google-search-vs-competitory-ops-202507,brand strategy consultant
+52000155213,Redwood Logistics - New,Closed Lost,Sales Pipeline,16000,2024-10-07 09:00,2025-03-27 09:00,New Business,Paid Social,LinkedIn,
+52000155790,Meridian Labs - New,Closed Lost,Sales Pipeline,23000,2025-06-28 12:00,2025-08-11 12:00,New Business,Other Campaigns,event-webinar-pipeline-math-202506,email / newsletter
+52000156367,Cedar Distribution - New,Closed Won,Sales Pipeline,12250,2025-04-18 16:00,2025-07-04 16:00,New Business,Paid Social,Facebook,meta-retargeting-site-visitors-all-202504
+52000156944,Harbor Health Partners - New,Closed Lost,Sales Pipeline,31000,2025-05-06 13:00,2025-06-17 13:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202505
+52000157521,Keystone Health Partners - New,Closed Lost,Sales Pipeline,8250,2025-03-27 08:00,2025-05-25 08:00,New Business,Other Campaigns,event-webinar-pipeline-math-202503,email / newsletter
+52000158098,Summit Transport - New,Closed Lost,Sales Pipeline,17000,2025-10-15 08:00,2025-11-13 08:00,New Business,Paid Search,google-search-rlsa-site-visitors-202510,b2b lead gen agency
+52000158675,Summit Staffing - New,Closed Lost,Sales Pipeline,38250,2026-01-21 13:00,2026-03-15 13:00,New Business,Offline Sources,IMPORT,event-hosted-dinner-philly-202601
+52000159252,Riverbend Logistics - New,Closed Lost,Sales Pipeline,15500,2026-05-20 16:00,2026-08-28 16:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202605
+52000159829,Summit Logistics - New,Closed Won,Sales Pipeline,16500,2024-12-07 11:00,2025-02-06 11:00,New Business,Paid Search,google-search-brand-core-all-202412,
+52000160406,Cedar Builders - New,Closed Lost,Sales Pipeline,11250,2025-12-20 14:00,2026-03-19 14:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202512
+52000160983,Meridian Labs - New,Closed Lost,Sales Pipeline,16250,2025-05-02 12:00,2025-06-11 12:00,New Business,Organic Search,google,
+52000161560,Granite Health Partners - New,Closed Lost,Sales Pipeline,11500,2025-02-15 08:00,2025-05-18 08:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202502
+52000162137,Clearpath Transport - New,Closed Won,Sales Pipeline,28000,2025-09-27 15:00,2025-12-06 15:00,New Business,Referrals,industryblog.com,
+52000162714,Silverline Labs - New,Closed Lost,Sales Pipeline,8750,2025-04-25 11:00,2025-06-16 11:00,New Business,Organic Search,google,
+52000163291,Keystone Logistics - New,Closed Lost,Sales Pipeline,5750,2026-06-06 10:00,2026-07-06 10:00,New Business,Paid Social,LinkedIn,meta-retargeting-site-visitors-all-202606
+52000163868,Oakridge Foods - New,Closed Lost,Sales Pipeline,20750,2025-12-24 14:00,2026-03-26 14:00,New Business,Paid Social,LinkedIn,linkedin-content-guide-vp-sales-202512
+52000164445,Keystone Health Partners - New,Closed Won,Sales Pipeline,25250,2025-02-28 10:00,2025-04-29 10:00,New Business,Organic Search,google,
+52000165022,Northgate Builders - New,Closed Won,Sales Pipeline,46250,2024-12-05 11:00,2025-02-28 11:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202412
+52000165599,Summit Foods - New,Closed Lost,Sales Pipeline,15500,2024-11-07 13:00,2024-12-05 13:00,New Business,Paid Search,bing-search-brand-core-all-202411,brand strategy consultant
+52000166176,Lakeshore Manufacturing - New,Closed Lost,Sales Pipeline,11500,2025-10-28 09:00,2026-01-21 09:00,New Business,Paid Search,google-search-vs-competitory-ops-202510,brand strategy consultant
+52000166753,Trident Transport - New,Closed Won,Sales Pipeline,16500,2026-06-21 16:00,2026-07-31 16:00,New Business,Paid Search,google-search-brand-core-all-202606,
+52000167330,Bluestone Builders - New,Closed Lost,Sales Pipeline,32750,2025-09-29 16:00,2025-12-06 16:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202509
+52000167907,Ironwood Distribution - New,Closed Lost,Sales Pipeline,21750,2025-11-22 13:00,2026-02-05 13:00,New Business,Paid Search,google-search-vs-competitory-ops-202511,demand generation help
+52000168484,Harbor Distribution - New,Closed Won,Sales Pipeline,24250,2026-02-20 11:00,2026-04-02 11:00,New Business,Paid Search,google-search-brand-core-all-202602,demand generation help
+52000169061,Westfield Distribution - New,Closed Lost,Sales Pipeline,21750,2025-03-18 17:00,2025-07-18 17:00,New Business,Organic Search,google,
+52000169638,Riverbend Labs - New,Closed Lost,Sales Pipeline,29000,2026-04-13 12:00,2026-06-09 12:00,New Business,Paid Social,LinkedIn,linkedin-awareness-category-ceo-202604
+52000170215,Lakeshore Foods - New,Closed Lost,Sales Pipeline,27750,2025-03-07 12:00,2025-08-08 12:00,New Business,Paid Search,google-search-conquest-competitorx-ops-202503,brand strategy consultant
+52000170792,Riverbend Labs - New,Closed Lost,Sales Pipeline,20750,2024-10-22 09:00,2024-12-04 09:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202410
+52000171369,Pinnacle Health Partners - New,Closed Won,Sales Pipeline,20250,2026-07-20 16:00,2026-08-13 16:00,New Business,Paid Search,google-search-brand-core-all-202607,demand generation help
+52000171946,Clearpath Distribution - New,Closed Lost,Sales Pipeline,19000,2025-02-08 15:00,2025-06-27 15:00,New Business,Direct Traffic,,
+52000172523,Meridian Staffing - New,Closed Won,Sales Pipeline,20500,2025-04-24 16:00,2025-08-16 16:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202504
+52000173100,Keystone Logistics - New,Closed Won,Sales Pipeline,13750,2025-11-27 16:00,2026-01-16 16:00,New Business,Paid Search,google-search-rlsa-site-visitors-202511,brand strategy consultant
+52000173677,Harbor Labs - New,Closed Won,Sales Pipeline,14000,2025-03-15 15:00,2025-06-17 15:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202503
+52000174254,Bluestone Distribution - New,Closed Lost,Sales Pipeline,19500,2026-05-30 13:00,2026-07-22 13:00,New Business,Paid Search,google-search-generic-demandgen-vp-202605,pipeline software vs spreadsheet
+52000174831,Apex Labs - New,Closed Lost,Sales Pipeline,20750,2026-01-05 13:00,2026-03-09 13:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202601
+52000175408,Lakeshore Engineering - New,Closed Lost,Sales Pipeline,28750,2025-04-20 10:00,2025-05-31 10:00,New Business,Referrals,industryblog.com,
+52000175985,Summit Builders - New,Closed Lost,Sales Pipeline,23750,2025-06-07 17:00,2025-07-18 17:00,New Business,Paid Social,Facebook,linkedin-content-guide-vp-sales-202506
+52000176562,Trident Engineering - New,Closed Lost,Sales Pipeline,22000,2025-04-03 12:00,2025-04-24 12:00,New Business,Paid Search,q3-push-202504,brand strategy consultant
+52000177139,Bluestone Manufacturing - New,Closed Lost,Sales Pipeline,22250,2026-04-27 14:00,2026-07-04 14:00,New Business,Paid Search,google-search-nonbrand-pipeline-vp-202604,demand generation help
+52000177716,Harbor Distribution - New,Closed Lost,Sales Pipeline,22000,2026-07-23 08:00,2026-09-08 08:00,New Business,Paid Social,Facebook,linkedin-content-report-ceo-202607
+52000178293,Bluestone Logistics - New,Closed Lost,Sales Pipeline,14750,2025-09-23 15:00,2025-12-12 15:00,New Business,Paid Social,Facebook,linkedin-lead-gen-audit-vp-sales-202509
+52000178870,Bluestone Logistics - New,Closed Lost,Sales Pipeline,13250,2026-04-29 17:00,2026-07-22 17:00,New Business,Paid Social,LinkedIn,linkedin-leadgen-diagnostic-cmo-202604
+52000179447,Cedar Foods - New,Closed Lost,Sales Pipeline,22000,2025-08-06 17:00,2025-09-27 17:00,New Business,Paid Social,Facebook,linkedin-awareness-category-ceo-202508
+52000180024,Bluestone Labs - New,Closed Lost,Sales Pipeline,32000,2025-07-13 08:00,2025-09-04 08:00,New Business,Offline Sources,IMPORT,event-tradeshow-industry-expo-202507
+52000180601,Oakridge Manufacturing - New,Closed Lost,Sales Pipeline,4500,2025-05-11 11:00,2025-09-05 11:00,New Business,Paid Social,Facebook,linkedin-leadgen-diagnostic-cmo-202505
+52000181178,Cedar Labs - New,Closed Lost,Sales Pipeline,19250,2025-12-24 14:00,2026-02-03 14:00,New Business,Organic Search,google,
+52000181755,Pinnacle Builders - New,Closed Lost,Sales Pipeline,19750,2025-05-08 15:00,2025-06-01 15:00,New Business,Referrals,industryblog.com,
+52000182332,Lakeshore Labs - New,Closed Lost,Sales Pipeline,18750,2025-03-22 17:00,2025-07-03 17:00,New Business,Paid Social,LinkedIn,linkedin-lead-gen-audit-vp-sales-202503
+52000182909,Apex Transport - New,Closed Won,Sales Pipeline,37000,2024-12-07 17:00,2025-01-18 17:00,New Business,Referrals,industryblog.com,
+52000183486,Ironwood Builders - New,Closed Lost,Sales Pipeline,27500,2025-09-27 09:00,2025-12-14 09:00,New Business,Paid Social,LinkedIn,linkedin-content-guide-vp-sales-202509

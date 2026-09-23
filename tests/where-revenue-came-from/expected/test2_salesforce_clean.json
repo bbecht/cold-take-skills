@@ -1,0 +1,136 @@
+{
+  "new_business": {
+    "deals": 169,
+    "won": 49,
+    "lost": 120,
+    "revenue_won": 1249250.0,
+    "win_rate": 29
+  },
+  "renewals_excluded": {
+    "deals": 11,
+    "revenue_won": 57000.0
+  },
+  "by_source": [
+    {
+      "source": "Partner Referral",
+      "family": "Partner Referral",
+      "deals": 34,
+      "won": 16,
+      "win_rate": 47,
+      "small_sample": false,
+      "revenue_won": 450750.0,
+      "share_of_revenue": 36.1,
+      "share_of_deals": 20.1,
+      "median_days_to_close_won": 48.0,
+      "avg_won_deal": 28172,
+      "vague_label": false
+    },
+    {
+      "source": "Events",
+      "family": "Events",
+      "deals": 17,
+      "won": 6,
+      "win_rate": 35,
+      "small_sample": false,
+      "revenue_won": 336750.0,
+      "share_of_revenue": 27.0,
+      "share_of_deals": 10.1,
+      "median_days_to_close_won": 136.5,
+      "avg_won_deal": 56125,
+      "vague_label": false
+    },
+    {
+      "source": "Web",
+      "family": "Web",
+      "deals": 47,
+      "won": 11,
+      "win_rate": 23,
+      "small_sample": false,
+      "revenue_won": 178000.0,
+      "share_of_revenue": 14.2,
+      "share_of_deals": 27.8,
+      "median_days_to_close_won": 76,
+      "avg_won_deal": 16182,
+      "vague_label": false
+    },
+    {
+      "source": "Employee Referral",
+      "family": "Employee Referral",
+      "deals": 12,
+      "won": 7,
+      "win_rate": 58,
+      "small_sample": false,
+      "revenue_won": 154750.0,
+      "share_of_revenue": 12.4,
+      "share_of_deals": 7.1,
+      "median_days_to_close_won": 46,
+      "avg_won_deal": 22107,
+      "vague_label": false
+    },
+    {
+      "source": "Phone Inquiry",
+      "family": "Phone Inquiry",
+      "deals": 7,
+      "won": 4,
+      "win_rate": null,
+      "small_sample": true,
+      "revenue_won": 78500.0,
+      "share_of_revenue": 6.3,
+      "share_of_deals": 4.1,
+      "median_days_to_close_won": 27.5,
+      "avg_won_deal": 19625,
+      "vague_label": false
+    },
+    {
+      "source": "Advertisement",
+      "family": "Advertisement",
+      "deals": 40,
+      "won": 4,
+      "win_rate": 10,
+      "small_sample": false,
+      "revenue_won": 43250.0,
+      "share_of_revenue": 3.5,
+      "share_of_deals": 23.7,
+      "median_days_to_close_won": 143.0,
+      "avg_won_deal": 10812,
+      "vague_label": false
+    },
+    {
+      "source": "Purchased List",
+      "family": "Purchased List",
+      "deals": 12,
+      "won": 1,
+      "win_rate": 8,
+      "small_sample": false,
+      "revenue_won": 7250.0,
+      "share_of_revenue": 0.6,
+      "share_of_deals": 7.1,
+      "median_days_to_close_won": 102,
+      "avg_won_deal": 7250,
+      "vague_label": false
+    }
+  ],
+  "channel_detail": [
+    {
+      "source": "Events: Trade show",
+      "family": "Events",
+      "deals": 17,
+      "won": 6,
+      "win_rate": 35,
+      "small_sample": false,
+      "revenue_won": 336750.0,
+      "share_of_revenue": 27.0,
+      "share_of_deals": 10.1,
+      "median_days_to_close_won": 136.5,
+      "avg_won_deal": 56125,
+      "vague_label": false,
+      "sub": "Trade show"
+    }
+  ],
+  "data_quality": {
+    "Source label variants merged": 20
+  },
+  "no_source_share_of_revenue": 0,
+  "vague_source_share_of_revenue": 0.0,
+  "months_covered": 22.0
+}

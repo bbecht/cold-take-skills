@@ -1,0 +1,117 @@
+{
+  "new_business": {
+    "deals": 136,
+    "won": 37,
+    "lost": 99,
+    "revenue_won": 827500.0,
+    "win_rate": 27
+  },
+  "renewals_excluded": {
+    "deals": 24,
+    "revenue_won": 193750.0
+  },
+  "by_source": [
+    {
+      "source": "(No source)",
+      "family": "(No source)",
+      "deals": 36,
+      "won": 11,
+      "win_rate": 31,
+      "small_sample": false,
+      "revenue_won": 302500.0,
+      "share_of_revenue": 36.6,
+      "share_of_deals": 26.5,
+      "median_days_to_close_won": 60,
+      "avg_won_deal": 27500,
+      "vague_label": false
+    },
+    {
+      "source": "Referrals",
+      "family": "Referrals",
+      "deals": 24,
+      "won": 10,
+      "win_rate": 42,
+      "small_sample": false,
+      "revenue_won": 231250.0,
+      "share_of_revenue": 27.9,
+      "share_of_deals": 17.6,
+      "median_days_to_close_won": 45,
+      "avg_won_deal": 23125,
+      "vague_label": false
+    },
+    {
+      "source": "Offline Sources",
+      "family": "Offline Sources",
+      "deals": 23,
+      "won": 7,
+      "win_rate": 30,
+      "small_sample": false,
+      "revenue_won": 125250.0,
+      "share_of_revenue": 15.1,
+      "share_of_deals": 16.9,
+      "median_days_to_close_won": 73,
+      "avg_won_deal": 17893,
+      "vague_label": true
+    },
+    {
+      "source": "Organic Search",
+      "family": "Organic Search",
+      "deals": 21,
+      "won": 6,
+      "win_rate": 29,
+      "small_sample": false,
+      "revenue_won": 104750.0,
+      "share_of_revenue": 12.7,
+      "share_of_deals": 15.4,
+      "median_days_to_close_won": 67.5,
+      "avg_won_deal": 17458,
+      "vague_label": false
+    },
+    {
+      "source": "Paid Social",
+      "family": "Paid Social",
+      "deals": 23,
+      "won": 2,
+      "win_rate": 9,
+      "small_sample": false,
+      "revenue_won": 40500.0,
+      "share_of_revenue": 4.9,
+      "share_of_deals": 16.9,
+      "median_days_to_close_won": 88.0,
+      "avg_won_deal": 20250,
+      "vague_label": false
+    },
+    {
+      "source": "Direct Traffic",
+      "family": "Direct Traffic",
+      "deals": 9,
+      "won": 1,
+      "win_rate": null,
+      "small_sample": true,
+      "revenue_won": 23250.0,
+      "share_of_revenue": 2.8,
+      "share_of_deals": 6.6,
+      "median_days_to_close_won": 45,
+      "avg_won_deal": 23250,
+      "vague_label": true
+    }
+  ],
+  "channel_detail": [],
+  "data_quality": {
+    "Exact duplicate rows": 6,
+    "Same deal under a second record ID": 4,
+    "Blank source": 42,
+    "Blank deal type (treated as new business)": 8,
+    "Amount stored as text with $ or commas": 15,
+    "Closed deal with no close date": 4,
+    "Source label variants merged": 14,
+    "Open or unrecognized stage (excluded)": 12,
+    "Close date before create date": 5,
+    "Blank amount (counted as $0)": 6,
+    "Zero amount": 4,
+    "Mixed date formats in file": 2
+  },
+  "no_source_share_of_revenue": 36.6,
+  "vague_source_share_of_revenue": 17.9,
+  "months_covered": 21.7
+}

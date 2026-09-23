@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Revenue Came From</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --surface:#fff; --soft:#eef0f3; --border:#e2e2e2; --ink:#000; --ink2:#111;
+    --accent:#3b82f6; --accent-soft:rgba(59,130,246,0.06); --accent-pill:rgba(59,130,246,0.12);
+    --amber:#d97706; --amber-soft:rgba(217,119,6,0.10); --purple:#8b5cf6;
+    --btn:#111; --btn-ink:#fbbf24; --hatch:#000;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --bg:#111214; --surface:#1a1b1f; --soft:#232429; --border:#2e3036; --ink:#fff; --ink2:#f2f2f2;
+    --accent:#60a5fa; --accent-soft:rgba(96,165,250,0.10); --accent-pill:rgba(96,165,250,0.18);
+    --amber:#f59e0b; --amber-soft:rgba(245,158,11,0.14); --btn:#2a2b30; --btn-ink:#fbbf24; --hatch:#fff; } }
+  :root[data-theme="dark"]{
+    --bg:#111214; --surface:#1a1b1f; --soft:#232429; --border:#2e3036; --ink:#fff; --ink2:#f2f2f2;
+    --accent:#60a5fa; --accent-soft:rgba(96,165,250,0.10); --accent-pill:rgba(96,165,250,0.18);
+    --amber:#f59e0b; --amber-soft:rgba(245,158,11,0.14); --btn:#2a2b30; --btn-ink:#fbbf24; --hatch:#fff; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  b,strong,th{font-weight:500}
+  .wrap{max-width:860px;margin:0 auto;padding:32px 40px 48px}
+  h1{font-size:22px;font-weight:500;margin:0 0 4px}
+  .label{font-size:11px;text-transform:uppercase;letter-spacing:0.08em;font-weight:500;margin:28px 0 8px}
+  .panel{background:var(--surface);border:0.5px solid var(--border);border-radius:12px;padding:20px}
+  .meta{font-size:13px}
+  .roles{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 4px}
+  .roles button{font:inherit;font-weight:500;padding:6px 12px;border:0.5px solid var(--border);background:var(--surface);color:var(--ink);cursor:pointer;border-radius:8px}
+  .roles button[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);box-shadow:inset 0 -2px 0 var(--accent)}
+  .q{font-size:18px;font-weight:500;margin:0 0 12px}
+  .insights{display:grid;gap:8px}
+  .card{background:var(--surface);border:0.5px solid var(--border);border-radius:8px;padding:12px 14px;font-size:14px}
+  .pill{display:inline-block;font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-bottom:6px;background:var(--soft);color:var(--ink)}
+  .pill.key{background:var(--accent-pill)}
+  .pill.warn{background:var(--amber-soft);box-shadow:inset 0 0 0 0.5px var(--amber)}
+  .strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:12px}
+  .strip > div{padding:4px 16px;border-left:0.5px solid var(--border)}
+  .strip > div:first-child{border-left:0;padding-left:0}
+  .strip .v{font-size:24px;font-weight:500}
+  .strip .l{font-size:11px;text-transform:uppercase;letter-spacing:0.08em}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{border-bottom:0.5px solid var(--border);padding:7px 6px;text-align:right;vertical-align:middle}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:0.06em}
+  tr:last-child td{border-bottom:0}
+  .scroll{overflow-x:auto}
+  .bar-row{display:grid;grid-template-columns:140px 1fr;gap:10px;align-items:center;margin:6px 0}
+  .bar-row > div{min-width:0}
+  .bar-track{position:relative;height:22px}
+  .bar{height:22px;background:var(--accent);border-radius:4px}
+  .bar.fixed{background:repeating-linear-gradient(45deg,transparent 0 5px,var(--hatch) 5px 6px);box-shadow:inset 0 0 0 1px var(--hatch)}
+  .bar-track .bar{width:calc(var(--w) * 0.62%)}
+  .bar-lbl{position:absolute;top:2px;white-space:nowrap;font-weight:500}
+  .bar-track .bar-lbl{left:calc(var(--w) * 0.62% + 8px)}
+  .legend{font-size:12px;margin:10px 0 0}
+  .sw{display:inline-block;width:16px;height:10px;border-radius:2px;vertical-align:-1px;margin:0 4px 0 12px}
+  .sw:first-child{margin-left:0}
+  input[type=number],select{font:inherit;color:var(--ink);background:var(--surface);border:0.5px solid var(--border);border-radius:8px;padding:5px 8px}
+  input[type=number]{width:110px;text-align:right}
+  input.pct{width:60px}
+  input:disabled{background:var(--soft);color:var(--ink)}
+  ::placeholder{color:var(--ink);opacity:1}
+  input:focus,select:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .modes{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:14px 0 0}
+  .modes label{font-weight:500}
+  .run{font:inherit;font-weight:500;padding:8px 16px;background:var(--btn);color:var(--btn-ink);border:0.5px solid var(--border);border-radius:8px;cursor:pointer}
+  .scen{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:4px}
+  .scen > div{padding:4px 16px;border-left:0.5px solid var(--border)}
+  .scen > div:first-child{border-left:0;padding-left:0}
+  .scen .v{font-size:22px;font-weight:500}
+  .scen .l{font-size:11px;text-transform:uppercase;letter-spacing:0.08em}
+  .scen .base .v{box-shadow:inset 0 -2px 0 var(--accent);display:inline-block}
+  .note{font-size:13px}
+  .msg{background:var(--surface);color:var(--ink);border:0.5px solid var(--amber);border-left:3px solid var(--amber);padding:10px 12px;margin:12px 0 0;border-radius:8px;font-weight:500}
+  .hide{display:none}
+  details{background:var(--surface);border:0.5px solid var(--border);padding:12px 16px;border-radius:12px;margin-top:28px}
+  summary{font-weight:500;cursor:pointer}
+  .alloc-pair{display:grid;grid-template-columns:140px 1fr;gap:10px;align-items:center;margin:10px 0}
+  .pair .bar{height:14px;margin:2px 0;border-radius:3px}
+  .pair .bar.cur{background:transparent;box-shadow:inset 0 0 0 1px var(--ink)}
+  .pair .bar.rec{background:var(--amber)}
+  .pair span{font-size:12px;font-weight:500;margin-left:8px;white-space:nowrap}
+  .interp p{margin:0 0 10px;font-size:14px}
+  .interp p:last-child{margin-bottom:0}
+  .interp .lead{font-size:16px;font-weight:500}
+  .interp .k{display:block;font-size:11px;text-transform:uppercase;letter-spacing:0.08em;font-weight:500;margin:14px 0 2px}
+  .interp ol{margin:0 0 10px;padding-left:20px;font-size:14px}
+  .interp li{margin:4px 0}
+  hr.sep{border:0;border-top:0.5px solid var(--border);margin:18px 0}
+  footer{margin-top:32px;font-size:12px;font-weight:500}
+  @media (max-width:700px){
+    .wrap{padding:20px 16px 40px}
+    .strip,.scen{grid-template-columns:1fr 1fr;row-gap:12px}
+    .strip > div:nth-child(3),.scen > div:nth-child(3){border-left:0;padding-left:0}
+    .bar-row,.alloc-pair{grid-template-columns:92px 1fr}
+    .bar-track .bar{width:calc(var(--w) * 0.3%)}
+    .bar-track .bar-lbl{left:calc(var(--w) * 0.3% + 6px);font-size:12px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Where Revenue Came From</h1>
+  <div class="meta" id="meta"></div>
+
+  <div class="roles" role="group" aria-label="Choose your seat">
+    <button data-role="ceo">CEO or owner</button>
+    <button data-role="cro">VP Sales or CRO</button>
+    <button data-role="revops">RevOps</button>
+    <button data-role="marketing">Marketing lead</button>
+  </div>
+
+  <div class="label">Your question</div>
+  <div class="panel">
+    <div class="q" id="question"></div>
+    <div class="insights" id="insights"></div>
+    <div class="strip" id="tiles"></div>
+  </div>
+
+  <div class="label" id="revHead">Revenue by source</div>
+  <div class="panel">
+    <div id="bars"></div>
+    <div class="legend"><span class="sw" style="background:var(--accent)"></span>Channel money can buy<span class="sw" style="background:repeating-linear-gradient(45deg,transparent 0 3px,var(--hatch) 3px 4px);box-shadow:inset 0 0 0 1px var(--hatch)"></span>Held fixed: referral, offline, no source, organic search, branded search</div>
+    <hr class="sep">
+    <div class="scroll"><table id="srcTable"></table></div>
+  </div>
+
+  <div id="detailWrap" class="hide">
+    <div class="label">Inside each channel</div>
+    <div class="panel"><div id="detail"></div></div>
+  </div>
+
+  <div id="dqWrap">
+    <div class="label">Can this data be trusted?</div>
+    <div class="panel" id="dq"></div>
+  </div>
+
+  <div class="label" id="optHead">Budget optimizer</div>
+  <div class="panel">
+    <p class="note" style="margin-top:0">Enter what you spend each month on each channel. The solver finds the mix that returns the most closed revenue, or the least spend to hit a target. Channels with no spend entered stay out of the solver.</p>
+    <div class="scroll"><table id="spendTable"></table></div>
+    <p class="note hide" id="lagNote"></p>
+    <div class="modes">
+      <label><input type="radio" name="mode" value="max" checked> Most revenue for this budget</label>
+      <label><input type="radio" name="mode" value="min"> Least spend to hit a target</label>
+    </div>
+    <div class="modes">
+      <label id="budgetLbl">Monthly budget $ <input type="number" id="budget" min="0" step="500"></label>
+      <label id="targetLbl" class="hide">12-month closed revenue target $ <input type="number" id="target" min="0" step="1000"></label>
+      <label>Saturation <select id="sat">
+        <option value="0.85">Low (room to grow)</option>
+        <option value="0.7" selected>Medium</option>
+        <option value="0.55">High (close to tapped out)</option>
+      </select></label>
+      <button class="run" id="run">Run solver</button>
+    </div>
+    <div id="optMsg"></div>
+  </div>
+
+  <div id="optOut" class="hide">
+    <div class="label">What this means</div>
+    <div class="panel interp" id="interp"></div>
+    <div class="label">Result</div>
+    <div class="panel">
+      <div class="scen" id="scen"></div>
+      <hr class="sep">
+      <div style="font-weight:500;margin-bottom:4px">Where the money moves</div>
+      <div id="allocBars"></div>
+      <div class="legend"><span class="sw" style="box-shadow:inset 0 0 0 1px var(--ink)"></span>Current spend<span class="sw" style="background:var(--amber)"></span>Recommended spend</div>
+      <hr class="sep">
+      <div class="scroll"><table id="allocTable"></table></div>
+      <p class="note" id="marginal" style="margin-bottom:0"></p>
+    </div>
+  </div>
+
+  <details>
+    <summary>How the solver works and what it assumes</summary>
+    <p class="note">Each channel's deal flow is taken from this file: deals per month, win rate and average won deal. More spend brings more deals, with diminishing returns: deals grow with spend raised to the saturation power. That curve is split into 20 straight steps, each returning less than the one before, which makes this a linear program. With one budget line and falling returns per step, filling the highest-return steps first is the exact optimum.</p>
+    <p class="note">Worst, base and best cases use the same recommended mix. Base uses each channel's actual win rate. Worst and best use the low and high end of a 90% confidence range around it, and a higher or lower saturation. Channels with few deals get wide ranges on purpose.</p>
+    <p class="note">This file has no spend data of its own. Every cost figure comes from what you type in. Revenue lands after the sales cycle, so the 12-month figures assume the new mix runs long enough for deals to close.</p>
+  </details>
+
+  <footer>Built by Marketing Systems Guild. Turning strangers into clients.</footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const START_ROLE = /*__ROLE__*/"ceo";
+
+const $ = s => document.querySelector(s);
+const money = v => (v<0?"-":"") + "$" + Math.round(Math.abs(v)).toLocaleString("en-US");
+const kmoney = v => { const a=Math.abs(v); const s=v<0?"-":""; return a>=1e6? s+"$"+(a/1e6).toFixed(2)+"M" : a>=1e4? s+"$"+Math.round(a/1e3)+"K" : a>=1e3? s+"$"+(a/1e3).toFixed(1).replace(/\.0$/,"")+"K" : s+"$"+Math.round(a); };
+const pct = v => Math.round(v) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const SRC = DATA.by_source;
+const NB = DATA.new_business;
+const MONTHS = DATA.months_covered || 1;
+const OVERALL_WR = NB.deals ? NB.won / NB.deals : 0;
+const FIXED_RX = /referr|word of mouth|offline|no source|direct|phone|partner|employee|other|unknown|^none$|n\/a|organic search|^seo$|: branded$|unclassified/i;
+const FIXED_WHY = [
+  [/organic search|^seo$/i, "Organic Search: SEO pays off 6 to 12 months later and keeps paying after spend stops. This solver models channels that respond in the same period."],
+  [/: branded$/i, "Branded search: it captures people already looking for you. More spend buys the same buyers at a higher price, not new ones."],
+  [/unclassified/i, "Unclassified campaigns: there is no named campaign to fund. Fix the campaign names and rerun."],
+];
+const SOLVER_SRC = (DATA.solver_rows && DATA.solver_rows.length) ? DATA.solver_rows : DATA.by_source;
+const DETAIL = DATA.channel_detail || [];
+[SRC, SOLVER_SRC, DETAIL].forEach(a => a.forEach(s => { s.fixed = FIXED_RX.test(s.source); s.wr = s.deals ? s.won/s.deals : 0; }));
+// insights read at bucket level when channel detail exists, so a strong bucket cannot hide a weak one
+const LEVEL = SOLVER_SRC.slice().sort((a,b)=> b.revenue_won-a.revenue_won);
+const big = LEVEL.filter(s => s.deals >= 10);
+const dataFlag = DATA.no_source_share_of_revenue >= 20 || DATA.vague_source_share_of_revenue >= 30;
+
+// ---------- header ----------
+$("#meta").textContent = (DATA.date_range ? `Closed deals ${DATA.date_range[0]} to ${DATA.date_range[1]}. ` : "") +
+  `${NB.deals} new-business deals, ${NB.won} won. Renewals excluded: ${DATA.renewals_excluded.deals}.`;
+
+// ---------- insights by role ----------
+const QUESTIONS = {
+  ceo: "Where should the next dollar go?",
+  cro: "Which sources close fastest and at the highest rate?",
+  revops: "Can I trust this data?",
+  marketing: "Which channels can I defend in the next budget meeting?"
+};
+function dataCard(){
+  return {cls:"warn", tag:"Read this first", text:
+    `${DATA.no_source_share_of_revenue}% of revenue has no source and ${DATA.vague_source_share_of_revenue}% sits on vague labels. Budget calls from this file carry that risk.`};
+}
+function insights(role){
+  const out = [];
+  if (dataFlag) out.push(dataCard());
+  const top = LEVEL.filter(s => s.source !== "(No source)")[0];
+  const busyLow = big.slice().sort((a,b)=> b.deals-a.deals).find(s => s.wr < OVERALL_WR - 0.05);
+  const bestWr = big.slice().sort((a,b)=> b.wr-a.wr)[0];
+  const fastest = big.filter(s=>s.median_days_to_close_won!=null).sort((a,b)=>a.median_days_to_close_won-b.median_days_to_close_won)[0];
+  if (role === "ceo") {
+    if (top) out.push({cls:"key", tag:"Biggest source", text:`${top.source} brought in ${kmoney(top.revenue_won)}, ${top.share_of_revenue}% of revenue${top.win_rate!=null?`, at a ${top.win_rate}% win rate`:""}.`});
+    if (busyLow) out.push({cls:"warn", tag:"Busy, closes little", text:`${busyLow.source} is ${busyLow.share_of_deals}% of deals and ${busyLow.share_of_revenue}% of revenue. It wins ${pct(busyLow.wr*100)} against ${pct(OVERALL_WR*100)} overall.`});
+    const di = detailInsight(); if (di) out.push(di);
+    out.push({cls:"", tag:"Next step", text:"Enter your monthly spend below. The optimizer shows where the next dollar returns the most."});
+  } else if (role === "cro") {
+    if (bestWr) out.push({cls:"key", tag:"Highest win rate", text:`${bestWr.source} wins ${bestWr.win_rate}% across ${bestWr.deals} deals.`});
+    if (fastest) out.push({cls:"key", tag:"Fastest to close", text:`${fastest.source} closes in a median ${fastest.median_days_to_close_won} days.`});
+    if (busyLow) out.push({cls:"warn", tag:"Eats rep time", text:`${busyLow.source}: ${busyLow.deals} deals, ${busyLow.won} won. Qualify these before a rep takes them.`});
+    const di = detailInsight(); if (di) out.push(di);
+  } else if (role === "revops") {
+    const dq = DATA.data_quality || {};
+    const worst = Object.entries(dq).sort((a,b)=>b[1]-a[1])[0];
+    const verdict = DATA.no_source_share_of_revenue >= 30 ? "Not usable for budget decisions yet" :
+      (dataFlag || Object.keys(dq).length) ? "Usable with caveats" : "Usable";
+    if (!dataFlag) out.push({cls: verdict==="Usable"?"key":"warn", tag:"Verdict", text: verdict + "."});
+    else out[0].text = verdict + ". " + out[0].text;
+    if (worst) out.push({cls:"warn", tag:"Biggest problem", text:`${worst[0]}: ${worst[1]}.`});
+    const merges = Object.keys(DATA.label_merges||{}).filter(k=>k!=="(No source)").length;
+    out.push({cls:"", tag:"Label merges", text: merges ? `${merges} sources had spelling variants merged. Confirm them below.` : "No source labels needed merging."});
+  } else {
+    const NONMKT = /referr|word of mouth|offline|no source|direct|phone|partner|employee|other|unknown|unclassified/i;
+    const mk = SOLVER_SRC.filter(s => s.deals >= 10 && !NONMKT.test(s.source));
+    const holds = mk.filter(s => s.wr >= OVERALL_WR).map(s=>s.source);
+    const weak = mk.filter(s => s.wr < OVERALL_WR).map(s=>s.source);
+    const ref = big.find(s => /referr/i.test(s.source));
+    out.push({cls:"key", tag:"Holds up", text: holds.length ? `${holds.join(", ")} ${holds.length>1?"win":"wins"} at or above the ${pct(OVERALL_WR*100)} average.` : "No paid or owned channel wins above the average yet."});
+    if (weak.length) out.push({cls:"warn", tag:"Hard to defend", text:`${weak.join(", ")} ${weak.length>1?"win":"wins"} below average.`});
+    const di = detailInsight(); if (di) out.push(di);
+    if (ref) out.push({cls:"", tag:"The CFO's comparison", text:`${ref.source} wins ${ref.win_rate}%. That is the bar marketing channels get measured against.`});
+  }
+  return out;
+}
+function renderRole(role){
+  document.querySelectorAll(".roles button").forEach(b => b.setAttribute("aria-pressed", b.dataset.role===role));
+  $("#question").textContent = QUESTIONS[role];
+  $("#insights").innerHTML = insights(role).map(c =>
+    `<div class="card"><span class="pill ${c.cls}">${esc(c.tag)}</span><div>${esc(c.text)}</div></div>`).join("");
+  const dqEl = $("#dqWrap");
+  dqEl.parentNode.insertBefore(dqEl, role === "revops" ? $("#revHead") : $("#optHead"));
+}
+document.querySelectorAll(".roles button").forEach(b => b.onclick = () => renderRole(b.dataset.role));
+
+// ---------- tiles ----------
+$("#tiles").innerHTML = [
+  ["Revenue won", kmoney(NB.revenue_won)],
+  ["Win rate", NB.win_rate!=null ? NB.win_rate+"%" : "n/a"],
+  ["Closed deals", NB.deals],
+  ["Revenue with no source", DATA.no_source_share_of_revenue + "%"],
+].map(([l,v]) => `<div><div class="l">${l}</div><div class="v">${v}</div></div>`).join("");
+
+// ---------- bars ----------
+const maxRev = Math.max(...SRC.map(s=>s.revenue_won), 1);
+$("#bars").innerHTML = SRC.map(s => {
+  const w = Math.max(1, s.revenue_won/maxRev*100);
+  const wr = s.win_rate!=null ? `${s.win_rate}% win` : `${s.won} of ${s.deals} won`;
+  return `<div class="bar-row"><div><b>${esc(s.source)}</b></div><div class="bar-track">
+    <div class="bar ${s.fixed?"fixed":""}" style="--w:${w}"></div>
+    <div class="bar-lbl" style="--w:${w}">${kmoney(s.revenue_won)} · ${wr}</div></div></div>`;
+}).join("");
+$("#srcTable").innerHTML = `<tr><th>Source</th><th>Deals</th><th>Won</th><th>Win rate</th><th>Revenue won</th><th>Share</th><th>Median days</th><th>Avg won deal</th></tr>` +
+  SRC.map(s => `<tr><td>${esc(s.source)}</td><td>${s.deals}</td><td>${s.won}</td>
+    <td>${s.win_rate!=null?s.win_rate+"%":`${s.won} of ${s.deals}`}</td><td>${money(s.revenue_won)}</td>
+    <td>${s.share_of_revenue}%</td><td>${s.median_days_to_close_won??""}</td><td>${s.avg_won_deal!=null?money(s.avg_won_deal):""}</td></tr>`).join("");
+
+// ---------- channel detail ----------
+(function(){
+  if (!DETAIL.length) return;
+  $("#detailWrap").classList.remove("hide");
+  const fams = [...new Set(DETAIL.map(d => d.family))];
+  const maxR = Math.max(...DETAIL.map(d=>d.revenue_won), 1);
+  $("#detail").innerHTML = fams.map((f, k) => {
+    const rows = DETAIL.filter(d => d.family === f);
+    return `${k?'<hr class="sep">':""}<div style="font-weight:500;margin-bottom:6px">${esc(f)}</div>` + rows.map(d => {
+      const w = Math.max(1, d.revenue_won/maxR*100);
+      const wr = d.win_rate!=null ? `${d.win_rate}% win` : `${d.won} of ${d.deals} won`;
+      return `<div class="bar-row"><div>${esc(d.sub)}</div><div class="bar-track"><div class="bar ${d.fixed?"fixed":""}" style="--w:${w}"></div>
+        <div class="bar-lbl" style="--w:${w}">${kmoney(d.revenue_won)} · ${wr} · ${d.deals} deals${d.median_days_to_close_won!=null?` · ${d.median_days_to_close_won}d`:""}</div></div></div>`;
+    }).join("");
+  }).join("");
+})();
+function detailInsight(){
+  // family with the widest win-rate gap between buckets that have at least 10 deals
+  let best = null;
+  [...new Set(DETAIL.map(d=>d.family))].forEach(f => {
+    const rows = DETAIL.filter(d => d.family===f && d.deals>=10 && !/unclassified/i.test(d.sub));
+    if (rows.length < 2) return;
+    const hi = rows.reduce((a,b)=> b.wr>a.wr?b:a), lo = rows.reduce((a,b)=> b.wr<a.wr?b:a);
+    if (!best || hi.wr-lo.wr > best.gap) best = {f, hi, lo, gap: hi.wr-lo.wr};
+  });
+  if (!best || best.gap < 0.08) return null;
+  return {cls:"key", tag:`Inside ${best.f}`, text:`${best.hi.sub} wins ${best.hi.win_rate}%. ${best.lo.sub} wins ${best.lo.win_rate}% on ${best.lo.deals} deals. Same channel, very different return.`};
+}
+
+// ---------- data quality ----------
+(function(){
+  const dq = Object.entries(DATA.data_quality||{}).sort((a,b)=>b[1]-a[1]);
+  let h = dq.length ? `<table><tr><th>Problem</th><th>Count</th></tr>${dq.map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v}</td></tr>`).join("")}</table>`
+                    : `<div>No data problems found.</div>`;
+  const m = Object.entries(DATA.label_merges||{});
+  if (m.length) h += `<div style="font-weight:500;margin-top:16px">Source labels merged. Confirm these.</div><ul>` +
+    m.map(([k,v]) => `<li><b>${esc(k)}</b> from ${Object.entries(v).map(([a,b])=>`"${esc(a)}" ×${b}`).join(", ")}</li>`).join("") + "</ul>";
+  $("#dq").innerHTML = h;
+})();
+
+// ---------- optimizer ----------
+const CH = SOLVER_SRC.map((s,i) => ({i, name:s.source, fixed:s.fixed, deals:s.deals, won:s.won, cyc:s.median_days_to_close_won||0,
+  dpm: s.deals/MONTHS, avg: s.avg_won_deal || DATA.avg_won_deal_all || 0,
+  fixedRev: s.revenue_won/MONTHS }));
+$("#spendTable").innerHTML = `<tr><th>Source</th><th>Deals / month</th><th>Monthly spend $</th><th>Min %</th><th>Max %</th><th>In solver</th></tr>` +
+  CH.map(c => `<tr><td>${esc(c.name)}</td><td>${c.dpm.toFixed(1)}</td>
+    <td><input type="number" min="0" step="100" id="sp${c.i}" ${c.fixed?"disabled placeholder='held fixed'":""}></td>
+    <td><input class="pct" type="number" id="mn${c.i}" value="50" ${c.fixed?"disabled":""}></td>
+    <td><input class="pct" type="number" id="mx${c.i}" value="150" ${c.fixed?"disabled":""}></td>
+    <td><input type="checkbox" id="in${c.i}" ${c.fixed?"":"checked"}></td></tr>`).join("");
+(function(){ const why = FIXED_WHY.filter(([rx]) => CH.some(c => rx.test(c.name))).map(([,t]) => t);
+  if (why.length) { const el = $("#lagNote"); el.innerHTML = "<b>Held fixed by default.</b> " + why.map(esc).join(" ") + " Tick In solver to include any of them anyway."; el.classList.remove("hide"); } })();
+CH.forEach(c => { $("#in"+c.i).onchange = e => { c.fixed = !e.target.checked; ["sp","mn","mx"].forEach(p => $("#"+p+c.i).disabled = c.fixed); }; });
+
+document.querySelectorAll("input[name=mode]").forEach(r => r.onchange = () => {
+  const min = $("input[name=mode]:checked").value === "min";
+  $("#budgetLbl").classList.toggle("hide", min); $("#targetLbl").classList.toggle("hide", !min);
+});
+
+function wilson(k, n, z){ if (!n) return [0,0,0];
+  const p=k/n, den=1+z*z/n, c=(p+z*z/(2*n))/den, h=z*Math.sqrt(p*(1-p)/n+z*z/(4*n*n))/den;
+  return [Math.max(0,c-h), p, Math.min(1,c+h)]; }
+// monthly expected closed revenue for channel c at spend S
+function rev(c, S, sc){ if (!c.S0 || S<=0) return 0;
+  return c.dpm * Math.pow(S/c.S0, sc.b) * sc.wr(c) * c.avg; }
+function deals(c, S, sc){ return c.S0 && S>0 ? c.dpm*Math.pow(S/c.S0, sc.b) : 0; }
+
+const K = 20;
+function segments(active, sc){
+  const segs = [];
+  active.forEach(c => { const h = (c.Smax-c.Smin)/K;
+    for (let k=0;k<K;k++){ const a=c.Smin+k*h, b=a+h;
+      segs.push({c, len:h, slope: h>0 ? (rev(c,b,sc)-rev(c,a,sc))/h : 0}); } });
+  return segs.sort((x,y)=> y.slope-x.slope);
+}
+// Separable concave objective, one resource line: greedy on sorted segments is the LP optimum.
+function solveMax(active, budget, sc){
+  const base = active.reduce((t,c)=>t+c.Smin,0);
+  if (budget < base) return {err:`Budget is below the channel minimums (${money(base)}). Raise the budget or lower the Min %.`};
+  active.forEach(c => c.S = c.Smin); let left = budget-base, lastSlope = null;
+  for (const s of segments(active, sc)){ if (left<=0) break; const x=Math.min(s.len,left); s.c.S+=x; left-=x; lastSlope=s.slope; }
+  return {left, lastSlope};
+}
+function solveMin(active, target12, sc){
+  const need0 = target12/12 - active.reduce((t,c)=>t+rev(c,c.Smin,sc),0) - fixedMonthly();
+  active.forEach(c => c.S = c.Smin); let need = need0, lastSlope=null;
+  if (need <= 0) return {left:0, lastSlope:null, note:"Target is already met at the channel minimums."};
+  for (const s of segments(active, sc)){ if (need<=1e-9) break; const gain=s.slope*s.len;
+    if (gain>=need){ s.c.S += need/s.slope; need=0; lastSlope=s.slope; break; } s.c.S+=s.len; need-=gain; lastSlope=s.slope; }
+  if (need > 1e-6) return {err:`Target is out of reach within the Max % caps. The most the solver can reach is ${money((target12/12-need)*12)} over 12 months.`};
+  return {left:0, lastSlope};
+}
+function fixedMonthly(){ return CH.filter(c=>c.fixed||!c.S0).reduce((t,c)=>t+c.fixedRev,0); }
+
+function list(xs){ return xs.length<=1 ? (xs[0]||"") : xs.slice(0,-1).join(", ") + " and " + xs[xs.length-1]; }
+function breakEven(active, sc){
+  // spend where the next dollar returns less than $1 in closed revenue
+  let spend = active.reduce((t,c)=>t+c.Smin,0);
+  for (const s of segments(active, sc)) { if (s.slope < 1) break; spend += s.len; }
+  return spend;
+}
+function interpret(active, r, res, SC, mode, curSpend, newSpend){
+  const up = active.filter(c => c.S - c.S0 > 0.5).sort((a,b)=>(b.S-b.S0)-(a.S-a.S0));
+  const down = active.filter(c => c.S0 - c.S > 0.5).sort((a,b)=>(b.S0-b.S)-(a.S0-a.S));
+  const moved = down.reduce((t,c)=>t+(c.S0-c.S),0);
+  const b = res.base.inc12, w = res.worst.inc12, hi = res.best.inc12;
+  const parts = [];
+  // 1. the recommendation in one line
+  let lead;
+  const cut = mode === "max" && newSpend < curSpend - 1;
+  if (cut) {
+    const saved = (curSpend-newSpend)*12;
+    lead = `Cutting to ${money(newSpend)} a month saves ${kmoney(saved)} over 12 months and gives up about ${kmoney(Math.abs(b))} in closed revenue. The solver takes the cut from ${list(down.map(c=>c.name))}, where each dollar returns the least${up.length?`, and adds to ${list(up.map(c=>c.name))}`:""}.`;
+  } else if (mode === "max") {
+    const diff = newSpend - curSpend;
+    const spendLine = Math.abs(diff) < 1 ? `Keep spend at ${money(newSpend)} a month` :
+      `Spend ${money(newSpend)} a month, ${money(Math.abs(diff))} ${diff>0?"more":"less"} than today`;
+    lead = up.length || down.length
+      ? `${spendLine}${down.length?`, and move ${money(moved)} a month out of ${list(down.map(c=>c.name))}`:""}${up.length?` into ${list(up.map(c=>c.name))}`:""}.`
+      : `${spendLine}. Your current mix is already the best one inside these limits.`;
+  } else {
+    const diff = newSpend - curSpend;
+    const moves = [];
+    if (up.length) moves.push(`put more into ${list(up.map(c=>c.name))}`);
+    if (down.length) moves.push(`pull back ${list(down.map(c=>c.name))}`);
+    lead = `Hitting the target takes ${money(newSpend)} a month, ${money(Math.abs(diff))} ${diff>=0?"more":"less"} than today.` +
+      (moves.length ? ` To get there, ${moves.join(" and ")}.` : "");
+  }
+  parts.push(`<p class="lead">${esc(lead)}</p>`);
+  // 2. what it is worth
+  const lo = Math.min(w,hi), top = Math.max(w,hi);
+  parts.push(`<p>Expected result: ${b>=0?"+":""}${kmoney(b)} in closed revenue over 12 months. The honest range is ${lo>=0?"+":""}${kmoney(lo)} to ${top>=0?"+":""}${kmoney(top)}.</p>`);
+  // 3. why
+  const rpd = c => rev(c, c.S0, SC.base) / c.S0;
+  const why = [];
+  const bestC = active.slice().sort((a,b)=>rpd(b)-rpd(a))[0], worstC = active.slice().sort((a,b)=>rpd(a)-rpd(b))[0];
+  if (bestC && worstC && bestC !== worstC)
+    why.push(`${bestC.name} returns $${rpd(bestC).toFixed(2)} in closed revenue for every dollar today. ${worstC.name} returns $${rpd(worstC).toFixed(2)}. The solver shifts money toward the higher return until the extra dollars stop paying off.`);
+  const capped = up.filter(c => c.S >= c.Smax - 0.5).map(c=>c.name);
+  if (capped.length) why.push(`${list(capped)} ${capped.length>1?"hit":"hits"} the Max % limit. The solver would go further if you let it. Raise the limit only if the channel can absorb it.`);
+  const floored = down.filter(c => c.S <= c.Smin + 0.5).map(c=>c.name);
+  if (floored.length) why.push(`${list(floored)} ${floored.length>1?"sit":"sits"} at the Min % floor. Cut further only after the first move proves out.`);
+  if (why.length) parts.push(`<p><span class="k">Why</span>${why.map(esc).join(" ")}</p>`);
+  // 4. how sure
+  const thin = active.filter(c => c.deals < 20 && (up.includes(c) || down.includes(c))).map(c=>c.name);
+  let sure;
+  if (cut) { const saved=(curSpend-newSpend)*12, lost=Math.abs(b);
+    sure = lost <= saved ? "You save more in spend than you give up in closed revenue, so the cut raises profit at any margin. The trade is growth."
+      : `You give up more closed revenue than you save. The cut raises profit only if your gross margin is below ${Math.round(saved/lost*100)}%.`; }
+  else if (Math.min(w,hi) <= 0) sure = "The worst case adds nothing. Treat this as a test, not a commitment.";
+  else if (hi > w*3) sure = `The range is wide${thin.length?` because ${list(thin)} ${thin.length>1?"have":"has"} fewer than 20 deals behind ${thin.length>1?"them":"it"}`:""}. Test the move before you commit the full budget.`;
+  else sure = "Even the worst case adds revenue. The move holds up across the range.";
+  if (dataFlag) sure += ` ${DATA.no_source_share_of_revenue}% of revenue in this file has no source, so every number here is directional until that is fixed.`;
+  parts.push(`<p><span class="k">How sure</span>${esc(sure)}</p>`);
+  // 5. overspend check
+  const be = breakEven(active, SC.base);
+  if (!cut && r.lastSlope != null && r.lastSlope < 1)
+    parts.push(`<p><span class="k">Watch the budget</span>Past about ${money(be)} a month, the next dollar returns less than a dollar in closed revenue. That loses money at any margin. With your gross margin, the profitable ceiling is lower still. Rerun at ${money(be)} to see the trade.</p>`);
+  // 6. next step
+  const cyc = Math.max(0, ...up.concat(down).map(c => c.cyc));
+  const steps = [];
+  if (up.length || down.length) steps.push("Move half the shift now. Move the rest after 30 days if new deal flow holds.");
+  steps.push(`Hold it for at least ${cyc?Math.ceil(cyc/30)+" months, one full sales cycle":"one full sales cycle"}, then rerun this report on the new export.`);
+  if (dataFlag) steps.unshift("Fix the source field first. Make it required on every new deal.");
+  parts.push(`<span class="k">Next step</span><ol>${steps.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`);
+  return parts.join("");
+}
+
+$("#run").onclick = function(){
+  const msg = $("#optMsg"); msg.innerHTML = ""; $("#optOut").classList.add("hide");
+  CH.forEach(c => { c.S0 = c.fixed ? 0 : (parseFloat($("#sp"+c.i).value)||0);
+    c.Smin = c.S0*(parseFloat($("#mn"+c.i).value)||0)/100; c.Smax = c.S0*(parseFloat($("#mx"+c.i).value)||0)/100;
+    if (c.Smax < c.Smin) c.Smax = c.Smin; });
+  const active = CH.filter(c => !c.fixed && c.S0>0);
+  if (active.length < 2){ msg.innerHTML = `<div class="msg">Enter monthly spend for at least two channels to run the solver.</div>`; return; }
+  const b = parseFloat($("#sat").value);
+  const z = 1.645;
+  const W = c => wilson(c.won, c.deals, z);
+  const SC = {
+    worst:{ b: Math.max(0.4, b-0.15), wr: c => W(c)[0] },
+    base: { b, wr: c => W(c)[1] },
+    best: { b: Math.min(0.95, b+0.15), wr: c => W(c)[2] }
+  };
+  const mode = $("input[name=mode]:checked").value;
+  const curSpend = active.reduce((t,c)=>t+c.S0,0);
+  let r;
+  if (mode==="max"){ let B = parseFloat($("#budget").value); if (!(B>0)) { B = curSpend; $("#budget").value = Math.round(B); } r = solveMax(active, B, SC.base); }
+  else { let T = parseFloat($("#target").value);
+    if (!(T>0)) { T = Math.round((active.reduce((t,c)=>t+rev(c,c.S0,SC.base),0)+fixedMonthly())*12*1.1); $("#target").value = T; }
+    r = solveMin(active, T, SC.base); }
+  if (r.err){ msg.innerHTML = `<div class="msg">${esc(r.err)}</div>`; return; }
+  const newSpend = active.reduce((t,c)=>t+c.S,0);
+  const res = {};
+  for (const [k,sc] of Object.entries(SC)){
+    const cur = active.reduce((t,c)=>t+rev(c,c.S0,sc),0), nw = active.reduce((t,c)=>t+rev(c,c.S,sc),0);
+    const dCur = active.reduce((t,c)=>t+deals(c,c.S0,sc),0), dNew = active.reduce((t,c)=>t+deals(c,c.S,sc),0);
+    res[k] = {inc12:(nw-cur)*12, deals12:(dNew-dCur)*12};
+  }
+  const spendDelta = (newSpend-curSpend)*12;
+  $("#scen").innerHTML =
+    `<div><div class="l">Spend change, 12 mo</div><div class="v">${spendDelta>=0?"+":""}${kmoney(spendDelta)}</div><div class="note">${money(curSpend)}/mo now, ${money(newSpend)}/mo recommended</div></div>` +
+    ["worst","base","best"].map(k => `<div class="${k}"><div class="l">${k==="base"?"Base case":k==="worst"?"Worst case":"Best case"}, 12 mo</div>
+      <div class="v">${res[k].inc12>=0?"+":""}${kmoney(res[k].inc12)}</div><div class="note">added closed revenue</div><div class="note">${res[k].deals12>=0?"+":""}${res[k].deals12.toFixed(0)} new ${Math.round(Math.abs(res[k].deals12))===1?"opportunity":"opportunities"}</div></div>`).join("");
+  const maxS = Math.max(...active.map(c=>Math.max(c.S0,c.S)),1);
+  $("#allocBars").innerHTML = active.map(c => `<div class="alloc-pair"><div><b>${esc(c.name)}</b></div><div class="pair">
+     <div style="display:flex;align-items:center"><div class="bar cur" style="width:${c.S0/maxS*65}%"></div><span>${kmoney(c.S0)} now</span></div>
+     <div style="display:flex;align-items:center"><div class="bar rec" style="width:${c.S/maxS*65}%"></div><span>${kmoney(c.S)} new</span></div></div></div>`).join("");
+  $("#allocTable").innerHTML = `<tr><th>Channel</th><th>Now $/mo</th><th>Recommended $/mo</th><th>Change</th><th>Cost per won deal now</th><th>Closed revenue per $1 now</th></tr>` +
+    active.map(c => { const w = c.dpm*SC.base.wr(c); const cpw = w>0 ? money(c.S0/w) : "no wins";
+      const rpd = (rev(c,c.S0,SC.base)/c.S0).toFixed(2);
+      const ch = c.S-c.S0; return `<tr><td>${esc(c.name)}</td><td>${money(c.S0)}</td><td>${money(c.S)}</td>
+      <td>${ch>=0?"+":""}${money(ch)} (${c.S0?Math.round(ch/c.S0*100):0}%)</td><td>${cpw}</td><td>$${rpd}</td></tr>`; }).join("");
+  $("#marginal").textContent = r.note ? r.note : (r.lastSlope!=null ?
+    `The last dollar the solver placed returns $${r.lastSlope.toFixed(2)} in closed revenue.` + (r.lastSlope<1 ? " That is less than it costs. A smaller budget returns more per dollar." : "") : "")
+    + (r.left>1 ? ` ${money(r.left)} per month could not be placed within the Max % caps.` : "");
+  $("#interp").innerHTML = interpret(active, r, res, SC, mode, curSpend, newSpend);
+  if (dataFlag) msg.innerHTML = `<div class="msg">${DATA.no_source_share_of_revenue}% of revenue in this file has no source. Treat these results as directional until the source field is fixed.</div>`;
+  $("#optOut").classList.remove("hide");
+};
+
+renderRole(QUESTIONS[START_ROLE] ? START_ROLE : "ceo");
+</script>
+</body>
+</html>
