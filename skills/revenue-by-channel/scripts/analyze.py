@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Where Revenue Came From: deal export analysis.
+"""Revenue by Channel: deal export analysis.
 
 Usage: python analyze.py deals.csv [--json out.json] [--won "Stage A,Stage B"] [--lost "Stage C"]
 

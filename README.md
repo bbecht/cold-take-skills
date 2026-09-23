@@ -8,7 +8,7 @@ Each skill does one job with your own data and gives a straight answer. Nothing 
 
 | Skill | The question it answers | Released |
 |---|---|---|
-| [Where Revenue Came From](docs/where-revenue-came-from.md) | Which channels actually turn into closed revenue, and where should the next dollar go? | October 2026 |
+| [Revenue by Channel](docs/revenue-by-channel.md) | Which channels actually turn into closed revenue, and where should the next dollar go? | October 2026 |
 
 ## How do I install a skill?
 
@@ -31,8 +31,8 @@ tools/        build_zips.py packages every skill into dist/
 ## For contributors
 
 ```
-python tests/where-revenue-came-from/test_analyze.py   # regression tests, standard library only
-python tools/build_zips.py                             # builds dist/<skill>.zip and checks each SKILL.md
+python tests/revenue-by-channel/test_analyze.py   # regression tests, standard library only
+python tools/build_zips.py                        # builds dist/<skill>.zip and checks each SKILL.md
 ```
 
 Found a bug or a CRM export the skill cannot read? Open an issue with the column headers (no customer data).

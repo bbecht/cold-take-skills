@@ -1,4 +1,4 @@
-# Where Revenue Came From: test answer key
+# Revenue by Channel: test answer key
 
 Rules used for every number below. The skill must match them.
 - Only Closed Won and Closed Lost count. Open stages are excluded.

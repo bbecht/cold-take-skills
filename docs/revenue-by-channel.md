@@ -1,6 +1,6 @@
-# Where Revenue Came From
+# Revenue by Channel
 
-![The report, CEO view](images/where-revenue-came-from-report.png)
+![The report, CEO view](images/revenue-by-channel-report.png)
 
 ## What problem does it solve?
 
@@ -39,7 +39,9 @@ Buckets come from keywords in your campaign names. Names it cannot read are repo
 
 ## What does the budget optimizer do?
 
-![The optimizer result](images/where-revenue-came-from-optimizer.png)
+![The budget solver in action](images/revenue-by-channel-solver.gif)
+
+![The optimizer result](images/revenue-by-channel-optimizer.png)
 
 Type in what you spend each month per channel. A linear program finds the mix that returns the most closed revenue for your budget, or the least spend to hit a target.
 
@@ -52,7 +54,7 @@ Spend you type stays in your browser.
 
 ## What do I need first?
 
-Read [the prerequisites](../skills/where-revenue-came-from/references/prerequisites.md). The short version:
+Read [the prerequisites](../skills/revenue-by-channel/references/prerequisites.md). The short version:
 
 - Any Claude plan with code execution on
 - A CSV of won and lost deals, 12 to 24 months, with stage, amount, create date, close date and source
@@ -64,11 +66,11 @@ No connectors or MCP servers are needed.
 
 ## How do I use it?
 
-1. Export your deals. Steps for each CRM: [export guide](../skills/where-revenue-came-from/references/export-guide.md).
+1. Export your deals. Steps for each CRM: [export guide](../skills/revenue-by-channel/references/export-guide.md).
 2. Upload the CSV to Claude and say: "Where did our revenue come from? I'm the CEO." Swap in your own seat.
 3. Open the report file Claude hands back.
 
-No export handy? Try [the sample data](../examples/where-revenue-came-from/) first, or open the [sample report](../examples/where-revenue-came-from/sample_report.html).
+No export handy? Try [the sample data](../examples/revenue-by-channel/) first, or open the [sample report](../examples/revenue-by-channel/sample_report.html).
 
 ## What will it not do?
 
@@ -79,4 +81,4 @@ No export handy? Try [the sample data](../examples/where-revenue-came-from/) fir
 
 ## How was it tested?
 
-Four test files, including one with a dozen planted data problems and one with blank and unreadable campaign names. Every number matched an answer key built independently of the skill. The optimizer's allocation matched an independent linear programming solver exactly. See [tests](../tests/where-revenue-came-from/).
+Four test files, including one with a dozen planted data problems and one with blank and unreadable campaign names. Every number matched an answer key built independently of the skill. The optimizer's allocation matched an independent linear programming solver exactly. See [tests](../tests/revenue-by-channel/).

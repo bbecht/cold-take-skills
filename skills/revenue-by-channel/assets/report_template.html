@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Where Revenue Came From</title>
+<title>Revenue by Channel</title>
 <style>
   :root{
     --bg:#f6f7f9; --surface:#fff; --soft:#eef0f3; --border:#e2e2e2; --ink:#000; --ink2:#111;
@@ -103,7 +103,7 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>Where Revenue Came From</h1>
+  <h1>Revenue by Channel</h1>
   <div class="meta" id="meta"></div>
 
   <div class="roles" role="group" aria-label="Choose your seat">
@@ -395,6 +395,12 @@ function solveMin(active, target12, sc){
 }
 function fixedMonthly(){ return CH.filter(c=>c.fixed||!c.S0).reduce((t,c)=>t+c.fixedRev,0); }
 
+function oppText(n, inc){
+  const r = Math.round(n), w = x => x===1 ? "opportunity" : "opportunities";
+  if (r === 0) return "about the same number of opportunities";
+  if (r > 0) return `${r} more ${w(r)}`;
+  return `${-r} fewer ${w(-r)}` + (inc > 0 ? ", worth more each" : "");
+}
 function list(xs){ return xs.length<=1 ? (xs[0]||"") : xs.slice(0,-1).join(", ") + " and " + xs[xs.length-1]; }
 function breakEven(active, sc){
   // spend where the next dollar returns less than $1 in closed revenue
@@ -503,7 +509,7 @@ $("#run").onclick = function(){
   $("#scen").innerHTML =
     `<div><div class="l">Spend change, 12 mo</div><div class="v">${spendDelta>=0?"+":""}${kmoney(spendDelta)}</div><div class="note">${money(curSpend)}/mo now, ${money(newSpend)}/mo recommended</div></div>` +
     ["worst","base","best"].map(k => `<div class="${k}"><div class="l">${k==="base"?"Base case":k==="worst"?"Worst case":"Best case"}, 12 mo</div>
-      <div class="v">${res[k].inc12>=0?"+":""}${kmoney(res[k].inc12)}</div><div class="note">added closed revenue</div><div class="note">${res[k].deals12>=0?"+":""}${res[k].deals12.toFixed(0)} new ${Math.round(Math.abs(res[k].deals12))===1?"opportunity":"opportunities"}</div></div>`).join("");
+      <div class="v">${res[k].inc12>=0?"+":""}${kmoney(res[k].inc12)}</div><div class="note">${res[k].inc12>=0?"added closed revenue":"closed revenue given up"}</div><div class="note">${oppText(res[k].deals12, res[k].inc12)}</div></div>`).join("");
   const maxS = Math.max(...active.map(c=>Math.max(c.S0,c.S)),1);
   $("#allocBars").innerHTML = active.map(c => `<div class="alloc-pair"><div><b>${esc(c.name)}</b></div><div class="pair">
      <div style="display:flex;align-items:center"><div class="bar cur" style="width:${c.S0/maxS*65}%"></div><span>${kmoney(c.S0)} now</span></div>

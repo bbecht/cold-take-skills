@@ -1,6 +1,12 @@
 # Changelog
 
-## Where Revenue Came From
+## Revenue by Channel
+
+### 1.1.0
+
+- Renamed from Where Revenue Came From to Revenue by Channel. The skill folder, zip and install name are now revenue-by-channel
+- Solver result reads "2 fewer opportunities, worth more each" instead of "-2 new opportunities" when a shift trades volume for value
+- Solver demo GIF added to the guide
 
 ### 1.0.0 (October 2026)
 

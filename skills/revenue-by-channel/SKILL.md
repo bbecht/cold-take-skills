@@ -1,9 +1,9 @@
 ---
-name: where-revenue-came-from
+name: revenue-by-channel
 description: Shows which channels actually produce closed revenue, from a HubSpot, Salesforce or other CRM deal export. Returns revenue, win rate and sales cycle by source, flags broken source data, and writes the readout for the user's role (CEO or owner, VP Sales or CRO, RevOps, or marketing lead). Use when someone uploads a deal or opportunity export, or asks which lead sources or marketing channels drive revenue, where to put budget, or whether their attribution data can be trusted.
 ---
 
-# Where Revenue Came From
+# Revenue by Channel
 
 One question: which channels turn into closed revenue? The math is fixed. The readout changes with the reader.
 

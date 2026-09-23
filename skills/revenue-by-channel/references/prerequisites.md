@@ -1,4 +1,4 @@
-# Before you run Where Revenue Came From
+# Before you run Revenue by Channel
 
 The skill reads what your CRM recorded. If the CRM never recorded where a deal came from, no analysis can recover it. This page covers what has to be in place, and what happens when it is not.
 

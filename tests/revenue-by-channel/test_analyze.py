@@ -1,6 +1,6 @@
-"""Regression tests for where-revenue-came-from.
+"""Regression tests for revenue-by-channel.
 
-Run from the repo root:  python tests/where-revenue-came-from/test_analyze.py
+Run from the repo root:  python tests/revenue-by-channel/test_analyze.py
 
 Each test file's expected output was checked by hand against an answer key built
 independently of the skill (see answer_keys/). These tests stop the numbers drifting.
@@ -9,7 +9,7 @@ import json, os, sys, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
-sys.path.insert(0, os.path.join(ROOT, "skills", "where-revenue-came-from", "scripts"))
+sys.path.insert(0, os.path.join(ROOT, "skills", "revenue-by-channel", "scripts"))
 import analyze  # noqa: E402
 
 KEYS = ("new_business", "renewals_excluded", "by_source", "channel_detail", "data_quality",
