@@ -25,11 +25,14 @@ If they have not uploaded one, give them the steps for their CRM from `reference
 
 ## Step 3. Run the numbers
 
-Run the script. Never compute the table by hand when the script can run.
+Run the script. The scripts live in this skill's own folder, not the working directory. Find it first:
 
 ```
-python scripts/analyze.py <file.csv> --json result.json
+SKILL_DIR=$(dirname "$(find / -path '*revenue-by-channel/scripts/analyze.py' 2>/dev/null | head -1)")/..
+python "$SKILL_DIR/scripts/analyze.py" <file.csv> --json result.json
 ```
+
+If `analyze.py` cannot be found, stop. Tell the user the skill installed without its scripts folder and to reinstall it from the zip on the GitHub release page. Never compute the table by hand: a hand count skips the duplicate, renewal, Events and campaign rules, and gives different numbers.
 
 It handles column detection, duplicates, open deals, renewals, text amounts, mixed date formats, blank sources and label variants. With a campaign column it sorts Paid Search, Paid Social and Events deals into buckets by keywords in the campaign name, and moves Offline or Other Campaigns deals whose campaign names are events into Events. Names it cannot read land in "Unclassified". Never reassign an Unclassified deal by guesswork. Every number in the readout comes from its output. Do not round differently, re-derive, or add figures it did not produce.
 
@@ -91,7 +94,7 @@ Compare marketing channels against referral and sales-sourced lines, since that 
 After the readout, build the report file and share it as a file the user can open in a browser:
 
 ```
-python scripts/build_report.py result.json --role <ceo|cro|revops|marketing> --out revenue_report.html
+python "$SKILL_DIR/scripts/build_report.py" result.json --role <ceo|cro|revops|marketing> --out revenue_report.html
 ```
 
 Tell the user in one line what it holds: the findings for their seat, charts, and a budget optimizer that needs their monthly spend per channel.

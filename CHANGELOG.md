@@ -2,6 +2,11 @@
 
 ## Revenue by Channel
 
+### 1.1.1
+
+- Zip now carries explicit folder entries so the scripts, assets and references folders survive every upload path
+- SKILL.md finds its scripts from the skill's own folder, and stops with a reinstall message if they are missing instead of counting by hand
+
 ### 1.1.0
 
 - Renamed from Where Revenue Came From to Revenue by Channel. The skill folder, zip and install name are now revenue-by-channel

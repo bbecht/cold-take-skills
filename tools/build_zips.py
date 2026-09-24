@@ -27,7 +27,10 @@ def build(name):
     out = os.path.join(DIST, name + ".zip")
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         for root, dirs, files in os.walk(folder):
-            dirs[:] = [d for d in dirs if d not in SKIP]
+            dirs[:] = sorted(d for d in dirs if d not in SKIP)
+            # explicit folder entries, so every unzip tool recreates the subfolders
+            rel = os.path.relpath(root, folder).replace(os.sep, "/")
+            z.writestr(name + "/" if rel == "." else f"{name}/{rel}/", "")
             for f in files:
                 if f in SKIP or f.endswith(".pyc"): continue
                 p = os.path.join(root, f)
