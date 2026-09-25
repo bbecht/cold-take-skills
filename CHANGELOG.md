@@ -1,5 +1,15 @@
 # Changelog
 
+## Archie
+
+### 1.0.0 (October 2026)
+
+- Binary In or Out ICP gate on every new account, from an Apollo run or new inbound
+- Evaluates each account once and never revisits it
+- Writes passing accounts to HubSpot and Notion with `lead_source_detail` on every contact
+- Reads every field back after writing
+- One digest per run, with the failing clause for every Out
+
 ## Revenue by Channel
 
 ### 1.1.1

@@ -1,14 +1,15 @@
-# The Cold Take Skills
+# Demand Gen Claude Skills by Bill Becht
 
-Free Claude skills for B2B revenue teams, one new skill each month. From [The Cold Take](https://www.marketingsystemsguild.com) by Marketing Systems Guild.
+Free Claude skills for B2B demand generation. New skills added as they ship. Built by Bill Becht, founder of [Marketing Systems Guild](https://www.marketingsystemsguild.com).
 
-Each skill does one job with your own data and gives a straight answer. Nothing is sent to us. The analysis runs inside your Claude session.
+Each skill does one job with your own data and gives a straight answer. Nothing is sent to us. Everything runs inside your Claude session.
 
 ## The skills
 
 | Skill | The question it answers | Released |
 |---|---|---|
 | [Revenue by Channel](docs/revenue-by-channel.md) | Which channels actually turn into closed revenue, and where should the next dollar go? | October 2026 |
+| [Archie](docs/archie.md) | Is this new account worth working, and where did it come from? | October 2026 |
 
 ## How do I install a skill?
 
@@ -16,7 +17,7 @@ Each skill does one job with your own data and gives a straight answer. Nothing 
 2. In Claude, go to **Customize > Skills**, click **+**, choose **Create skill**, then **Upload a skill**.
 3. Turn on code execution in your Claude settings. Skills need it.
 
-Skills work on every Claude plan, Free included. In Claude Code, unzip into `~/.claude/skills/` instead.
+Skills work on every Claude plan, Free included. Skills that write to your CRM, like Archie, also need their connectors turned on. In Claude Code, unzip into `~/.claude/skills/` instead.
 
 ## What is in this repo?
 
@@ -42,4 +43,4 @@ Found a bug or a CRM export the skill cannot read? Open an issue with the column
 MIT. Use it, change it, share it.
 
 ---
-Built by Marketing Systems Guild. Turning strangers into clients.
+Built by Bill Becht, Marketing Systems Guild. Turning strangers into clients.
