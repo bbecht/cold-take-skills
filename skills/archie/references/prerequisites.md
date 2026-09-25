@@ -5,7 +5,7 @@ Archie writes to your CRM. Everything below has to exist before the first run, o
 ## What do I need?
 
 - **A Claude plan with connectors,** and the Apollo, HubSpot and Notion connectors turned on.
-- **Your ICP** in `references/icp.md`, copied from `icp.sample.md`, or in one Notion page or doc you name at run time.
+- **Your ICP** in a Notion page or doc you name when you run Archie, written using the sections in `icp.sample.md`. In Claude Code you can instead save it as `references/icp.md` inside the skill folder.
 - **Four custom HubSpot properties.** Create them in Settings > Properties before the first run. HubSpot rejects the whole batch if one is missing.
 
 | Object | Property | Type |

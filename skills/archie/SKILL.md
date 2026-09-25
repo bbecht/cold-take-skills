@@ -32,7 +32,14 @@ Once an account is evaluated, Archie is finished with it. A human works it from 
 
 ## Read the ICP first. Every run, no exceptions.
 
-Load the ICP from `references/icp.md` in this skill's folder, or from the single external source the user names (a Notion page, a doc). If neither exists, stop and tell the user to copy `references/icp.sample.md` to `references/icp.md` and fill it in. Read the qualifying condition, targeting filter, hard exclusions, green flags, and any "superseded, do not reintroduce" rules.
+Load the ICP from one source:
+
+- A Notion page, doc or file the user names or uploads in this chat. This is the only option in claude.ai, where an installed skill cannot be edited.
+- `references/icp.md` in this skill's folder. Claude Code only.
+
+If the user names no source and `references/icp.md` does not exist, stop. Tell them to write their ICP using the structure in `references/icp.sample.md`, save it as a Notion page or doc, and name it when they run Archie.
+
+Read the qualifying condition, targeting filter, hard exclusions, green flags, and any "superseded, do not reintroduce" rules.
 
 Do not use an ICP remembered from a prior run. Stale ICPs survive silently and keep applying rules you already dropped.
 

@@ -9,7 +9,7 @@ Each skill does one job with your own data and gives a straight answer. Nothing 
 | Skill | The question it answers | Released | Download |
 |---|---|---|---|
 | [Revenue by Channel](docs/revenue-by-channel.md) | Which channels actually turn into closed revenue, and where should the next dollar go? | October 2026 | [revenue-by-channel.zip](../../releases/tag/revenue-by-channel-v1.1.1) |
-| [Archie](docs/archie.md) | Is this new account worth working, and where did it come from? | October 2026 | [archie.zip](../../releases/tag/archie-v1.0.0) |
+| [Archie](docs/archie.md) | Is this new account worth working, and where did it come from? | October 2026 | [archie.zip](../../releases/tag/archie-v1.0.1) |
 
 ## How do I install a skill?
 

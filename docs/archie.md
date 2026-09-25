@@ -24,12 +24,12 @@ Read [the prerequisites](../skills/archie/references/prerequisites.md). The shor
 
 - Apollo, HubSpot and Notion connectors turned on in Claude
 - Four custom HubSpot properties
-- Your ICP, written into [the sample template](../skills/archie/references/icp.sample.md)
+- Your ICP in a Notion page or doc, written using [the sample template](../skills/archie/references/icp.sample.md)
 
 ## How do I use it?
 
-1. Copy `icp.sample.md` to `icp.md` and replace every value with your own.
-2. Say: "Run Archie on this week's Apollo list." Or paste a new inbound lead and say: "Qualify this."
+1. Write your ICP in a Notion page or doc, using the sections in [the sample template](../skills/archie/references/icp.sample.md).
+2. Say: "Run Archie on this week's Apollo list, using the ICP at [link]." Or paste a new inbound lead and say: "Qualify this against the ICP at [link]."
 3. Read the digest. Every In, every Out and the reason for each.
 
 ## What will it not do?

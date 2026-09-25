@@ -2,6 +2,10 @@
 
 ## Archie
 
+### 1.0.1
+
+- The ICP now comes from a Notion page or doc you name at run time. Claude.ai cannot edit an installed skill, so the old copy-to-icp.md step only worked in Claude Code
+
 ### 1.0.0 (October 2026)
 
 - Binary In or Out ICP gate on every new account, from an Apollo run or new inbound
