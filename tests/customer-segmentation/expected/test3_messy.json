@@ -1,0 +1,118 @@
+{
+ "counts": {
+  "accounts": 800,
+  "deals": 1725,
+  "closed_deals": 1570,
+  "won": 568,
+  "lost": 1002,
+  "open_deals": 155,
+  "accounts_with_closed_deals": 620,
+  "customers": 346,
+  "untouched_accounts": 160
+ },
+ "data_quality": {
+  "duplicate_deals": 5,
+  "deals_without_account": 2,
+  "deals_unmatched_account": 4,
+  "unmatched_examples": [
+   "Nowhere Analytics",
+   "Phantom Freight"
+  ],
+  "won_without_value": 3,
+  "text_values_parsed": 8,
+  "blank_attributes": {
+   "Sector": 6,
+   "Employees": 4
+  },
+  "conflicting_attributes": 0,
+  "grouped_as_other": {
+   "Sector": [
+    "(Unknown)"
+   ],
+   "Country": [
+    "Iceland"
+   ]
+  },
+  "revenue_unit": "millions"
+ },
+ "stage_mapping": {
+  "Closed Lost": "lost",
+  "Closed Won": "won",
+  "Engaging": "open",
+  "Prospecting": "open"
+ },
+ "value_rule": {
+  "basis": "Employees",
+  "median_won_deal": 39300,
+  "by_band": [
+   {
+    "band": "1 to 49",
+    "won_deals": 28,
+    "value": 5800,
+    "fallback": false
+   },
+   {
+    "band": "50 to 199",
+    "won_deals": 116,
+    "value": 16900,
+    "fallback": false
+   },
+   {
+    "band": "200 to 999",
+    "won_deals": 152,
+    "value": 18100,
+    "fallback": false
+   },
+   {
+    "band": "1,000 to 4,999",
+    "won_deals": 134,
+    "value": 42050,
+    "fallback": false
+   },
+   {
+    "band": "5,000+",
+    "won_deals": 127,
+    "value": 96800,
+    "fallback": false
+   }
+  ]
+ },
+ "concentration": {
+  "won_revenue": 26132100,
+  "customers": 344,
+  "top_1_share": 0.07,
+  "top_5_share": 0.229,
+  "top_10_share": 0.287,
+  "accounts_to_half": 43,
+  "accounts_to_80pct": 142,
+  "effective_customers": 67.5
+ },
+ "model_health": {
+  "auc_logistic": 0.627,
+  "auc_forest": 0.696,
+  "primary": "forest",
+  "verdict": "directional"
+ },
+ "segments": [
+  {
+   "segment": "Core",
+   "accounts": 184,
+   "share_of_revenue": 0.422
+  },
+  {
+   "segment": "Volume",
+   "accounts": 209,
+   "share_of_revenue": 0.205
+  },
+  {
+   "segment": "Stretch",
+   "accounts": 199,
+   "share_of_revenue": 0.329
+  },
+  {
+   "segment": "Deprioritize",
+   "accounts": 208,
+   "share_of_revenue": 0.044
+  }
+ ]
+}

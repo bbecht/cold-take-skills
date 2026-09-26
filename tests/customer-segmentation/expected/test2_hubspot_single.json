@@ -1,0 +1,105 @@
+{
+ "counts": {
+  "accounts": 640,
+  "deals": 1773,
+  "closed_deals": 1622,
+  "won": 617,
+  "lost": 1005,
+  "open_deals": 151,
+  "accounts_with_closed_deals": 622,
+  "customers": 352,
+  "untouched_accounts": 0
+ },
+ "data_quality": {
+  "duplicate_deals": 0,
+  "deals_without_account": 0,
+  "deals_unmatched_account": 0,
+  "unmatched_examples": [],
+  "won_without_value": 0,
+  "text_values_parsed": 0,
+  "blank_attributes": {},
+  "conflicting_attributes": 0,
+  "grouped_as_other": {},
+  "revenue_unit": "dollars, converted to millions"
+ },
+ "stage_mapping": {
+  "Appointment Scheduled": "open",
+  "Closed Lost": "lost",
+  "Closed Won": "won",
+  "Contract Sent": "open"
+ },
+ "value_rule": {
+  "basis": "Employees",
+  "median_won_deal": 39000,
+  "by_band": [
+   {
+    "band": "1 to 49",
+    "won_deals": 49,
+    "value": 6100,
+    "fallback": false
+   },
+   {
+    "band": "50 to 199",
+    "won_deals": 134,
+    "value": 17450,
+    "fallback": false
+   },
+   {
+    "band": "200 to 999",
+    "won_deals": 168,
+    "value": 18300,
+    "fallback": false
+   },
+   {
+    "band": "1,000 to 4,999",
+    "won_deals": 154,
+    "value": 41800,
+    "fallback": false
+   },
+   {
+    "band": "5,000+",
+    "won_deals": 112,
+    "value": 97350,
+    "fallback": false
+   }
+  ]
+ },
+ "concentration": {
+  "won_revenue": 28129800,
+  "customers": 352,
+  "top_1_share": 0.068,
+  "top_5_share": 0.25,
+  "top_10_share": 0.303,
+  "accounts_to_half": 42,
+  "accounts_to_80pct": 139,
+  "effective_customers": 61.4
+ },
+ "model_health": {
+  "auc_logistic": 0.634,
+  "auc_forest": 0.7,
+  "primary": "forest",
+  "verdict": "usable"
+ },
+ "segments": [
+  {
+   "segment": "Core",
+   "accounts": 110,
+   "share_of_revenue": 0.27
+  },
+  {
+   "segment": "Volume",
+   "accounts": 188,
+   "share_of_revenue": 0.22
+  },
+  {
+   "segment": "Stretch",
+   "accounts": 175,
+   "share_of_revenue": 0.446
+  },
+  {
+   "segment": "Deprioritize",
+   "accounts": 167,
+   "share_of_revenue": 0.064
+  }
+ ]
+}

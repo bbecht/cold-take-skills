@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Segmentation</title>
+<style>
+  :root{
+    --bg:#ffffff; --surface:#ffffff; --soft:#eef2f8; --border:#bdbdbd; --ink:#000000;
+    --blue:#1d4ed8; --blue-soft:rgba(29,78,216,0.10); --amber:#d97706; --amber-soft:rgba(217,119,6,0.12);
+    --hollow:#ffffff; --btn:#000000; --btn-ink:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --bg:#000000; --surface:#0b0b0c; --soft:#1a1d24; --border:#5a5a5a; --ink:#ffffff;
+    --blue:#3b82f6; --blue-soft:rgba(59,130,246,0.16); --amber:#c77a08; --amber-soft:rgba(199,122,8,0.18);
+    --hollow:#0b0b0c; --btn:#ffffff; --btn-ink:#000000; } }
+  :root[data-theme="dark"]{
+    --bg:#000000; --surface:#0b0b0c; --soft:#1a1d24; --border:#5a5a5a; --ink:#ffffff;
+    --blue:#3b82f6; --blue-soft:rgba(59,130,246,0.16); --amber:#c77a08; --amber-soft:rgba(199,122,8,0.18);
+    --hollow:#0b0b0c; --btn:#ffffff; --btn-ink:#000000; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  b,strong,th{font-weight:600}
+  a{color:var(--ink);text-decoration:underline}
+  .wrap{max-width:1000px;margin:0 auto;padding:32px 40px 48px}
+  h1{font-size:24px;font-weight:600;margin:0 0 4px}
+  .label{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin:32px 0 8px}
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+  .cap{font-size:14px;margin:0 0 12px}
+  .roles{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 4px}
+  .roles button,.tbtn{font:inherit;font-weight:600;padding:6px 12px;border:1px solid var(--border);background:var(--surface);color:var(--ink);cursor:pointer;border-radius:8px}
+  .roles button[aria-pressed="true"]{background:var(--blue-soft);border-color:var(--blue);box-shadow:inset 0 -3px 0 var(--blue)}
+  .q{font-size:19px;font-weight:600;margin:0 0 12px}
+  .insights{display:grid;gap:8px}
+  .card{border:1px solid var(--border);border-radius:8px;padding:12px 14px;font-size:15px}
+  .card.warn{border-left:4px solid var(--amber)}
+  .card.key{border-left:4px solid var(--blue)}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:1px 8px;border-radius:999px;margin-right:6px;border:1px solid var(--ink)}
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);margin-top:14px}
+  .tiles > div{padding:4px 16px;border-left:1px solid var(--border)}
+  .tiles > div:first-child{border-left:0;padding-left:0}
+  .tiles .v{font-size:24px;font-weight:600}
+  .tiles .l{font-size:11px;text-transform:uppercase;letter-spacing:0.08em;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{border-bottom:1px solid var(--border);padding:7px 6px;text-align:right;vertical-align:middle}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:0.06em}
+  th.sort{cursor:pointer;text-decoration:underline dotted}
+  tr:last-child td{border-bottom:0}
+  .scroll{overflow-x:auto}
+  .controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:0 0 12px}
+  .controls label{font-weight:600;font-size:13px;display:flex;gap:6px;align-items:center}
+  select,input[type=search]{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:5px 8px}
+  input[type=range]{accent-color:var(--blue);width:140px}
+  input:focus,select:focus,button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+  svg text{fill:var(--ink);font-family:inherit}
+  .axis line,.axis path{stroke:var(--ink)}
+  .grid line{stroke:var(--border);stroke-dasharray:2 3}
+  .qline{stroke:var(--ink);stroke-width:1.5;stroke-dasharray:6 4}
+  .qlab{font-size:13px;font-weight:700}
+  .qsub{font-size:11px}
+  .mk{cursor:pointer}
+  .mk:hover,.mk.hl{stroke-width:3}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;margin:10px 0 0;align-items:center}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  #tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--ink);border-radius:8px;padding:8px 10px;font-size:12px;line-height:1.45;display:none;z-index:10;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,0.18)}
+  #tip b{font-size:13px}
+  .bar-row{display:grid;grid-template-columns:170px 1fr;gap:10px;align-items:center;margin:6px 0}
+  .track{position:relative;height:18px}
+  .bar{position:absolute;left:0;top:0;height:18px;border-radius:0 4px 4px 0}
+  .bar.solid{background:var(--blue)}
+  .bar.amber{background:var(--amber)}
+  .bar.hollow{background:var(--hollow);box-shadow:inset 0 0 0 2px var(--ink)}
+  .bar.hatch{background:repeating-linear-gradient(45deg,var(--hollow) 0 4px,var(--ink) 4px 5px);box-shadow:inset 0 0 0 1px var(--ink)}
+  .bar-lbl{position:absolute;top:0;white-space:nowrap;max-width:none;font-weight:600;font-size:12px;line-height:18px}
+  .sw{display:inline-block;width:18px;height:12px;border-radius:2px;vertical-align:-1px}
+  .attr{border-top:1px solid var(--border);padding:14px 0}
+  .attr:first-child{border-top:0;padding-top:0}
+  .attr h3{font-size:15px;margin:0 0 4px;font-weight:600}
+  .pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;border:1px solid var(--ink);margin-left:6px;vertical-align:1px}
+  .pill.curved{background:var(--amber-soft);border-color:var(--amber)}
+  .pill.agree{background:var(--blue-soft);border-color:var(--blue)}
+  .pill.none{border-style:dashed}
+  .attr .why{font-size:13px;margin:2px 0 8px}
+  details{border:1px solid var(--border);padding:12px 16px;border-radius:12px;margin-top:10px;background:var(--surface)}
+  details.inner{border:0;padding:6px 0 0;margin:0}
+  summary{font-weight:600;cursor:pointer}
+  .flags{display:grid;gap:8px;margin:12px 0 0}
+  .more{margin-top:10px}
+  .guide p{margin:0 0 10px}
+  .guide h4{margin:14px 0 4px;font-size:14px}
+  footer{margin-top:32px;font-size:13px;font-weight:600}
+  .hide{display:none}
+  svg.chart{display:block;width:100%;min-width:640px}
+  @media (max-width:760px){
+    .wrap{padding:20px 16px 40px}
+    .tiles{grid-template-columns:1fr 1fr;row-gap:12px}
+    .tiles > div:nth-child(3){border-left:0;padding-left:0}
+    .bar-row{grid-template-columns:110px 1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Customer Segmentation</h1>
+  <div id="meta"></div>
+
+  <div class="roles" role="group" aria-label="Choose your seat">
+    <button data-role="ceo">CEO or owner</button>
+    <button data-role="cro">VP Sales or CRO</button>
+    <button data-role="revops">RevOps</button>
+    <button data-role="marketing">Marketing lead</button>
+  </div>
+
+  <div class="label">Your question</div>
+  <div class="panel">
+    <div class="q" id="question"></div>
+    <div class="insights" id="insights"></div>
+    <div class="tiles" id="tiles"></div>
+  </div>
+
+  <div class="label">Value map</div>
+  <div class="panel">
+    <p class="cap">Every dot is an account. Right means more likely to win. Up means bigger deals. The dashed lines split accounts into four segments. Move them to test a different cut.</p>
+    <div class="controls">
+      <label>Sector <select id="fSector"><option value="">All</option></select></label>
+      <label>Status <select id="fStatus">
+        <option value="">All</option><option value="customer">Customers</option>
+        <option value="worked, not won">Worked, not won</option><option value="in pipeline">In pipeline</option>
+        <option value="untouched">Untouched</option></select></label>
+      <label>Probability line <input type="range" id="pLine" min="5" max="80" step="1"> <span id="pLineV"></span></label>
+      <label>Value line <select id="vLine"></select></label>
+      <button class="tbtn" id="reset">Reset lines</button>
+    </div>
+    <div class="scroll"><svg id="map" class="chart" viewBox="0 0 900 520" role="img" aria-label="Value map: win probability against expected deal value"></svg></div>
+    <div class="legend" id="mapLegend"></div>
+    <p class="cap" style="margin-top:10px" id="mapNote"></p>
+  </div>
+
+  <div class="label">The segments</div>
+  <div class="panel">
+    <div class="scroll"><table id="segTable"></table></div>
+  </div>
+
+  <div class="label">Concentration risk</div>
+  <div class="panel">
+    <p class="cap">How much of your won revenue rides on a few accounts. The higher the curve climbs on the left, the more exposed you are.</p>
+    <div class="tiles" id="concTiles"></div>
+    <div class="flags" id="concFlags"></div>
+    <div class="scroll" style="margin-top:14px"><svg id="curve" class="chart" viewBox="0 0 900 300" role="img" aria-label="Cumulative share of won revenue by customer rank"></svg></div>
+    <details class="inner"><summary>Top 10 accounts by won revenue</summary><div class="scroll"><table id="topTable"></table></div></details>
+    <details class="inner" id="secWrap"><summary>Won revenue by sector</summary><div id="secBars"></div></details>
+  </div>
+
+  <div class="label">Pipeline opportunity</div>
+  <div class="panel">
+    <p class="cap">What is still on the table. Open deals are weighted by each account's win probability. Untouched accounts are valued at probability times typical deal size.</p>
+    <div class="tiles" id="pipeTiles"></div>
+    <div id="pipeBars" style="margin-top:16px"></div>
+    <div class="legend"><span><i class="sw" style="background:var(--blue)"></i>Open deals, weighted</span><span><i class="sw" style="background:repeating-linear-gradient(45deg,var(--hollow) 0 3px,var(--ink) 3px 4px);box-shadow:inset 0 0 0 1px var(--ink)"></i>Untouched accounts, expected</span></div>
+    <details class="inner" open><summary>Work these next</summary>
+      <p class="cap" style="margin-top:8px">Accounts with no closed deal yet, best segment first, then highest expected value.</p>
+      <div class="scroll"><table id="targetTable"></table></div></details>
+  </div>
+
+  <div class="label">Probability of conversion</div>
+  <div class="panel">
+    <p class="cap" id="probCap"></p>
+    <div class="controls">
+      <label>Find an account <input type="search" id="search" placeholder="Type a name"></label>
+      <label><input type="checkbox" id="onlyDis"> Only where the models disagree</label>
+    </div>
+    <div class="scroll"><table id="accTable"></table></div>
+    <button class="tbtn more" id="moreBtn">Show 25 more</button>
+    <details class="inner"><summary>Does a 40% score mean 40% of deals win?</summary>
+      <p class="cap" style="margin-top:8px">This checks the scores against what happened. The outlined bar is what the model predicted. The solid bar is the share that actually won. Close together means the percentages can be taken at face value.</p>
+      <div id="calib"></div></details>
+  </div>
+
+  <div class="label">Key fit attributes</div>
+  <div class="panel">
+    <p class="cap">What separates accounts that win from accounts that lose. Each bar shows how much a model's ranking skill drops when that attribute is scrambled. Bigger drop, bigger driver. A drop from 0.73 to 0.66 shows as 7 pts. Open an attribute to see win rate by value.</p>
+    <div class="legend" style="margin:0 0 12px"><span><i class="sw" style="background:var(--blue)"></i>Random forest</span><span><i class="sw" style="background:var(--hollow);box-shadow:inset 0 0 0 2px var(--ink)"></i>Logistic regression</span></div>
+    <div id="attrs"></div>
+  </div>
+
+  <div class="label">Can the models be trusted?</div>
+  <div class="panel">
+    <div class="tiles" id="healthTiles"></div>
+    <div class="flags" id="healthFlags"></div>
+    <details class="inner"><summary>Data checks</summary><div class="scroll"><table id="dqTable"></table></div></details>
+  </div>
+
+  <details class="guide">
+    <summary>How do the two models work?</summary>
+    <h4>What does logistic regression do?</h4>
+    <p>It gives every attribute a weight, adds the weights up, and turns the total into a probability between 0% and 100%. It assumes every effect runs in a straight line: more of something is always better, or always worse. Its strength is that you can read it. Its weakness is that it misses curves, like a sweet spot in company size.</p>
+    <h4>What does random forest do?</h4>
+    <p>It grows hundreds of decision trees. Each tree asks a chain of yes or no questions, like "Over 200 employees?" then "Software?", and sees different slices of the data. The forest's probability is the share of trees that vote "win". It catches curves and combinations. It is harder to read, and its percentages bunch toward the middle.</p>
+    <h4>Why run both?</h4>
+    <p>They fail in different ways. The model that ranks unseen accounts better sets the probability. The other is a second opinion. When they disagree on an attribute, the effect is curved or conditional. When they disagree on an account, check it by hand.</p>
+    <h4>When should I not trust this?</h4>
+    <p>When the check score is under 0.60. When the data covers fewer than 300 closed deals. When your market, product or pricing changed since those deals closed. And always remember the models learn only from accounts your team chose to work. They cannot score a type of account you never tried.</p>
+    <p><a href="https://github.com/bbecht/demand-gen-claude-skills/blob/main/skills/customer-segmentation/references/model-guide.md" target="_blank" rel="noopener">Read the full plain-language guide</a></p>
+  </details>
+
+  <footer>Built by Marketing Systems Guild. Turning strangers into clients.</footer>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const START_ROLE = /*__ROLE__*/"ceo";
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct = (x, d=0) => x == null ? "n/a" : (x*100).toFixed(d) + "%";
+const money = x => { x = x || 0; const a = Math.abs(x);
+  if (a >= 1e6) return "$" + (x/1e6).toFixed(a >= 1e7 ? 1 : 2).replace(/\.?0+$/,"") + "M";
+  if (a >= 1e3) return "$" + Math.round(x/1e3) + "K"; return "$" + Math.round(x); };
+const num = x => (x||0).toLocaleString("en-US");
+const SEGS = ["Core","Volume","Stretch","Deprioritize"];
+const MEANING = {Core:"Likely to win, big deals. Work these first.", Volume:"Likely to win, smaller deals. Work them efficiently.",
+  Stretch:"Hard to win, big deals. Pursue on purpose, never by default.", Deprioritize:"Hard to win, small deals. Stop spending here."};
+const ACC = DATA.accounts, MH = DATA.model_health, CONC = DATA.concentration, PIPE = DATA.pipeline;
+const LABELS = DATA.feature_labels || {};
+const PRIMARY = MH.primary === "forest" ? "random forest" : "logistic regression";
+const OTHER = MH.primary === "forest" ? "logistic regression" : "random forest";
+const pOther = a => MH.primary === "forest" ? a.p_logistic : a.p_forest;
+let P_LINE = DATA.segment_rule.probability_line, V_LINE = DATA.segment_rule.value_line;
+
+// ---------- shapes: color = probability side, fill = value side, shape = segment ----------
+function shape(seg, x, y, s, extra){
+  extra = extra || ""; x = +x; y = +y;
+  const blue = "var(--blue)", amber = "var(--amber)", hollow = "var(--hollow)";
+  if (seg === "Core") return `<circle ${extra} cx="${x}" cy="${y}" r="${s}" fill="${blue}" stroke="${hollow}" stroke-width="1"/>`;
+  if (seg === "Volume") return `<rect ${extra} x="${x-s+1}" y="${y-s+1}" width="${2*s-2}" height="${2*s-2}" fill="${hollow}" stroke="${blue}" stroke-width="2"/>`;
+  if (seg === "Stretch") return `<path ${extra} d="M${x},${y-s-1} L${x+s+1},${y+s} L${x-s-1},${y+s} Z" fill="${amber}" stroke="${hollow}" stroke-width="1"/>`;
+  return `<path ${extra} d="M${x},${y-s-1} L${x+s+1},${y} L${x},${y+s+1} L${x-s-1},${y} Z" fill="${hollow}" stroke="${amber}" stroke-width="2"/>`;
+}
+const icon = seg => `<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" style="vertical-align:-3px">${shape(seg,8,8,5.5)}</svg>`;
+const segName = seg => `${icon(seg)} ${seg}`;
+
+function segOf(a){ const hiP = a.p >= P_LINE, hiV = a.value >= V_LINE;
+  return hiP ? (hiV ? "Core" : "Volume") : (hiV ? "Stretch" : "Deprioritize"); }
+function applyLines(){ ACC.forEach(a => { a.seg = segOf(a); }); }
+function expected(a){ return a.p * a.value; }
+
+function segStats(){
+  const tot = ACC.reduce((t,a)=>t+a.won_revenue,0) || 1;
+  return SEGS.map(s => { const xs = ACC.filter(a=>a.seg===s);
+    const won = xs.reduce((t,a)=>t+a.won,0), closed = xs.reduce((t,a)=>t+a.won+a.lost,0);
+    const rev = xs.reduce((t,a)=>t+a.won_revenue,0); const unt = xs.filter(a=>a.status==="untouched");
+    return {seg:s, accounts:xs.length, customers:xs.filter(a=>a.status==="customer").length, closed,
+      winRate: closed ? won/closed : null, rev, share: rev/tot, avgWon: won ? rev/won : 0,
+      openDeals: xs.reduce((t,a)=>t+a.open,0), openValue: xs.reduce((t,a)=>t+a.open_value,0),
+      weighted: xs.reduce((t,a)=>t+a.open_value*a.p,0), untouched: unt.length,
+      untExp: unt.reduce((t,a)=>t+expected(a),0)}; });
+}
+function targets(){ const rank = s => SEGS.indexOf(s);
+  return ACC.filter(a => a.status==="untouched" || a.status==="in pipeline")
+    .sort((a,b) => rank(a.seg)-rank(b.seg) || expected(b)-expected(a) || a.account.localeCompare(b.account)); }
+function offFit(){ const tot = ACC.reduce((t,a)=>t+a.won_revenue,0) || 1;
+  return ACC.filter(a=>a.seg==="Stretch"||a.seg==="Deprioritize").reduce((t,a)=>t+a.won_revenue,0)/tot; }
+function list(xs){ return xs.length<=1 ? (xs[0]||"") : xs.slice(0,-1).join(", ") + " and " + xs[xs.length-1]; }
+function attr(key){ return (DATA.fit_attributes||[]).find(f=>f.key===key); }
+function bestLevels(f, minDeals){ return f ? f.levels.filter(l=>l.deals>=minDeals && l.level!=="(Unknown)" && l.level!=="Other")
+  .slice().sort((a,b)=>b.win_rate-a.win_rate) : []; }
+
+// ---------- header ----------
+(function(){ const c = DATA.counts;
+  $("#meta").innerHTML = `${num(c.closed_deals)} closed deals (${num(c.won)} won) across ${num(c.accounts_with_closed_deals)} accounts. ` +
+    `${num(c.untouched_accounts)} accounts not yet worked. Probability from the ${PRIMARY}. Model check: <b>${MH.verdict}</b>.`; })();
+
+// ---------- role readouts ----------
+const QUESTIONS = {
+  ceo: "Where does our revenue come from, and how exposed are we?",
+  cro: "Which accounts should reps work first?",
+  revops: "Can I trust this model?",
+  marketing: "Who should we target, and what do they look like?"
+};
+function card(kind, tag, html){ return `<div class="card ${kind}"><span class="tag">${tag}</span>${html}</div>`; }
+function tiles(el, items){ $(el).innerHTML = items.map(([l,v]) => `<div><div class="v">${v}</div><div class="l">${l}</div></div>`).join(""); }
+
+function renderRole(role){
+  document.querySelectorAll(".roles button").forEach(b => b.setAttribute("aria-pressed", b.dataset.role===role));
+  $("#question").textContent = QUESTIONS[role];
+  const S = segStats(), by = Object.fromEntries(S.map(s=>[s.seg,s])), T = targets(), off = offFit();
+  const coreUnt = ACC.filter(a=>a.seg==="Core" && a.status==="untouched");
+  const coreUntExp = coreUnt.reduce((t,a)=>t+expected(a),0);
+  const out = [];
+  if (MH.verdict === "not usable") out.push(card("warn","Stop","The models rank accounts barely better than a coin flip. Use the win rate tables under Key fit attributes. Ignore the segments."));
+  if (role === "ceo"){
+    const c = by.Core;
+    out.push(card("key","Core", `${c.accounts} accounts are likely to win and buy big. They hold ${pct(c.share)} of won revenue and win ${pct(c.winRate)} of deals.`));
+    if (off >= 0.25) out.push(card("warn","Exposure", `${pct(off)} of won revenue comes from accounts the model rates below the line. You won them. Do not plan on winning many more like them.`));
+    else if (CONC.top_10_share >= 0.30) out.push(card("warn","Exposure", `The top 10 accounts hold ${pct(CONC.top_10_share)} of won revenue. Losing two or three of them moves the year.`));
+    else out.push(card("", "Exposure", `No small group of accounts dominates. The top 10 hold ${pct(CONC.top_10_share)} of won revenue.`));
+    out.push(card("", "Next move", coreUnt.length ? `Put new-logo effort on the ${coreUnt.length} Core accounts nobody has worked yet. Expected value: ${money(coreUntExp)}.` : `Every Core account is already worked. Grow inside Core customers before chasing Stretch.`));
+    tiles("#tiles", [["Won revenue", money(CONC.won_revenue)], ["Top 10 accounts", pct(CONC.top_10_share)], ["Core share", pct(c.share)], ["Untouched Core", coreUnt.length]]);
+  } else if (role === "cro"){
+    const top = T.slice(0,3).map(a=>`${a.account} (${a.seg}, ${pct(a.p)})`);
+    const openAll = ACC.reduce((t,a)=>t+a.open_value,0), wAll = ACC.reduce((t,a)=>t+a.open_value*a.p,0);
+    out.push(card("key","Work first", top.length ? `${list(top)}. None has a closed deal yet.` : "No unworked accounts left."));
+    out.push(card("", "Pipeline", `Open pipeline is ${money(openAll)} on paper. Weighted by each account's fit, it is ${money(wAll)}.`));
+    const st = by.Stretch;
+    out.push(card(st.openDeals ? "warn" : "", "Qualify", st.openDeals ? `${st.openDeals} open deals worth ${money(st.openValue)} sit in Stretch accounts. Qualify them hard before you forecast them.` : "No open deals sit in Stretch accounts."));
+    tiles("#tiles", [["Open pipeline", money(openAll)], ["Weighted by fit", money(wAll)], ["Open in Stretch", money(st.openValue)], ["Untouched Core", coreUnt.length]]);
+  } else if (role === "revops"){
+    out.push(card(MH.verdict==="usable" ? "key" : "warn", MH.verdict,
+      `On accounts it never saw, the ${PRIMARY} scores a won deal above a lost one ${pct(MH.auc_primary)} of the time. The ${OTHER} manages ${pct(MH.primary==="forest"?MH.auc_logistic:MH.auc_forest)}. A coin flip scores 50%.`));
+    const cal = (MH.calibration||[]).slice().sort((a,b)=>b.deals-a.deals)[0];
+    const gap = (MH.calibration||[]).filter(b=>b.deals>=30).sort((a,b)=>Math.abs(b.actual-b.predicted)-Math.abs(a.actual-a.predicted))[0];
+    if (cal) out.push(card("", "Calibration", `Where the model says ${cal.band}, ${pct(cal.actual)} of deals actually won.` + (gap && Math.abs(gap.actual-gap.predicted) >= 0.08 ? ` Biggest miss: the ${gap.band} band predicts ${pct(gap.predicted)} and wins ${pct(gap.actual)}. Use the ranking, not the exact percent.` : " The percentages hold up.")));
+    const dq = dqItems().filter(d=>d[2]>0).sort((a,b)=>b[2]-a[2]);
+    out.push(card(dq.length ? "warn" : "", "Data", (dq.length ? `Biggest data problem: ${dq[0][0].toLowerCase()} (${num(dq[0][2])}). ` : "No duplicates, orphan deals or blank attributes found. ") +
+      `The models disagree by 25 points or more on ${DATA.disagreements.count} accounts. Check those by hand.`));
+    tiles("#tiles", [["Forest check", MH.auc_forest.toFixed(2)], ["Regression check", MH.auc_logistic.toFixed(2)], ["Closed deals", num(DATA.counts.closed_deals)], ["Accounts scored", num(ACC.length)]]);
+  } else {
+    const sec = bestLevels(attr("sector"), 30), size = bestLevels(attr("employees"), 30);
+    const b = [], w = [];
+    if (sec.length){ b.push(`${sec[0].level} (${pct(sec[0].win_rate)} win rate)`); w.push(`${sec[sec.length-1].level} (${pct(sec[sec.length-1].win_rate)})`); }
+    if (size.length){ b.push(`${size[0].level} employees (${pct(size[0].win_rate)})`); w.push(`${size[size.length-1].level} employees (${pct(size[size.length-1].win_rate)})`); }
+    out.push(card("key","Best fit", b.length ? `${list(b)}. Overall win rate is ${pct(MH.base_win_rate)}.` : "No attribute has enough deals per value to name a best fit."));
+    if (w.length) out.push(card("warn","Worst fit", `${list(w)}. Exclude them from paid targeting. ${by.Deprioritize.accounts} accounts sit in Deprioritize.`));
+    const curved = (DATA.fit_attributes||[]).find(f=>f.signal==="curved");
+    if (curved) out.push(card("", "Watch", `${curved.label} is a curve, not a straight line. The middle wins and the ends lose. A simple points-based score misses this.`));
+    else { const f0 = (DATA.fit_attributes||[])[0]; if (f0) out.push(card("", "Driver", `${f0.label} separates winners from losers more than anything else in the file.`)); }
+    tiles("#tiles", [["Best sector", sec.length ? pct(sec[0].win_rate) : "n/a"], ["Best size band", size.length ? pct(size[0].win_rate) : "n/a"], ["Overall win rate", pct(MH.base_win_rate)], ["Deprioritize", by.Deprioritize.accounts]]);
+  }
+  $("#insights").innerHTML = out.join("");
+  window.__role = role;
+}
+document.querySelectorAll(".roles button").forEach(b => b.onclick = () => renderRole(b.dataset.role));
+
+// ---------- value map ----------
+const W = 900, H = 520, M = {l:78, r:20, t:20, b:52};
+const pMax = Math.min(1, Math.ceil((Math.max(...ACC.map(a=>a.p)) + 0.02) * 10) / 10);
+const vals = ACC.map(a=>a.value).filter(v=>v>0);
+const vMin = Math.min(...vals) / 1.8, vMax = Math.max(...vals) * 1.8;
+const xS = p => M.l + (p / pMax) * (W - M.l - M.r);
+const yS = v => H - M.b - (Math.log10(v) - Math.log10(vMin)) / (Math.log10(vMax) - Math.log10(vMin)) * (H - M.t - M.b);
+function hash(s){ let h = 2166136261; for (const c of s){ h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return ((h >>> 0) % 1000) / 1000; }
+ACC.forEach(a => { a.jit = (hash(a.account) - 0.5) * 0.16; });  // spread within a size band, in log units
+
+function drawMap(){
+  const fs = $("#fSector").value, fst = $("#fStatus").value;
+  const xs = ACC.filter(a => (!fs || a.sector === fs) && (!fst || a.status === fst));
+  let g = `<g class="grid">`;
+  for (let p = 0; p <= pMax + 1e-9; p += 0.1) g += `<line x1="${xS(p)}" x2="${xS(p)}" y1="${M.t}" y2="${H-M.b}"/>`;
+  g += `</g><g class="axis">`;
+  for (let p = 0; p <= pMax + 1e-9; p += 0.1) g += `<text x="${xS(p)}" y="${H-M.b+18}" text-anchor="middle" font-size="12">${Math.round(p*100)}%</text>`;
+  const ticks = [1e3,2e3,5e3,1e4,2e4,5e4,1e5,2e5,5e5,1e6].filter(v=>v>=vMin && v<=vMax);
+  ticks.forEach(v => { g += `<text x="${M.l-8}" y="${yS(v)+4}" text-anchor="end" font-size="12">${money(v)}</text><line x1="${M.l-4}" x2="${M.l}" y1="${yS(v)}" y2="${yS(v)}"/>`; });
+  g += `<line x1="${M.l}" x2="${W-M.r}" y1="${H-M.b}" y2="${H-M.b}"/><line x1="${M.l}" x2="${M.l}" y1="${M.t}" y2="${H-M.b}"/>`;
+  g += `<text x="${(M.l+W-M.r)/2}" y="${H-10}" text-anchor="middle" font-size="13" font-weight="600">Win probability</text>`;
+  g += `<text transform="translate(16,${(M.t+H-M.b)/2}) rotate(-90)" text-anchor="middle" font-size="13" font-weight="600">Typical deal value (log scale)</text></g>`;
+  const px = xS(P_LINE), vy = yS(Math.max(V_LINE, vMin));
+  g += `<line class="qline" x1="${px}" x2="${px}" y1="${M.t}" y2="${H-M.b}"/><line class="qline" x1="${M.l}" x2="${W-M.r}" y1="${vy}" y2="${vy}"/>`;
+  const q = (x, y, anchor, seg) => `<text x="${x}" y="${y}" text-anchor="${anchor}" class="qlab">${seg.toUpperCase()}</text>`;
+  g += q(W-M.r-8, M.t+16, "end", "Core") + q(W-M.r-8, H-M.b-10, "end", "Volume") + q(M.l+8, M.t+16, "start", "Stretch") + q(M.l+8, H-M.b-10, "start", "Deprioritize");
+  const order = xs.slice().sort((a,b)=>SEGS.indexOf(b.seg)-SEGS.indexOf(a.seg));
+  g += order.map(a => shape(a.seg, xS(a.p).toFixed(1), (yS(a.value) - a.jit * (H-M.t-M.b) / (Math.log10(vMax)-Math.log10(vMin))).toFixed(1), 4.5,
+    `class="mk" data-i="${ACC.indexOf(a)}"`)).join("");
+  $("#map").innerHTML = g;
+  $("#mapLegend").innerHTML = SEGS.map(s => `<span>${icon(s)}<b>${s}</b></span>`).join("") +
+    `<span>Showing ${xs.length} of ${ACC.length} accounts</span>`;
+  $("#mapNote").textContent = `Probability line: ${pct(P_LINE)} (default is your overall win rate). Value line: ${money(V_LINE)} (default is your median won deal). ` +
+    `Deal value comes from what accounts of the same ${(DATA.value_rule.basis||"size").toLowerCase()} band paid. Dots in one band are spread slightly up and down so they do not stack.`;
+}
+const tip = $("#tip");
+$("#map").addEventListener("mousemove", e => {
+  const t = e.target.closest(".mk"); if (!t){ tip.style.display = "none"; return; }
+  const a = ACC[+t.dataset.i];
+  const fmt = (k,v) => k==="revenue" ? "$" + (+v).toLocaleString("en-US",{maximumFractionDigits:1}) + "M" : k==="employees" ? num(+v) : v;
+  const attrs = Object.keys(LABELS).filter(k=>a[k]!=="" && a[k]!=null).slice(0,5).map(k=>`${esc(LABELS[k])}: ${esc(fmt(k,a[k]))}`).join("<br>");
+  tip.innerHTML = `<b>${esc(a.account)}</b><br>${segName(a.seg)} · ${esc(a.status)}<br>Win probability: <b>${pct(a.p)}</b> (${OTHER}: ${pct(pOther(a))})<br>` +
+    `Typical deal: ${money(a.value)} · Expected: ${money(expected(a))}<br>Won ${a.won}, lost ${a.lost}, open ${a.open}` + (attrs ? `<br>${attrs}` : "");
+  tip.style.display = "block";
+  const x = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8), y = Math.min(e.clientY + 14, window.innerHeight - tip.offsetHeight - 8);
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+});
+$("#map").addEventListener("mouseleave", () => tip.style.display = "none");
+
+// controls
+(function(){
+  const secs = [...new Set(ACC.map(a=>a.sector).filter(Boolean))].sort();
+  if (secs.length) $("#fSector").innerHTML += secs.map(s=>`<option>${esc(s)}</option>`).join(""); else $("#fSector").parentElement.classList.add("hide");
+  const bands = (DATA.value_rule.by_band||[]).map(b=>b.value);
+  const opts = [...new Set([DATA.segment_rule.value_line, ...bands])].sort((a,b)=>a-b);
+  $("#vLine").innerHTML = opts.map(v => `<option value="${v}">${money(v)}${v===DATA.segment_rule.value_line ? " (median won deal)" : ""}</option>`).join("");
+  $("#pLine").value = Math.round(P_LINE*100); $("#vLine").value = V_LINE;
+})();
+function syncControls(){ $("#pLineV").textContent = pct(P_LINE); }
+$("#fSector").onchange = drawMap; $("#fStatus").onchange = drawMap;
+$("#pLine").oninput = () => { P_LINE = +$("#pLine").value / 100; renderAll(); };
+$("#vLine").onchange = () => { V_LINE = +$("#vLine").value; renderAll(); };
+$("#reset").onclick = () => { P_LINE = DATA.segment_rule.probability_line; V_LINE = DATA.segment_rule.value_line;
+  $("#pLine").value = Math.round(P_LINE*100); $("#vLine").value = V_LINE; renderAll(); };
+
+// ---------- segments table ----------
+function drawSegments(){
+  const S = segStats();
+  $("#segTable").innerHTML = `<tr><th>Segment</th><th style="text-align:left">What to do</th><th>Accounts</th><th>Customers</th><th>Win rate</th><th>Won revenue</th><th>Share</th><th>Avg won deal</th></tr>` +
+    S.map(s => `<tr><td style="white-space:nowrap"><b>${segName(s.seg)}</b></td><td style="text-align:left">${MEANING[s.seg]}</td><td>${num(s.accounts)}</td><td>${num(s.customers)}</td>` +
+      `<td>${s.closed >= 10 ? pct(s.winRate) : s.closed ? `${Math.round(s.winRate*s.closed)} of ${s.closed}` : "n/a"}</td><td>${money(s.rev)}</td><td>${pct(s.share)}</td><td>${money(s.avgWon)}</td></tr>`).join("");
+}
+
+// ---------- concentration ----------
+function drawConcentration(){
+  const off = offFit();
+  tiles("#concTiles", [["Largest account", pct(CONC.top_1_share)], ["Top 10 accounts", pct(CONC.top_10_share)],
+    ["Accounts to reach half", `${CONC.accounts_to_half} of ${CONC.customers}`], ["Revenue from off-fit accounts", pct(off)]]);
+  const flags = (CONC.flags||[]).filter(f => !/rate below the line/.test(f));
+  if (off >= 0.25) flags.push(`${pct(off)} of won revenue comes from accounts the models rate below the line. Revenue rests on accounts that do not fit.`);
+  $("#concFlags").innerHTML = flags.length ? flags.map(f => card("warn","Risk",esc(f))).join("") : card("", "OK", "No concentration flag. No account holds 10% or more, and the top 10 hold under 30%.");
+  const c = CONC.curve || [], n = c.length, w = 900, h = 300, m = {l:56, r:20, t:14, b:40};
+  const x = i => m.l + (i / Math.max(1, n)) * (w - m.l - m.r), y = v => h - m.b - v * (h - m.t - m.b);
+  let g = `<g class="grid">` + [0.25,0.5,0.75,1].map(v=>`<line x1="${m.l}" x2="${w-m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g><g class="axis">`;
+  [0,0.25,0.5,0.75,1].forEach(v => g += `<text x="${m.l-8}" y="${y(v)+4}" text-anchor="end" font-size="12">${v*100}%</text>`);
+  g += `<line x1="${m.l}" x2="${w-m.r}" y1="${h-m.b}" y2="${h-m.b}"/><line x1="${m.l}" x2="${m.l}" y1="${m.t}" y2="${h-m.b}"/>`;
+  g += `<text x="${(m.l+w-m.r)/2}" y="${h-8}" text-anchor="middle" font-size="13" font-weight="600">Customers, largest first (${n} in total)</text></g>`;
+  g += `<line x1="${x(0)}" y1="${y(0)}" x2="${x(n)}" y2="${y(1)}" stroke="var(--ink)" stroke-dasharray="3 4" stroke-width="1"/>`;
+  g += `<text x="${x(n*0.62)}" y="${y(0.62)+18}" font-size="12">Every customer equal</text>`;
+  const pts = [[0,0]].concat(c.map((v,i)=>[i+1,v]));
+  g += `<path d="M${pts.map(p=>x(p[0]).toFixed(1)+","+y(p[1]).toFixed(1)).join(" L")}" fill="none" stroke="var(--blue)" stroke-width="2.5"/>`;
+  [[CONC.accounts_to_half, 0.5], [CONC.accounts_to_80pct, 0.8]].forEach(([k, v]) => {
+    g += `<circle cx="${x(k)}" cy="${y(c[k-1])}" r="5" fill="var(--amber)" stroke="var(--ink)" stroke-width="1"/>` +
+         `<text x="${x(k)+9}" y="${y(c[k-1])+4}" font-size="12" font-weight="600">${k} accounts = ${v*100}% of revenue</text>`; });
+  $("#curve").innerHTML = g;
+  const segMap = Object.fromEntries(ACC.map(a=>[a.account,a.seg]));
+  $("#topTable").innerHTML = `<tr><th>Account</th><th>Segment</th><th>Won revenue</th><th>Share</th></tr>` +
+    CONC.top_accounts.map(t => `<tr><td>${esc(t.account)}</td><td>${segName(segMap[t.account])}</td><td>${money(t.won_revenue)}</td><td>${pct(t.share,1)}</td></tr>`).join("");
+  const bs = CONC.by_sector || [];
+  if (!bs.length) $("#secWrap").classList.add("hide");
+  const mx = Math.max(...bs.map(b=>b.share), 0.01);
+  $("#secBars").innerHTML = bs.map(b => `<div class="bar-row"><div>${esc(b.sector)}</div><div class="track"><div class="bar solid" style="width:${b.share/mx*70}%"></div><span class="bar-lbl" style="left:calc(${b.share/mx*70}% + 8px)">${pct(b.share)}</span></div></div>`).join("");
+}
+
+// ---------- pipeline ----------
+function drawPipeline(){
+  const S = segStats();
+  const openAll = ACC.reduce((t,a)=>t+a.open_value,0), wAll = S.reduce((t,s)=>t+s.weighted,0);
+  const unt = ACC.filter(a=>a.status==="untouched");
+  tiles("#pipeTiles", [["Open pipeline", money(openAll)], ["Weighted by fit", money(wAll)], ["Untouched accounts", num(unt.length)], ["Untouched, expected", money(S.reduce((t,s)=>t+s.untExp,0))]]);
+  const mx = Math.max(...S.map(s=>s.weighted + s.untExp), 1);
+  $("#pipeBars").innerHTML = S.map(s => { const a = s.weighted/mx*92, b = s.untExp/mx*92;
+    return `<div class="bar-row" style="align-items:start;margin:10px 0"><div>${segName(s.seg)}</div><div><div class="track"><div class="bar solid" style="width:${a}%"></div>` +
+      `<div class="bar hatch" style="left:calc(${a}% + 2px);width:${b}%;border-radius:0 4px 4px 0"></div></div>` +
+      `<div style="font-size:12px;font-weight:600;margin-top:3px">${money(s.weighted)} open + ${money(s.untExp)} untouched (${s.untouched} accounts)</div></div></div>`; }).join("");
+  const T = targets().slice(0, 25);
+  $("#targetTable").innerHTML = `<tr><th>Account</th><th>Segment</th><th>Status</th><th>Win probability</th><th>Typical deal</th><th>Expected value</th></tr>` +
+    T.map(a => `<tr><td>${esc(a.account)}${a.disagree ? ' <span class="tag" title="The two models differ by 25 points or more">Check</span>' : ""}</td><td>${segName(a.seg)}</td><td>${esc(a.status)}</td><td>${pct(a.p)}</td><td>${money(a.value)}</td><td>${money(expected(a))}</td></tr>`).join("");
+}
+
+// ---------- account table ----------
+let SORT = {k:"p", d:-1}, SHOWN = 25;
+const COLS = [["account","Account"],["seg","Segment"],["status","Status"],["p","Win probability"],["other",OTHER.replace(/^./,c=>c.toUpperCase())],["value","Typical deal"],["won_revenue","Won revenue"]];
+function drawAccounts(){
+  const q = $("#search").value.trim().toLowerCase(), dis = $("#onlyDis").checked;
+  let xs = ACC.filter(a => (!q || a.account.toLowerCase().includes(q)) && (!dis || a.disagree));
+  const val = (a,k) => k==="other" ? pOther(a) : k==="seg" ? SEGS.indexOf(a.seg) : a[k];
+  xs.sort((a,b) => { const x = val(a,SORT.k), y = val(b,SORT.k); return (typeof x === "string" ? x.localeCompare(y) : x - y) * SORT.d; });
+  $("#accTable").innerHTML = `<tr>${COLS.map(([k,l]) => `<th class="sort" data-k="${k}">${l}${SORT.k===k ? (SORT.d<0?" ▼":" ▲") : ""}</th>`).join("")}</tr>` +
+    xs.slice(0, SHOWN).map(a => `<tr><td>${esc(a.account)}${a.disagree ? ' <span class="tag">Check</span>' : ""}</td><td>${segName(a.seg)}</td><td>${esc(a.status)}</td>` +
+      `<td><b>${pct(a.p)}</b></td><td>${pct(pOther(a))}</td><td>${money(a.value)}</td><td>${money(a.won_revenue)}</td></tr>`).join("");
+  $("#moreBtn").classList.toggle("hide", xs.length <= SHOWN);
+  document.querySelectorAll("#accTable th.sort").forEach(th => th.onclick = () => {
+    SORT = {k: th.dataset.k, d: SORT.k === th.dataset.k ? -SORT.d : (th.dataset.k==="account" ? 1 : -1)}; drawAccounts(); });
+}
+$("#search").oninput = () => { SHOWN = 25; drawAccounts(); };
+$("#onlyDis").onchange = () => { SHOWN = 25; drawAccounts(); };
+$("#moreBtn").onclick = () => { SHOWN += 25; drawAccounts(); };
+$("#probCap").textContent = `Every account's chance of winning a deal, from the ${PRIMARY}. The ${OTHER} column is the second opinion. ` +
+  `Accounts with history were scored by models that never saw them. "Check" marks a gap of 25 points or more between the two.`;
+
+function drawCalibration(){
+  const C = MH.calibration || [];
+  $("#calib").innerHTML = C.map(b => `<div class="bar-row"><div><b>${b.band}</b><br><span style="font-size:12px">${num(b.deals)} deals</span></div><div>` +
+    `<div class="track" style="margin-bottom:4px"><div class="bar hollow" style="width:${b.predicted*80}%"></div><span class="bar-lbl" style="left:calc(${b.predicted*80}% + 8px)">Predicted ${pct(b.predicted)}</span></div>` +
+    `<div class="track"><div class="bar solid" style="width:${b.actual*80}%"></div><span class="bar-lbl" style="left:calc(${b.actual*80}% + 8px)">Actually won ${pct(b.actual)}</span></div></div></div>`).join("");
+}
+
+// ---------- fit attributes ----------
+const SIGNAL = {
+  curved: ["Curved", "The forest sees it and the straight line misses it. The effect bends: the middle beats both ends, or it only matters in combination."],
+  linear: ["Straight line", "Both see it, the regression more. A steady more-is-better or more-is-worse effect."],
+  agree: ["Both agree", "Both models rank it a driver. Trust it most."],
+  weak: ["Weak", "Real but small. Use it as a tiebreaker, never as a filter."],
+  none: ["No signal", "Scrambling it barely moves either model. It does not predict a win. Stop using it to target."]
+};
+function drawAttributes(){
+  const F = DATA.fit_attributes || [];
+  const mx = Math.max(...F.map(f=>Math.max(f.importance_forest, f.importance_logistic)), 0.001);
+  $("#attrs").innerHTML = F.map(f => {
+    const [name, why] = SIGNAL[f.signal] || ["",""];
+    const bar = (v, cls, lab) => `<div class="bar-row" style="margin:3px 0"><div style="font-size:12px">${lab}</div><div class="track"><div class="bar ${cls}" style="width:${Math.max(0.5, v/mx*70)}%"></div><span class="bar-lbl" style="left:calc(${Math.max(0.5, v/mx*70)}% + 8px)">${(v*100).toFixed(1)} pts</span></div></div>`;
+    const lm = Math.max(...f.levels.map(l=>l.win_rate||0), 0.01);
+    const rows = f.levels.map(l => `<tr><td>${esc(l.level)}</td><td>${num(l.deals)}</td>` +
+      `<td style="width:38%"><div class="track"><div class="bar solid" style="width:${(l.win_rate||0)/lm*72}%"></div><span class="bar-lbl" style="left:calc(${(l.win_rate||0)/lm*72}% + 6px)">${l.deals >= 10 ? pct(l.win_rate) : `${l.won} of ${l.deals}`}</span></div></td>` +
+      `<td>${l.deals >= 10 ? l.lift.toFixed(2) + "x" : "n/a"}</td><td>${l.lr_odds != null ? l.lr_odds.toFixed(2) + "x" : "n/a"}</td></tr>`).join("");
+    const sdNote = f.logistic_odds_per_sd != null ? `<p class="cap" style="margin:8px 0 0">Regression reading: one standard step up in ${esc(f.label.toLowerCase())} multiplies the odds of winning by ${f.logistic_odds_per_sd.toFixed(2)}x. Near 1.00x means no straight-line effect.</p>` : "";
+    return `<div class="attr"><h3>${esc(f.label)}<span class="pill ${f.signal}">${name}</span></h3><div class="why">${why}</div>` +
+      bar(f.importance_forest, "solid", "Random forest") + bar(f.importance_logistic, "hollow", "Logistic regression") +
+      `<details class="inner"><summary>Win rate by ${esc(f.label.toLowerCase())}</summary><div class="scroll"><table>` +
+      `<tr><th>Value</th><th>Closed deals</th><th style="text-align:left">Win rate</th><th>Vs overall</th><th>Regression odds</th></tr>${rows}</table></div>${sdNote}</details></div>`;
+  }).join("");
+}
+
+// ---------- model health ----------
+function dqItems(){ const d = DATA.data_quality || {};
+  const blanks = Object.values(d.blank_attributes||{}).reduce((t,v)=>t+v,0);
+  const grouped = Object.entries(d.grouped_as_other||{}).map(([k,v])=>`${k}: ${v.join(", ")}`).join("; ");
+  return [["Duplicate deals removed", "Counted once", d.duplicate_deals||0],
+    ["Deals naming an account not in the accounts file", (d.unmatched_examples||[]).join(", ") || "", d.deals_unmatched_account||0],
+    ["Deals with no account name", "", d.deals_without_account||0],
+    ["Won deals with no value", "Count toward win rate, not deal value", d.won_without_value||0],
+    ["Text amounts read as numbers", "", d.text_values_parsed||0],
+    ["Blank attribute values", Object.entries(d.blank_attributes||{}).map(([k,v])=>`${k}: ${v}`).join("; "), blanks],
+    ["Accounts with conflicting attributes", "First value kept", d.conflicting_attributes||0],
+    ["Small categories grouped as Other", grouped, grouped ? Object.values(d.grouped_as_other).reduce((t,v)=>t+v.length,0) : 0]];
+}
+function drawHealth(){
+  tiles("#healthTiles", [["Forest check score", MH.auc_forest.toFixed(2)], ["Regression check score", MH.auc_logistic.toFixed(2)], ["Verdict", MH.verdict], ["Model disagreements", DATA.disagreements.count]]);
+  const f = [];
+  f.push(card(MH.verdict === "usable" ? "key" : "warn", "Check score", `The check score is how often a model ranks a won deal above a lost one, on accounts it never saw. 0.50 is a coin flip. 0.70 and up is usable. 0.60 to 0.70 is directional. This file: ${MH.auc_primary.toFixed(2)}, from the ${PRIMARY}.`));
+  (DATA.warnings||[]).forEach(w => f.push(card("warn","Warning",esc(w))));
+  f.push(card("", "Method", esc(MH.method) + ` ${MH.folds} rounds.`));
+  $("#healthFlags").innerHTML = f.join("");
+  $("#dqTable").innerHTML = `<tr><th>Check</th><th>Count</th><th style="text-align:left">Detail</th></tr>` +
+    dqItems().map(([a,b,c]) => `<tr><td>${a}</td><td>${num(c)}</td><td style="text-align:left">${esc(c ? b : "")}</td></tr>`).join("");
+}
+
+function renderAll(){ applyLines(); syncControls(); drawMap(); drawSegments(); drawConcentration(); drawPipeline(); drawAccounts(); renderRole(window.__role || START_ROLE); }
+drawCalibration(); drawAttributes(); drawHealth();
+renderAll();
+renderRole(QUESTIONS[START_ROLE] ? START_ROLE : "ceo");
+</script>
+</body>
+</html>

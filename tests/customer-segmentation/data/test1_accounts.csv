@@ -1,0 +1,801 @@
+account,sector,year_established,revenue,employees,office_location,subsidiary_of
+Aldercroft Academy,Education,1982,4163.63,12834,Canada,
+Aldercroft Clinics,Healthcare,1977,7.87,56,Canada,
+Aldercroft Components,Manufacturing,2002,6723.89,17581,Canada,
+Aldercroft Diagnostics,Healthcare,2009,2360.6,6032,United Kingdom,
+Aldercroft Fabrication,Manufacturing,1997,65.88,299,United States,
+Aldercroft Health,Healthcare,2016,5239.79,19822,United States,
+Aldercroft Institute,Education,2002,7549.23,32909,United States,Keystone Partners
+Aldercroft Labs,Software,2020,9.76,49,United States,Meridian Collective
+Aldercroft Lending,Financial services,1989,8177.97,23155,United States,
+Aldercroft Market,Retail,2020,6.24,20,United States,
+Aldercroft Networks,Telecommunications,1993,18.86,129,United States,
+Aldercroft Outfitters,Retail,1971,272.08,1319,United States,
+Aldercroft Retail,Retail,2017,2.48,17,United States,
+Aldercroft Schools,Education,2002,12530.58,32747,United States,
+Aldercroft Software,Software,1973,6991.93,30158,United States,
+Aldercroft Stores,Retail,2003,5.67,29,United Kingdom,
+Aldercroft Telecom,Telecommunications,2005,619.71,2165,Australia,
+Aldercroft Works,Manufacturing,1980,10.93,69,Brazil,Tallis Industries
+Ashgrove Advisory,Professional services,1994,14.96,51,United States,
+Ashgrove Capital,Financial services,1998,23.13,61,United States,
+Ashgrove Care,Healthcare,1972,16.96,57,United States,Keystone Partners
+Ashgrove Clinics,Healthcare,2000,855.42,6354,Canada,
+Ashgrove Consulting,Professional services,2015,18.36,84,United States,Northgate Holdings
+Ashgrove Data,Software,1998,8.91,74,United States,
+Ashgrove Financial,Financial services,2012,332.51,941,Germany,Meridian Collective
+Ashgrove Insurance,Financial services,1969,6539.36,19942,United States,Meridian Collective
+Ashgrove Labs,Software,1982,1920.43,6948,United States,Brightwater Group
+Ashgrove Learning,Education,2013,186.62,476,United States,
+Ashgrove Lending,Financial services,2018,35.79,206,United States,
+Ashgrove Market,Retail,2005,18.27,149,United States,
+Ashgrove Medical,Healthcare,2001,201.47,922,United States,
+Ashgrove Outfitters,Retail,1989,330.68,1911,United States,
+Ashgrove Software,Software,1999,68.74,281,United States,
+Ashgrove Stores,Retail,1999,60.59,307,United States,
+Beacon Advisory,Professional services,2018,1679.21,4492,Australia,
+Beacon Capital,Financial services,1987,1781.25,7186,United States,
+Beacon Clinics,Healthcare,1970,638.85,1676,United States,Northgate Holdings
+Beacon Cloud,Software,1982,233.6,652,United States,
+Beacon Consulting,Professional services,2005,241.75,828,United States,
+Beacon Data,Software,2003,7.14,30,United States,
+Beacon Education,Education,1978,27.82,108,United States,
+Beacon Financial,Financial services,1988,5313.36,20035,United States,
+Beacon Health,Healthcare,1978,3.19,16,United States,
+Beacon Industries,Manufacturing,2012,9365.84,33732,United States,Keystone Partners
+Beacon Institute,Education,2003,2406.21,19827,United States,
+Beacon Manufacturing,Manufacturing,2011,801.44,2196,United States,
+Beacon Market,Retail,1967,18.83,53,United Kingdom,
+Beacon Software,Software,1985,75.36,316,Canada,
+Beacon Wireless,Telecommunications,2004,12.62,76,United States,
+Beacon Works,Manufacturing,1998,86.1,224,United States,Keystone Partners
+Bluestone Advisory,Professional services,1989,12.59,77,United States,
+Bluestone Capital,Financial services,2019,18.09,127,United States,
+Bluestone Cloud,Software,1983,205.83,900,Australia,
+Bluestone Data,Software,2020,639.63,1725,United States,
+Bluestone Diagnostics,Healthcare,1982,638.89,4961,Canada,Northgate Holdings
+Bluestone Health,Healthcare,1979,654.9,3946,United States,
+Bluestone Institute,Education,1973,7.52,20,Canada,
+Bluestone Insurance,Financial services,1970,241.14,735,United States,Meridian Collective
+Bluestone Learning,Education,1975,26.2,169,Brazil,
+Bluestone Market,Retail,1966,30.2,158,United States,
+Bluestone Outfitters,Retail,1973,48.45,185,United States,
+Bluestone Partners,Professional services,2019,7810.33,28525,United States,Meridian Collective
+Bluestone Stores,Retail,2005,1900.39,6853,United States,
+Bluestone Telecom,Telecommunications,1968,229.49,1150,United States,Tallis Industries
+Bluestone Works,Manufacturing,2011,3902.08,11911,United States,Northgate Holdings
+Brackett Advisors,Financial services,1970,113.41,376,United States,Keystone Partners
+Brackett Advisory,Professional services,1999,779.62,4450,United States,Keystone Partners
+Brackett Care,Healthcare,1975,3602.25,13324,Canada,
+Brackett Clinics,Healthcare,1971,54.38,170,United States,
+Brackett Diagnostics,Healthcare,2002,5.39,31,United States,
+Brackett Fabrication,Manufacturing,1969,1691.02,4242,Canada,
+Brackett Health,Healthcare,1993,13.94,40,United States,
+Brackett Manufacturing,Manufacturing,1975,4.86,18,United States,
+Brackett Market,Retail,1968,13.2,36,United States,
+Brackett Networks,Telecommunications,2014,19.06,73,United States,
+Brackett Partners,Professional services,2009,2537.56,8415,United States,
+Brackett Schools,Education,2017,27.26,105,Brazil,Tallis Industries
+Brackett Software,Software,2010,34.14,142,United States,Brightwater Group
+Brackett Systems,Software,1990,86.51,314,United States,
+Brackett Telecom,Telecommunications,2010,424.25,1839,United States,
+Brackett Works,Manufacturing,1996,346.88,2120,Germany,
+Brightline Advisory,Professional services,1967,782.64,2075,United States,
+Brightline Associates,Professional services,2020,789.06,2040,United States,
+Brightline Capital,Financial services,1965,1365.89,3608,Canada,
+Brightline Clinics,Healthcare,2009,35.26,202,United States,Meridian Collective
+Brightline Health,Healthcare,1990,2490.53,9357,Canada,
+Brightline Industries,Manufacturing,2005,571.78,3187,United Kingdom,
+Brightline Learning,Education,2020,4300.12,16485,United States,
+Brightline Lending,Financial services,1987,198.64,539,United States,
+Brightline Manufacturing,Manufacturing,2014,28.83,110,United States,
+Brightline Retail,Retail,2008,10.25,66,United Kingdom,
+Brightline Schools,Education,1997,96.44,432,Canada,Brightwater Group
+Brightline Wireless,Telecommunications,2017,5.24,32,United States,
+Calder Academy,Education,2020,1641.42,4652,Germany,Keystone Partners
+Calder Advisory,Professional services,2003,250.46,1077,United States,Tallis Industries
+Calder Associates,Professional services,2012,21.87,100,Germany,
+Calder Capital,Financial services,2012,8.56,22,United States,
+Calder Care,Healthcare,2014,3450.13,11758,United States,
+Calder Clinics,Healthcare,1979,28.41,134,United States,Keystone Partners
+Calder Cloud,Software,2005,2724.65,8075,United States,Northgate Holdings
+Calder Communications,Telecommunications,1991,5990.16,24078,United Kingdom,
+Calder Components,Manufacturing,2016,1594.4,7313,Brazil,
+Calder Consulting,Professional services,1982,7524.46,38144,United States,Northgate Holdings
+Calder Data,Software,1977,7.11,27,United States,
+Calder Diagnostics,Healthcare,2015,40.13,319,United States,
+Calder Fabrication,Manufacturing,2012,1286.7,8047,Australia,
+Calder Goods,Retail,1969,6.01,31,United States,
+Calder Group,Professional services,2010,1052.65,2936,Australia,
+Calder Insurance,Financial services,1972,15.79,43,United States,
+Calder Labs,Software,2016,2477.64,18335,United States,Tallis Industries
+Calder Learning,Education,1969,958.09,2777,United States,
+Calder Manufacturing,Manufacturing,1988,3.16,25,United States,
+Calder Schools,Education,1967,594.97,2024,Germany,
+Calder Systems,Software,1968,21.03,168,United Kingdom,
+Calder Telecom,Telecommunications,1998,9.54,30,United States,
+Calder Wireless,Telecommunications,2004,42.87,232,United States,
+Calder Works,Manufacturing,1981,7.43,22,United States,
+Cedar Care,Healthcare,2005,49.66,387,United States,
+Cedar Cloud,Software,2017,10142.18,26431,United States,Halvorsen Capital
+Cedar Communications,Telecommunications,1980,60.54,178,United States,Halvorsen Capital
+Cedar Consulting,Professional services,2015,247.09,893,United States,Meridian Collective
+Cedar Data,Software,2005,1630.7,7252,United States,
+Cedar Diagnostics,Healthcare,1981,17.23,58,United States,
+Cedar Fabrication,Manufacturing,2011,816.32,3747,United States,Northgate Holdings
+Cedar Health,Healthcare,1973,346.59,992,Australia,Keystone Partners
+Cedar Industries,Manufacturing,2001,3738.28,10645,United States,
+Cedar Insurance,Financial services,2010,13.76,35,United States,Northgate Holdings
+Cedar Manufacturing,Manufacturing,1970,3117.03,9018,United Kingdom,
+Cedar Partners,Professional services,1996,11.05,68,United States,
+Cedar Retail,Retail,2006,81.35,206,United States,Halvorsen Capital
+Cedar Schools,Education,1992,174.42,1169,United States,Halvorsen Capital
+Cedar Works,Manufacturing,2003,1133.57,5262,Canada,
+Clearpath Advisory,Professional services,2007,8.03,49,United States,
+Clearpath Associates,Professional services,2003,18.34,50,United States,
+Clearpath Capital,Financial services,1970,6177.86,23059,United States,
+Clearpath Care,Healthcare,1965,10.89,33,Canada,
+Clearpath Fiber,Telecommunications,1989,485.8,1396,United States,
+Clearpath Financial,Financial services,1985,53.87,412,United States,
+Clearpath Goods,Retail,2018,160.84,616,Australia,Northgate Holdings
+Clearpath Industries,Manufacturing,2019,425.19,3304,Japan,Tallis Industries
+Clearpath Institute,Education,1998,194.83,493,United States,
+Clearpath Insurance,Financial services,2019,42.99,170,United States,
+Clearpath Learning,Education,2007,395.88,1620,United Kingdom,Halvorsen Capital
+Clearpath Lending,Financial services,1992,12.61,95,United States,
+Clearpath Manufacturing,Manufacturing,1990,9002.77,27977,Australia,
+Clearpath Retail,Retail,1971,141.1,388,Canada,
+Clearpath Software,Software,2001,2629.7,16194,United States,
+Copperline Academy,Education,1967,554.94,2256,United States,
+Copperline Capital,Financial services,1983,6316.44,18760,United States,
+Copperline Care,Healthcare,1983,3460.55,12707,Canada,Tallis Industries
+Copperline Clinics,Healthcare,2008,44.66,141,United States,
+Copperline Cloud,Software,2002,18.41,51,United Kingdom,
+Copperline Components,Manufacturing,1978,144.28,1032,United States,Tallis Industries
+Copperline Consulting,Professional services,1974,139.06,731,United States,
+Copperline Diagnostics,Healthcare,1974,155.82,525,United States,
+Copperline Fabrication,Manufacturing,1983,90.21,302,United States,
+Copperline Financial,Financial services,1966,5790.24,27959,Canada,
+Copperline Goods,Retail,2017,801.66,5239,United States,Keystone Partners
+Copperline Health,Healthcare,2005,2376.59,12802,United States,
+Copperline Labs,Software,1986,565.46,1458,United States,
+Copperline Manufacturing,Manufacturing,1980,97.13,352,United States,
+Copperline Outfitters,Retail,2013,20.4,59,Brazil,
+Copperline Partners,Professional services,2006,273.92,1139,United States,Brightwater Group
+Copperline Retail,Retail,2007,1733.16,6055,United States,Meridian Collective
+Copperline Software,Software,1970,169.31,551,United Kingdom,Halvorsen Capital
+Copperline Stores,Retail,1969,162.38,490,United States,
+Copperline Systems,Software,1992,8.49,30,United States,
+Copperline Telecom,Telecommunications,2014,9.18,26,Canada,Halvorsen Capital
+Copperline Works,Manufacturing,1965,3481.9,13987,United States,
+Driftwood Academy,Education,1978,31.14,181,United Kingdom,Keystone Partners
+Driftwood Advisors,Financial services,2012,33.93,129,United States,
+Driftwood Care,Healthcare,2014,376.07,1292,United States,
+Driftwood Clinics,Healthcare,1997,1407.9,3559,United States,
+Driftwood Cloud,Software,1998,47.15,208,United Kingdom,
+Driftwood Communications,Telecommunications,1985,3462.93,8910,United States,Keystone Partners
+Driftwood Components,Manufacturing,1972,3045.94,10158,United States,
+Driftwood Data,Software,1991,425.96,1228,Germany,
+Driftwood Fabrication,Manufacturing,2009,10954.9,37011,United States,
+Driftwood Fiber,Telecommunications,1998,126.53,822,United States,
+Driftwood Group,Professional services,2001,54.32,204,United States,
+Driftwood Health,Healthcare,1976,98.28,353,Australia,
+Driftwood Industries,Manufacturing,1971,3986.83,17374,United States,
+Driftwood Insurance,Financial services,2017,23.41,73,United States,
+Driftwood Lending,Financial services,2006,148.91,374,Australia,
+Driftwood Medical,Healthcare,1984,1732.49,13980,United States,
+Driftwood Networks,Telecommunications,1992,485.33,2846,United States,Brightwater Group
+Driftwood Systems,Software,1969,10060.89,27195,United States,
+Driftwood Telecom,Telecommunications,1970,48.03,177,Brazil,Brightwater Group
+Driftwood Works,Manufacturing,1974,3606.69,10169,Canada,
+Dunmore Academy,Education,2019,267.2,1358,United States,
+Dunmore Advisory,Professional services,2002,1731.3,8345,United States,
+Dunmore Associates,Professional services,1983,254.78,916,United States,
+Dunmore Clinics,Healthcare,1969,1046.38,3630,United Kingdom,Keystone Partners
+Dunmore Cloud,Software,2016,12119.55,37212,Canada,
+Dunmore Components,Manufacturing,1989,874.97,2425,Japan,
+Dunmore Consulting,Professional services,2006,345.36,2629,United States,
+Dunmore Data,Software,1975,37.73,120,United States,
+Dunmore Diagnostics,Healthcare,2002,8.01,33,United States,Tallis Industries
+Dunmore Education,Education,2005,818.82,2412,Japan,
+Dunmore Fiber,Telecommunications,1988,3205.51,20747,United States,Brightwater Group
+Dunmore Health,Healthcare,2008,636.51,3776,United Kingdom,Meridian Collective
+Dunmore Industries,Manufacturing,1991,4353.27,14131,Canada,
+Dunmore Learning,Education,1966,3079.86,9584,United States,Meridian Collective
+Dunmore Manufacturing,Manufacturing,1967,888.72,5944,Canada,
+Dunmore Medical,Healthcare,2013,3181.64,11666,United States,
+Dunmore Outfitters,Retail,2001,36.06,121,Germany,
+Dunmore Retail,Retail,2019,699.74,3155,United States,
+Dunmore Schools,Education,2013,329.66,1929,Canada,
+Dunmore Software,Software,2008,2529.79,13243,Brazil,Halvorsen Capital
+Dunmore Stores,Retail,2014,12.52,54,United Kingdom,
+Dunmore Systems,Software,2014,28.89,120,United States,Halvorsen Capital
+Dunmore Telecom,Telecommunications,1979,7941.74,19937,United States,Meridian Collective
+Everly Academy,Education,1965,8.8,50,Canada,
+Everly Advisors,Financial services,1992,6479.92,32831,United States,Brightwater Group
+Everly Cloud,Software,2019,188.85,709,United States,
+Everly Consulting,Professional services,1973,346.05,902,Germany,
+Everly Data,Software,2020,1532.0,3844,Germany,
+Everly Education,Education,1984,156.62,692,Australia,Meridian Collective
+Everly Fabrication,Manufacturing,2003,182.07,484,Canada,
+Everly Goods,Retail,2017,93.03,374,United States,
+Everly Group,Professional services,1973,4641.22,17029,United States,
+Everly Manufacturing,Manufacturing,2014,53.62,242,United States,
+Everly Market,Retail,2002,119.19,337,United States,
+Everly Retail,Retail,1974,2154.37,7614,Germany,Halvorsen Capital
+Everly Software,Software,1993,11220.16,32372,United States,Halvorsen Capital
+Everly Stores,Retail,1983,4289.7,11456,United States,
+Everly Systems,Software,1985,1230.23,7100,United States,
+Everly Works,Manufacturing,1999,4591.65,14444,United States,
+Fairhaven Cloud,Software,1999,32.42,82,United States,
+Fairhaven Components,Manufacturing,1992,5.11,18,United Kingdom,
+Fairhaven Data,Software,2007,3297.76,8854,United States,
+Fairhaven Diagnostics,Healthcare,2007,5.37,39,Japan,
+Fairhaven Group,Professional services,2019,176.18,508,United States,
+Fairhaven Industries,Manufacturing,1978,7070.71,22283,United States,
+Fairhaven Insurance,Financial services,2005,6966.05,20871,United States,
+Fairhaven Labs,Software,1990,126.17,1007,United States,
+Fairhaven Medical,Healthcare,1996,4.46,37,United States,Meridian Collective
+Fairhaven Partners,Professional services,2016,99.63,703,Canada,
+Fairhaven Retail,Retail,1972,11.03,45,United Kingdom,
+Fairhaven Schools,Education,2019,579.66,2406,United States,
+Fairhaven Systems,Software,2020,655.9,1724,United States,
+Fairhaven Works,Manufacturing,1979,66.33,366,United States,
+Glenmore Academy,Education,1978,264.6,678,United States,
+Glenmore Care,Healthcare,1988,15.59,66,United States,Meridian Collective
+Glenmore Cloud,Software,1985,42.5,233,United States,Halvorsen Capital
+Glenmore Consulting,Professional services,2002,878.23,3803,United States,
+Glenmore Diagnostics,Healthcare,1970,1866.4,4669,United States,
+Glenmore Financial,Financial services,1993,6279.43,16564,Brazil,
+Glenmore Insurance,Financial services,2008,244.18,1428,United States,
+Glenmore Labs,Software,1989,7.79,29,United States,
+Glenmore Manufacturing,Manufacturing,1973,37.33,106,United States,
+Glenmore Schools,Education,1997,21.02,82,Germany,
+Glenmore Software,Software,1982,172.43,887,United States,
+Glenmore Systems,Software,2004,717.3,2336,United States,
+Glenmore Telecom,Telecommunications,1979,12.73,76,Brazil,
+Glenmore Wireless,Telecommunications,1970,3.1,21,Canada,
+Glenmore Works,Manufacturing,2010,5013.14,19991,Canada,Brightwater Group
+Granite Academy,Education,1966,4470.74,15202,United Kingdom,Northgate Holdings
+Granite Advisory,Professional services,1978,3.21,19,United States,Halvorsen Capital
+Granite Care,Healthcare,1990,187.11,618,United States,
+Granite Clinics,Healthcare,1997,4871.45,14188,United States,
+Granite Cloud,Software,1989,14.34,40,United States,Halvorsen Capital
+Granite Components,Manufacturing,1992,10.33,28,United States,
+Granite Diagnostics,Healthcare,1979,16.48,50,United States,
+Granite Fabrication,Manufacturing,1997,5177.39,20578,United States,
+Granite Financial,Financial services,1984,1165.17,3679,Canada,Brightwater Group
+Granite Health,Healthcare,1969,9.47,75,United States,
+Granite Industries,Manufacturing,2005,70.77,189,United States,
+Granite Institute,Education,1993,50.05,131,United States,
+Granite Insurance,Financial services,1980,36.78,152,United States,
+Granite Manufacturing,Manufacturing,1997,816.17,5335,United States,
+Granite Market,Retail,2001,10.61,37,United States,
+Granite Schools,Education,2015,385.8,2675,United States,Northgate Holdings
+Granite Stores,Retail,1976,3366.8,12236,United Kingdom,Keystone Partners
+Granite Telecom,Telecommunications,1984,86.34,680,United States,
+Granite Wireless,Telecommunications,1975,4130.66,11605,United States,Halvorsen Capital
+Halcyon Advisors,Financial services,2000,16.72,117,United States,Tallis Industries
+Halcyon Capital,Financial services,1966,88.69,385,United Kingdom,
+Halcyon Care,Healthcare,1986,362.05,1018,United Kingdom,
+Halcyon Communications,Telecommunications,1990,253.52,688,Germany,
+Halcyon Consulting,Professional services,1969,2324.8,7337,United Kingdom,
+Halcyon Diagnostics,Healthcare,2001,323.3,1702,United States,
+Halcyon Fabrication,Manufacturing,1978,48.67,341,United States,
+Halcyon Goods,Retail,1983,346.61,1409,United States,
+Halcyon Labs,Software,2018,2.9,22,United States,Halvorsen Capital
+Halcyon Networks,Telecommunications,1997,1254.34,3336,United States,Northgate Holdings
+Halcyon Outfitters,Retail,2016,27.89,75,United States,
+Halcyon Partners,Professional services,2017,1615.05,4871,United States,
+Halcyon Schools,Education,1972,553.33,3980,Brazil,Tallis Industries
+Halcyon Software,Software,1977,9569.93,28253,United States,
+Halcyon Works,Manufacturing,1972,424.33,2045,United States,
+Harbor Associates,Professional services,2016,9.29,24,United States,
+Harbor Capital,Financial services,2017,2075.99,14420,Australia,
+Harbor Cloud,Software,2002,6.59,25,Australia,
+Harbor Communications,Telecommunications,2018,5.94,26,Canada,
+Harbor Data,Software,1973,21.35,65,United Kingdom,
+Harbor Diagnostics,Healthcare,2010,63.11,298,United States,
+Harbor Fabrication,Manufacturing,1984,8.47,70,United Kingdom,Tallis Industries
+Harbor Fiber,Telecommunications,1993,1743.16,6007,United States,
+Harbor Financial,Financial services,1977,5.49,27,United States,
+Harbor Goods,Retail,1975,274.77,1331,United States,
+Harbor Health,Healthcare,1972,154.87,412,United Kingdom,
+Harbor Insurance,Financial services,1973,21.74,69,United States,
+Harbor Lending,Financial services,1967,38.02,115,United States,Keystone Partners
+Harbor Medical,Healthcare,2017,11.47,38,United States,
+Harbor Outfitters,Retail,1987,6.05,18,United States,Keystone Partners
+Harbor Partners,Professional services,1973,4.78,21,United States,Meridian Collective
+Harbor Retail,Retail,1970,14.77,83,Australia,
+Harbor Schools,Education,2002,1665.9,4722,Australia,
+Harbor Software,Software,1969,476.63,2326,United States,
+Harbor Stores,Retail,1967,8468.69,36215,United States,
+Harbor Systems,Software,1976,34.82,105,United States,
+Harbor Telecom,Telecommunications,1997,302.34,2329,United States,
+Highpoint Advisory,Professional services,1975,6783.81,22232,Japan,
+Highpoint Care,Healthcare,1968,982.93,3722,United Kingdom,
+Highpoint Clinics,Healthcare,2019,82.69,275,Australia,
+Highpoint Communications,Telecommunications,2016,136.64,570,United States,Tallis Industries
+Highpoint Consulting,Professional services,2008,3958.59,19499,United States,
+Highpoint Fabrication,Manufacturing,1996,5.41,16,United States,
+Highpoint Institute,Education,1969,2136.99,8234,United States,
+Highpoint Insurance,Financial services,2008,8772.61,32658,United States,
+Highpoint Learning,Education,1985,200.03,579,Germany,Northgate Holdings
+Highpoint Medical,Healthcare,2007,64.13,192,Brazil,
+Highpoint Retail,Retail,1976,94.95,605,Germany,
+Highpoint Schools,Education,1986,64.07,175,United States,Meridian Collective
+Highpoint Software,Software,2002,14.92,120,Canada,
+Highpoint Stores,Retail,2007,492.86,1862,United States,
+Ironvale Academy,Education,2020,167.5,954,Canada,Meridian Collective
+Ironvale Advisors,Financial services,1991,6.34,29,Japan,
+Ironvale Advisory,Professional services,2017,107.85,296,United Kingdom,
+Ironvale Associates,Professional services,1980,42.5,130,United States,
+Ironvale Care,Healthcare,1999,344.22,1850,Brazil,
+Ironvale Clinics,Healthcare,1988,7751.7,36199,Australia,Tallis Industries
+Ironvale Cloud,Software,1971,242.24,1027,United States,
+Ironvale Diagnostics,Healthcare,1993,175.55,628,United States,
+Ironvale Education,Education,1971,3824.02,23936,United States,
+Ironvale Fabrication,Manufacturing,1967,7.89,30,Canada,Tallis Industries
+Ironvale Fiber,Telecommunications,2019,532.58,1505,Brazil,
+Ironvale Goods,Retail,2016,19.16,59,United States,
+Ironvale Group,Professional services,1987,1635.34,9707,United States,
+Ironvale Industries,Manufacturing,1979,59.64,178,United States,Halvorsen Capital
+Ironvale Insurance,Financial services,1973,1154.64,7393,United States,
+Ironvale Labs,Software,1965,2.91,19,United States,Tallis Industries
+Ironvale Manufacturing,Manufacturing,1969,15.3,57,United States,
+Ironvale Medical,Healthcare,1984,6955.13,21883,United States,
+Ironvale Retail,Retail,1978,315.79,1909,United States,
+Ironvale Schools,Education,1977,1486.3,4726,United Kingdom,Meridian Collective
+Ironvale Stores,Retail,2000,355.68,1415,United States,
+Ironvale Systems,Software,2013,3430.4,9760,United States,
+Juniper Academy,Education,2018,7385.65,32748,United States,Tallis Industries
+Juniper Advisory,Professional services,1990,118.24,338,United States,
+Juniper Capital,Financial services,1977,161.97,715,United States,
+Juniper Clinics,Healthcare,1986,136.06,889,United States,
+Juniper Cloud,Software,1995,2216.83,14723,Canada,
+Juniper Communications,Telecommunications,1991,43.8,156,United States,
+Juniper Data,Software,2000,6.8,24,Germany,
+Juniper Education,Education,1971,5.46,37,United States,
+Juniper Fabrication,Manufacturing,1969,48.18,165,United States,
+Juniper Group,Professional services,1990,31.78,216,United Kingdom,
+Juniper Health,Healthcare,2011,28.47,72,Canada,
+Juniper Institute,Education,1977,99.5,456,United States,
+Juniper Insurance,Financial services,2004,15.01,54,United States,Halvorsen Capital
+Juniper Labs,Software,2002,235.1,936,United States,
+Juniper Learning,Education,2015,62.29,297,United States,
+Juniper Networks,Telecommunications,1975,514.56,3846,United States,
+Juniper Outfitters,Retail,2019,433.45,1652,Germany,
+Juniper Retail,Retail,1997,383.6,2063,Germany,
+Juniper Schools,Education,1993,5218.48,19378,United States,
+Juniper Software,Software,2008,44.39,116,United Kingdom,Brightwater Group
+Juniper Telecom,Telecommunications,2011,1397.04,3796,United States,
+Kestrel Advisory,Professional services,2018,48.42,197,United States,
+Kestrel Associates,Professional services,1975,186.43,786,United States,Northgate Holdings
+Kestrel Capital,Financial services,2003,7658.22,20013,United Kingdom,Tallis Industries
+Kestrel Care,Healthcare,1998,8.91,23,United States,
+Kestrel Cloud,Software,1980,717.75,3092,United States,
+Kestrel Consulting,Professional services,1995,77.62,207,United States,
+Kestrel Diagnostics,Healthcare,1973,427.94,1338,United States,
+Kestrel Education,Education,1972,164.94,716,Brazil,
+Kestrel Financial,Financial services,2018,2581.71,19193,United States,Brightwater Group
+Kestrel Health,Healthcare,1978,1176.48,4947,United States,
+Kestrel Insurance,Financial services,1965,116.34,651,Germany,
+Kestrel Labs,Software,1971,8.42,65,United States,
+Kestrel Learning,Education,2018,118.9,303,United States,
+Kestrel Lending,Financial services,1983,22.43,134,Germany,
+Kestrel Medical,Healthcare,1965,15.25,46,Japan,Northgate Holdings
+Kestrel Outfitters,Retail,1998,230.4,1275,United States,
+Kestrel Partners,Professional services,1995,4999.8,15109,Australia,
+Kestrel Schools,Education,1973,12.61,102,United States,
+Larkspur Academy,Education,1987,1440.09,6086,United States,
+Larkspur Advisors,Financial services,1979,121.55,444,Australia,
+Larkspur Advisory,Professional services,2019,181.34,463,Australia,Meridian Collective
+Larkspur Associates,Professional services,1996,13.92,51,United States,
+Larkspur Capital,Financial services,2002,679.91,2136,United States,Meridian Collective
+Larkspur Clinics,Healthcare,1974,6.2,39,United States,
+Larkspur Communications,Telecommunications,1979,53.34,432,United States,Brightwater Group
+Larkspur Components,Manufacturing,1966,18.14,79,United States,
+Larkspur Consulting,Professional services,1996,13.34,77,United States,Brightwater Group
+Larkspur Fiber,Telecommunications,1976,67.86,224,United States,
+Larkspur Goods,Retail,1984,14.34,74,United States,
+Larkspur Group,Professional services,1997,1987.51,7314,United States,Northgate Holdings
+Larkspur Health,Healthcare,2017,6187.89,27902,United States,
+Larkspur Industries,Manufacturing,1986,1011.55,4414,United Kingdom,
+Larkspur Institute,Education,2014,180.9,610,United States,
+Larkspur Insurance,Financial services,1986,1356.8,5239,United States,Tallis Industries
+Larkspur Labs,Software,2013,31.9,82,Germany,Brightwater Group
+Larkspur Learning,Education,1973,9.14,30,United Kingdom,
+Larkspur Software,Software,1980,363.94,1074,United Kingdom,
+Larkspur Stores,Retail,1997,3061.9,9450,United States,
+Larkspur Telecom,Telecommunications,2003,157.39,601,United States,
+Larkspur Works,Manufacturing,1999,521.79,4281,United States,
+Lumen Advisors,Financial services,1981,446.9,3675,Brazil,
+Lumen Care,Healthcare,2007,7.8,39,United States,
+Lumen Clinics,Healthcare,1966,1107.61,3142,United States,
+Lumen Cloud,Software,1980,24.13,168,United States,Tallis Industries
+Lumen Communications,Telecommunications,1983,8.31,28,United States,
+Lumen Components,Manufacturing,1967,45.59,114,United States,
+Lumen Data,Software,1972,1313.33,4509,United Kingdom,
+Lumen Fabrication,Manufacturing,1996,22.64,67,United States,
+Lumen Group,Professional services,1973,1941.65,15760,United States,
+Lumen Health,Healthcare,1971,1650.79,4542,United States,
+Lumen Institute,Education,1987,9153.64,28348,Brazil,Keystone Partners
+Lumen Insurance,Financial services,1991,4.03,27,Germany,
+Lumen Labs,Software,1999,827.3,2254,United States,
+Lumen Lending,Financial services,2004,35.84,165,United States,
+Lumen Manufacturing,Manufacturing,2012,24.66,100,Australia,
+Lumen Market,Retail,1992,9.26,38,Canada,
+Lumen Retail,Retail,1998,261.4,1459,Australia,
+Lumen Software,Software,1995,5.7,46,United States,
+Lumen Systems,Software,1969,1572.16,4397,Australia,
+Lumen Telecom,Telecommunications,1994,18.55,47,United States,Northgate Holdings
+Lumen Works,Manufacturing,1969,6597.7,30217,Canada,
+Marlowe Advisors,Financial services,1970,131.32,374,Canada,Keystone Partners
+Marlowe Advisory,Professional services,1976,8.92,47,United States,
+Marlowe Clinics,Healthcare,1995,140.33,428,United States,Halvorsen Capital
+Marlowe Cloud,Software,1986,617.79,1545,Germany,
+Marlowe Goods,Retail,2001,3509.96,17896,Germany,Meridian Collective
+Marlowe Industries,Manufacturing,1965,5360.94,31320,United States,
+Marlowe Market,Retail,1983,34.64,168,United States,
+Marlowe Retail,Retail,2020,198.96,531,United States,Halvorsen Capital
+Marlowe Systems,Software,2015,2144.51,17232,United States,
+Marlowe Telecom,Telecommunications,1981,8.73,57,United Kingdom,Tallis Industries
+Marlowe Wireless,Telecommunications,1998,967.46,6247,Australia,
+Nettle Advisors,Financial services,1966,4151.11,29305,United States,Meridian Collective
+Nettle Associates,Professional services,1992,88.69,455,United Kingdom,
+Nettle Care,Healthcare,2007,4508.9,16501,United States,Halvorsen Capital
+Nettle Communications,Telecommunications,2001,9978.26,34143,United States,
+Nettle Components,Manufacturing,2015,713.19,1960,Australia,
+Nettle Data,Software,1972,24.04,161,United States,
+Nettle Diagnostics,Healthcare,1989,201.58,674,United States,Tallis Industries
+Nettle Fiber,Telecommunications,2004,250.8,1134,United States,Meridian Collective
+Nettle Goods,Retail,1977,59.03,490,United States,Tallis Industries
+Nettle Group,Professional services,1984,5377.49,18773,Japan,
+Nettle Health,Healthcare,1978,52.77,288,United States,
+Nettle Insurance,Financial services,2000,1298.75,3634,United States,
+Nettle Labs,Software,1997,92.24,391,United Kingdom,
+Nettle Lending,Financial services,1974,260.6,664,United Kingdom,
+Nettle Market,Retail,1985,312.81,1070,Japan,
+Nettle Networks,Telecommunications,1995,2806.76,8735,United States,
+Nettle Outfitters,Retail,1986,131.32,843,United States,
+Nettle Partners,Professional services,1969,653.74,2343,Brazil,Keystone Partners
+Nettle Retail,Retail,1986,1627.76,4776,United States,
+Nettle Software,Software,2012,2373.6,6954,Canada,Keystone Partners
+Northwind Advisors,Financial services,2003,660.45,5254,United Kingdom,
+Northwind Advisory,Professional services,1999,96.85,530,United States,Northgate Holdings
+Northwind Associates,Professional services,1986,734.37,2372,United States,
+Northwind Care,Healthcare,1968,23.95,69,United Kingdom,
+Northwind Communications,Telecommunications,1981,11.3,41,Canada,
+Northwind Components,Manufacturing,2001,23.62,160,United States,Tallis Industries
+Northwind Consulting,Professional services,2015,82.43,323,United States,
+Northwind Education,Education,1977,19.41,54,United States,
+Northwind Financial,Financial services,1973,3562.1,10201,United States,
+Northwind Health,Healthcare,2019,35.16,92,Canada,
+Northwind Industries,Manufacturing,1971,9.9,40,United States,Tallis Industries
+Northwind Labs,Software,2000,974.87,4310,Australia,
+Northwind Learning,Education,2011,49.82,209,United States,
+Northwind Lending,Financial services,2020,56.92,351,United States,
+Northwind Manufacturing,Manufacturing,1966,30.67,126,United States,
+Northwind Partners,Professional services,2011,26.4,176,United States,
+Northwind Retail,Retail,1975,633.69,2154,United States,
+Northwind Systems,Software,1984,9.71,25,United States,
+Northwind Wireless,Telecommunications,1975,1290.48,4442,United Kingdom,
+Oakmont Associates,Professional services,2016,325.36,1134,United Kingdom,
+Oakmont Capital,Financial services,2005,4.86,18,United States,
+Oakmont Clinics,Healthcare,2017,3584.93,12515,United Kingdom,
+Oakmont Cloud,Software,2006,180.54,728,United States,Tallis Industries
+Oakmont Components,Manufacturing,2002,8248.29,22805,United States,
+Oakmont Consulting,Professional services,2006,587.97,1805,United States,
+Oakmont Diagnostics,Healthcare,2001,170.87,946,United States,
+Oakmont Education,Education,2014,2710.26,7463,United Kingdom,
+Oakmont Fiber,Telecommunications,2019,23.15,70,United States,Halvorsen Capital
+Oakmont Group,Professional services,2012,358.21,2453,United States,
+Oakmont Health,Healthcare,2006,421.08,1322,United States,
+Oakmont Industries,Manufacturing,1994,15.64,50,Canada,
+Oakmont Insurance,Financial services,1990,2187.98,7517,United States,
+Oakmont Medical,Healthcare,2016,199.99,749,United States,Northgate Holdings
+Oakmont Schools,Education,2007,28.97,82,United States,
+Oakmont Systems,Software,2005,2.46,17,United States,
+Oakmont Works,Manufacturing,1969,163.5,479,United Kingdom,
+Orchard Advisory,Professional services,2007,617.96,2370,United States,
+Orchard Care,Healthcare,1983,4982.67,25365,Japan,Brightwater Group
+Orchard Communications,Telecommunications,2002,146.24,410,United Kingdom,Northgate Holdings
+Orchard Consulting,Professional services,2003,3450.49,16086,United Kingdom,
+Orchard Diagnostics,Healthcare,1990,34.92,149,United States,Keystone Partners
+Orchard Financial,Financial services,1988,206.33,713,United States,
+Orchard Goods,Retail,1978,83.73,254,United States,
+Orchard Group,Professional services,2015,1069.47,3577,United States,Meridian Collective
+Orchard Industries,Manufacturing,2009,168.55,884,United States,
+Orchard Learning,Education,1997,11099.04,32971,Brazil,Meridian Collective
+Orchard Manufacturing,Manufacturing,2001,85.91,590,Canada,
+Orchard Medical,Healthcare,1986,11.44,67,United States,
+Orchard Networks,Telecommunications,2009,29.7,115,United States,
+Orchard Schools,Education,1965,271.92,876,United States,
+Orchard Telecom,Telecommunications,2000,1509.76,3862,Germany,
+Orchard Wireless,Telecommunications,2018,6.66,19,Brazil,
+Pinecrest Advisory,Professional services,2011,55.59,192,United States,
+Pinecrest Care,Healthcare,1972,485.97,1667,Canada,
+Pinecrest Clinics,Healthcare,2015,236.07,1593,United States,Meridian Collective
+Pinecrest Cloud,Software,2016,8854.36,24923,United States,Halvorsen Capital
+Pinecrest Diagnostics,Healthcare,2019,34.56,189,United States,
+Pinecrest Education,Education,1984,13.53,50,United States,
+Pinecrest Fabrication,Manufacturing,1970,8373.43,38777,United States,Halvorsen Capital
+Pinecrest Goods,Retail,1987,2013.65,5314,United States,Brightwater Group
+Pinecrest Health,Healthcare,1982,31.15,152,United States,
+Pinecrest Industries,Manufacturing,1994,606.58,2320,United States,
+Pinecrest Insurance,Financial services,2006,71.38,183,United States,
+Pinecrest Learning,Education,2011,64.65,210,United States,
+Pinecrest Market,Retail,1992,107.51,272,United States,
+Pinecrest Outfitters,Retail,1995,3371.0,19443,United States,Meridian Collective
+Pinecrest Partners,Professional services,1996,4.91,40,United States,
+Pinecrest Retail,Retail,2006,42.98,129,United States,
+Pinecrest Stores,Retail,2011,12.53,39,United States,Brightwater Group
+Pinecrest Telecom,Telecommunications,1974,36.09,96,United States,
+Pinecrest Wireless,Telecommunications,2013,4.37,16,Germany,Keystone Partners
+Quarry Associates,Professional services,2014,672.31,1777,United States,
+Quarry Clinics,Healthcare,1989,87.98,313,Canada,
+Quarry Cloud,Software,1967,133.53,387,United States,Tallis Industries
+Quarry Components,Manufacturing,1981,8.41,30,United States,Brightwater Group
+Quarry Consulting,Professional services,2002,171.27,443,United States,Keystone Partners
+Quarry Data,Software,2010,20.58,52,United States,
+Quarry Fabrication,Manufacturing,1985,90.5,358,Australia,
+Quarry Fiber,Telecommunications,1967,3.19,17,United States,
+Quarry Group,Professional services,1973,5.16,28,Germany,
+Quarry Health,Healthcare,1975,4.0,16,United States,
+Quarry Industries,Manufacturing,2020,207.6,645,Germany,
+Quarry Insurance,Financial services,2014,3.11,19,United States,
+Quarry Labs,Software,1995,13.91,41,United States,Halvorsen Capital
+Quarry Medical,Healthcare,2008,365.46,1636,United States,
+Quarry Retail,Retail,1977,1414.95,4858,United States,
+Quarry Schools,Education,1968,9.01,24,United States,
+Quarry Telecom,Telecommunications,1984,204.87,805,United States,
+Ravenna Advisory,Professional services,1982,527.31,3892,United States,
+Ravenna Associates,Professional services,1984,4892.7,28402,Canada,
+Ravenna Clinics,Healthcare,1978,69.93,229,United States,
+Ravenna Cloud,Software,1979,3.37,22,United Kingdom,Northgate Holdings
+Ravenna Communications,Telecommunications,1972,10.41,35,Brazil,
+Ravenna Consulting,Professional services,2009,380.23,1261,United States,Northgate Holdings
+Ravenna Data,Software,1999,1913.53,7220,Germany,
+Ravenna Diagnostics,Healthcare,1975,7361.69,35020,Canada,
+Ravenna Education,Education,1988,10.58,76,United States,
+Ravenna Fiber,Telecommunications,1975,609.1,4239,United States,Northgate Holdings
+Ravenna Group,Professional services,1985,1697.34,4821,United States,Meridian Collective
+Ravenna Health,Healthcare,1984,20.47,54,Canada,
+Ravenna Learning,Education,2009,12.16,53,United Kingdom,Tallis Industries
+Ravenna Lending,Financial services,1965,114.58,420,United States,Halvorsen Capital
+Ravenna Manufacturing,Manufacturing,1971,150.61,656,Germany,
+Ravenna Market,Retail,2005,986.55,4488,United States,
+Ravenna Networks,Telecommunications,1987,12.13,50,United States,
+Ravenna Outfitters,Retail,2020,9.88,81,United States,
+Ravenna Partners,Professional services,2010,2382.9,19379,United States,
+Ravenna Retail,Retail,1972,6710.75,26796,United States,
+Ravenna Systems,Software,1972,146.36,861,United Kingdom,
+Ravenna Wireless,Telecommunications,1977,8139.18,23157,United States,
+Ravenna Works,Manufacturing,2008,341.06,1008,United States,Halvorsen Capital
+Redfield Academy,Education,2014,1030.05,8165,United States,
+Redfield Advisory,Professional services,1980,2399.57,7433,Canada,
+Redfield Capital,Financial services,1968,103.76,282,United States,
+Redfield Care,Healthcare,1979,13.91,85,United States,Northgate Holdings
+Redfield Cloud,Software,2012,3.54,18,United States,
+Redfield Consulting,Professional services,1966,184.25,480,United Kingdom,Keystone Partners
+Redfield Diagnostics,Healthcare,1987,10656.33,30265,United States,
+Redfield Education,Education,2010,300.85,1504,United States,
+Redfield Fabrication,Manufacturing,1997,129.16,529,United States,
+Redfield Fiber,Telecommunications,1983,488.28,1510,United States,
+Redfield Group,Professional services,2008,191.97,809,Brazil,
+Redfield Health,Healthcare,1972,9962.89,31879,United States,
+Redfield Insurance,Financial services,1966,47.28,167,United States,
+Redfield Labs,Software,2000,61.99,503,United States,
+Redfield Outfitters,Retail,2005,1257.2,4036,United Kingdom,Keystone Partners
+Redfield Schools,Education,1980,794.76,3607,United States,
+Redfield Stores,Retail,1981,2048.83,7322,Germany,
+Redfield Systems,Software,1987,4124.83,14113,United States,
+Redfield Wireless,Telecommunications,2019,68.37,271,United States,
+Riverton Academy,Education,1999,1296.92,7714,United States,
+Riverton Associates,Professional services,2008,1632.4,5952,United States,
+Riverton Care,Healthcare,1987,1727.54,9268,Australia,
+Riverton Cloud,Software,1981,16.47,74,United Kingdom,Halvorsen Capital
+Riverton Components,Manufacturing,2016,252.52,1076,United States,
+Riverton Data,Software,1974,92.59,317,United States,Northgate Holdings
+Riverton Diagnostics,Healthcare,1996,370.61,2362,United States,
+Riverton Goods,Retail,1991,85.79,481,United States,
+Riverton Group,Professional services,1979,583.73,3522,United States,Tallis Industries
+Riverton Insurance,Financial services,1970,2748.03,14086,United States,Northgate Holdings
+Riverton Manufacturing,Manufacturing,2020,1377.5,5317,United States,Keystone Partners
+Riverton Partners,Professional services,1979,6.69,54,United States,
+Riverton Schools,Education,1979,26.44,84,United States,
+Riverton Software,Software,1994,3090.48,8996,United States,
+Saltmarsh Academy,Education,2009,21.57,60,United States,
+Saltmarsh Advisory,Professional services,1989,280.04,1028,United States,
+Saltmarsh Associates,Professional services,2005,250.66,751,United States,
+Saltmarsh Care,Healthcare,1974,8.09,25,United States,Northgate Holdings
+Saltmarsh Clinics,Healthcare,1985,155.12,617,United Kingdom,
+Saltmarsh Cloud,Software,2019,3612.55,11868,United States,
+Saltmarsh Communications,Telecommunications,2010,15.12,64,United Kingdom,
+Saltmarsh Components,Manufacturing,2002,5493.17,27410,United States,
+Saltmarsh Diagnostics,Healthcare,1966,7069.03,33897,United States,Tallis Industries
+Saltmarsh Fabrication,Manufacturing,1982,2474.7,11580,United States,
+Saltmarsh Group,Professional services,2015,592.36,2401,United States,
+Saltmarsh Manufacturing,Manufacturing,2018,810.99,4299,United Kingdom,
+Saltmarsh Market,Retail,1990,1839.26,10825,United States,Halvorsen Capital
+Saltmarsh Medical,Healthcare,2003,2522.7,7717,Canada,
+Saltmarsh Partners,Professional services,2000,56.76,216,United States,
+Saltmarsh Schools,Education,1983,4.12,18,United States,Northgate Holdings
+Saltmarsh Software,Software,1968,1387.39,3958,Australia,
+Silverbrook Advisors,Financial services,1993,3542.36,16908,Germany,
+Silverbrook Advisory,Professional services,2005,455.06,1675,Germany,
+Silverbrook Associates,Professional services,1995,5643.48,15787,United Kingdom,Halvorsen Capital
+Silverbrook Care,Healthcare,1993,27.66,74,United States,
+Silverbrook Clinics,Healthcare,1990,71.11,474,United States,
+Silverbrook Components,Manufacturing,1993,25.7,88,United States,
+Silverbrook Data,Software,2006,7279.6,34993,United States,
+Silverbrook Fabrication,Manufacturing,2011,958.87,3606,Australia,Meridian Collective
+Silverbrook Financial,Financial services,1981,2211.62,11228,Canada,
+Silverbrook Goods,Retail,2018,3424.66,10612,United States,
+Silverbrook Group,Professional services,2020,3334.93,20492,Japan,Halvorsen Capital
+Silverbrook Learning,Education,1992,4.38,17,United States,
+Silverbrook Market,Retail,1989,2767.48,20215,United Kingdom,
+Silverbrook Networks,Telecommunications,1975,7413.03,29506,United States,Northgate Holdings
+Silverbrook Outfitters,Retail,1998,6296.06,29842,United States,
+Silverbrook Partners,Professional services,1996,469.92,1675,Canada,
+Silverbrook Schools,Education,1976,535.0,1521,United States,
+Silverbrook Software,Software,2003,155.82,484,United States,Tallis Industries
+Silverbrook Stores,Retail,1977,6207.19,26363,United States,Halvorsen Capital
+Silverbrook Wireless,Telecommunications,1979,23.65,82,Canada,
+Silverbrook Works,Manufacturing,1973,3.93,32,United States,
+Stonebridge Capital,Financial services,2006,53.6,292,United States,Northgate Holdings
+Stonebridge Care,Healthcare,1974,11.21,78,United States,
+Stonebridge Consulting,Professional services,1966,6.46,41,United States,
+Stonebridge Data,Software,2016,335.69,1062,United States,Brightwater Group
+Stonebridge Education,Education,1996,300.65,786,United States,
+Stonebridge Fabrication,Manufacturing,2018,241.45,607,Australia,
+Stonebridge Group,Professional services,2004,263.06,1248,United States,
+Stonebridge Industries,Manufacturing,2013,874.83,2812,United States,Meridian Collective
+Stonebridge Insurance,Financial services,1991,1770.27,8169,United States,Meridian Collective
+Stonebridge Learning,Education,1991,2.46,19,United States,
+Stonebridge Networks,Telecommunications,1999,20.89,106,United States,Tallis Industries
+Stonebridge Outfitters,Retail,2010,240.88,605,United States,Keystone Partners
+Stonebridge Retail,Retail,2003,12706.5,36465,Japan,
+Stonebridge Schools,Education,1997,8.64,25,United States,Halvorsen Capital
+Stonebridge Wireless,Telecommunications,2011,11.86,49,United States,
+Stonebridge Works,Manufacturing,2011,7.05,39,Germany,
+Summit Advisors,Financial services,2006,147.08,1205,United States,Tallis Industries
+Summit Advisory,Professional services,1979,6811.26,32538,United Kingdom,
+Summit Associates,Professional services,1967,5160.52,18126,Brazil,
+Summit Capital,Financial services,2011,21.12,67,United States,Halvorsen Capital
+Summit Care,Healthcare,2011,10.06,55,United States,
+Summit Cloud,Software,1977,95.38,302,United States,Keystone Partners
+Summit Components,Manufacturing,1995,3.81,19,United Kingdom,
+Summit Data,Software,1980,418.99,2961,Canada,
+Summit Fabrication,Manufacturing,1994,1800.71,5493,Canada,
+Summit Financial,Financial services,2010,57.45,156,United States,Brightwater Group
+Summit Goods,Retail,1990,3696.24,18202,Germany,
+Summit Group,Professional services,1967,117.72,456,United States,Tallis Industries
+Summit Health,Healthcare,2007,8.05,41,Australia,Tallis Industries
+Summit Industries,Manufacturing,2006,15.96,53,United States,Halvorsen Capital
+Summit Insurance,Financial services,1985,44.74,233,Canada,
+Summit Labs,Software,2005,1252.0,6467,United States,
+Summit Learning,Education,2009,157.16,870,Brazil,Tallis Industries
+Summit Lending,Financial services,1995,1068.62,4365,United States,
+Summit Manufacturing,Manufacturing,2010,12.32,33,Japan,Meridian Collective
+Summit Market,Retail,2002,54.0,383,United States,
+Summit Networks,Telecommunications,2013,708.36,1861,United States,
+Summit Outfitters,Retail,1981,179.97,646,Canada,Tallis Industries
+Summit Partners,Professional services,2010,5.99,32,United States,
+Summit Stores,Retail,1965,3.67,28,United Kingdom,
+Summit Works,Manufacturing,1998,2080.7,8801,Japan,
+Thornbury Advisors,Financial services,2006,14.85,64,United States,
+Thornbury Advisory,Professional services,1974,33.19,164,United Kingdom,
+Thornbury Associates,Professional services,1991,5.95,40,United States,
+Thornbury Capital,Financial services,1973,72.57,528,United States,
+Thornbury Clinics,Healthcare,1988,71.9,245,United States,
+Thornbury Data,Software,1976,21.45,112,Germany,
+Thornbury Diagnostics,Healthcare,1977,341.72,2113,United States,
+Thornbury Financial,Financial services,2009,3616.21,9916,United States,
+Thornbury Health,Healthcare,1969,5.34,41,United States,
+Thornbury Insurance,Financial services,1973,1370.07,3942,United States,
+Thornbury Learning,Education,1989,598.31,1594,Canada,
+Thornbury Market,Retail,1982,376.81,975,Brazil,Northgate Holdings
+Thornbury Medical,Healthcare,1968,137.78,356,United States,
+Thornbury Outfitters,Retail,1972,17.36,44,United States,Northgate Holdings
+Thornbury Systems,Software,2007,7898.72,27701,United States,
+Thornbury Works,Manufacturing,2018,15.77,45,United States,
+Upland Academy,Education,1994,782.41,2173,United States,Keystone Partners
+Upland Advisors,Financial services,2017,4922.68,16331,United States,Brightwater Group
+Upland Advisory,Professional services,1989,233.31,1072,United States,
+Upland Associates,Professional services,2016,761.52,2740,Canada,Northgate Holdings
+Upland Cloud,Software,1969,14.97,46,United States,
+Upland Components,Manufacturing,1974,415.39,1054,United States,
+Upland Consulting,Professional services,2013,4429.16,17848,Germany,Northgate Holdings
+Upland Data,Software,2019,9820.68,30675,United States,
+Upland Diagnostics,Healthcare,2019,5680.01,17858,United States,
+Upland Education,Education,1981,46.31,215,United States,
+Upland Fabrication,Manufacturing,2016,1139.48,5597,United States,
+Upland Group,Professional services,2013,11.96,74,United Kingdom,
+Upland Institute,Education,1993,3.25,18,United States,
+Upland Labs,Software,1971,15.81,43,Japan,
+Upland Learning,Education,1984,2858.1,14538,Germany,
+Upland Lending,Financial services,2011,27.13,118,Brazil,
+Upland Partners,Professional services,1974,2774.19,8337,United States,
+Upland Retail,Retail,2006,2454.86,17451,Canada,
+Upland Schools,Education,2009,1550.94,7064,Australia,
+Upland Works,Manufacturing,2016,92.63,312,United States,Brightwater Group
+Vantage Advisors,Financial services,2019,1237.03,3616,United States,
+Vantage Associates,Professional services,1980,186.55,597,United States,
+Vantage Capital,Financial services,1975,119.6,972,United Kingdom,Keystone Partners
+Vantage Components,Manufacturing,1965,1111.44,8098,United States,
+Vantage Consulting,Professional services,1966,6.82,29,United States,
+Vantage Education,Education,2020,189.36,770,Australia,
+Vantage Industries,Manufacturing,2003,6.44,41,United States,
+Vantage Institute,Education,2001,10276.19,29177,United States,
+Vantage Learning,Education,2017,1932.8,4917,United Kingdom,
+Vantage Medical,Healthcare,1989,1661.64,13200,United States,
+Vantage Networks,Telecommunications,2014,76.07,277,United States,
+Vantage Software,Software,2017,20.96,97,United States,Brightwater Group
+Vantage Systems,Software,1974,949.74,3869,United States,
+Vantage Works,Manufacturing,2015,3.05,20,United States,Northgate Holdings
+Westmark Advisory,Professional services,2012,11.82,30,Canada,Halvorsen Capital
+Westmark Clinics,Healthcare,2011,8.33,22,Brazil,
+Westmark Cloud,Software,1977,64.49,233,United Kingdom,
+Westmark Components,Manufacturing,2020,223.92,873,United States,
+Westmark Health,Healthcare,2000,237.84,804,United States,
+Westmark Industries,Manufacturing,1977,2740.25,13743,United States,
+Westmark Insurance,Financial services,2008,104.15,445,Germany,Northgate Holdings
+Westmark Learning,Education,1979,41.17,229,Australia,
+Westmark Medical,Healthcare,1988,151.29,667,United States,
+Westmark Partners,Professional services,1988,276.88,1277,United States,
+Westmark Systems,Software,1979,2280.06,7173,United Kingdom,
+Willowby Advisors,Financial services,2000,3488.83,16654,United States,Tallis Industries
+Willowby Advisory,Professional services,2003,8.02,24,Japan,
+Willowby Associates,Professional services,1988,26.71,127,United States,
+Willowby Cloud,Software,1995,502.02,1480,Brazil,
+Willowby Communications,Telecommunications,2019,1063.26,4678,United States,
+Willowby Consulting,Professional services,1974,30.86,88,United States,Keystone Partners
+Willowby Diagnostics,Healthcare,2011,3779.14,14979,United States,
+Willowby Fiber,Telecommunications,1976,1463.21,6488,United States,
+Willowby Financial,Financial services,1981,642.23,1698,Canada,
+Willowby Health,Healthcare,2019,4105.91,13263,United States,
+Willowby Labs,Software,2020,271.34,958,United States,
+Willowby Learning,Education,2003,440.82,1196,United States,
+Willowby Lending,Financial services,2008,764.27,2355,Australia,
+Willowby Manufacturing,Manufacturing,2008,10.42,68,United States,
+Willowby Medical,Healthcare,2015,906.76,2605,United States,
+Willowby Networks,Telecommunications,2004,2612.11,18260,Germany,Tallis Industries
+Willowby Outfitters,Retail,1991,9602.24,32263,United States,
+Willowby Software,Software,2011,14.66,41,United States,
+Willowby Systems,Software,2011,12195.15,37191,United States,
+Yardley Academy,Education,2018,2644.84,7320,United States,
+Yardley Advisors,Financial services,1991,10.8,32,United Kingdom,
+Yardley Capital,Financial services,1991,8.68,22,United States,Brightwater Group
+Yardley Clinics,Healthcare,1973,2705.51,17507,United States,Halvorsen Capital
+Yardley Cloud,Software,2004,450.27,2148,United States,
+Yardley Data,Software,1990,88.94,253,United States,
+Yardley Diagnostics,Healthcare,1983,4.73,32,United States,
+Yardley Education,Education,1985,43.84,324,United States,
+Yardley Fiber,Telecommunications,1972,187.23,653,United States,Meridian Collective
+Yardley Group,Professional services,1982,17.13,65,Brazil,
+Yardley Labs,Software,1972,50.95,189,United States,
+Yardley Outfitters,Retail,2002,179.5,835,Brazil,
+Yardley Software,Software,2008,714.86,3794,United States,
+Yardley Stores,Retail,1970,11807.8,34745,United States,
+Yardley Systems,Software,1997,491.8,1935,Australia,Meridian Collective
+Zephyr Associates,Professional services,2016,119.59,325,United States,
+Zephyr Care,Healthcare,2015,4914.39,13790,United States,
+Zephyr Clinics,Healthcare,2010,10.81,31,Germany,
+Zephyr Cloud,Software,1985,4693.11,28922,United States,
+Zephyr Components,Manufacturing,1973,933.32,3739,United States,
+Zephyr Consulting,Professional services,2002,3508.36,13185,United States,
+Zephyr Data,Software,1990,1307.74,5809,United States,Meridian Collective
+Zephyr Fabrication,Manufacturing,1986,172.07,1205,United States,
+Zephyr Goods,Retail,1998,4.41,19,United States,
+Zephyr Group,Professional services,1997,15.86,55,Canada,
+Zephyr Industries,Manufacturing,2002,1136.64,8030,Japan,
+Zephyr Labs,Software,1975,18.94,84,United States,
+Zephyr Market,Retail,1997,53.79,328,United Kingdom,
+Zephyr Medical,Healthcare,1983,3253.73,15244,United States,Keystone Partners
+Zephyr Outfitters,Retail,1985,22.52,98,United States,
+Zephyr Partners,Professional services,2000,1689.36,5458,United States,
+Zephyr Software,Software,1971,23.01,59,Australia,
+Zephyr Stores,Retail,2008,65.03,412,United States,Halvorsen Capital
+Zephyr Telecom,Telecommunications,1997,57.62,202,United States,
+Zephyr Wireless,Telecommunications,2017,15.89,62,United States,

@@ -10,6 +10,7 @@ Each skill does one job with your own data and gives a straight answer. Nothing 
 |---|---|---|---|
 | [Revenue by Channel](docs/revenue-by-channel.md) | Which channels actually turn into closed revenue, and where should the next dollar go? | October 2026 | [revenue-by-channel.zip](../../releases/tag/revenue-by-channel-v1.1.1) |
 | [Archie](docs/archie.md) | Is this new account worth working, and where did it come from? | October 2026 | [archie.zip](../../releases/tag/archie-v1.0.1) |
+| [Customer Segmentation](docs/customer-segmentation.md) | Which accounts are worth the effort, and how exposed is our revenue? | October 2026 | [customer-segmentation.zip](../../releases/tag/customer-segmentation-v1.0.0) |
 
 ## How do I install a skill?
 
@@ -33,6 +34,7 @@ tools/        build_zips.py packages every skill into dist/
 
 ```
 python tests/revenue-by-channel/test_analyze.py   # regression tests, standard library only
+python tests/customer-segmentation/test_segment.py  # regression tests, needs numpy, pandas, scikit-learn
 python tools/build_zips.py                        # builds dist/<skill>.zip and checks each SKILL.md
 ```
 

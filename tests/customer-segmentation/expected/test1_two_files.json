@@ -1,0 +1,105 @@
+{
+ "counts": {
+  "accounts": 800,
+  "deals": 1764,
+  "closed_deals": 1609,
+  "won": 593,
+  "lost": 1016,
+  "open_deals": 155,
+  "accounts_with_closed_deals": 617,
+  "customers": 341,
+  "untouched_accounts": 160
+ },
+ "data_quality": {
+  "duplicate_deals": 0,
+  "deals_without_account": 0,
+  "deals_unmatched_account": 0,
+  "unmatched_examples": [],
+  "won_without_value": 0,
+  "text_values_parsed": 0,
+  "blank_attributes": {},
+  "conflicting_attributes": 0,
+  "grouped_as_other": {},
+  "revenue_unit": "millions"
+ },
+ "stage_mapping": {
+  "Engaging": "open",
+  "Lost": "lost",
+  "Prospecting": "open",
+  "Won": "won"
+ },
+ "value_rule": {
+  "basis": "Employees",
+  "median_won_deal": 38900,
+  "by_band": [
+   {
+    "band": "1 to 49",
+    "won_deals": 41,
+    "value": 6100,
+    "fallback": false
+   },
+   {
+    "band": "50 to 199",
+    "won_deals": 126,
+    "value": 16200,
+    "fallback": false
+   },
+   {
+    "band": "200 to 999",
+    "won_deals": 176,
+    "value": 18600,
+    "fallback": false
+   },
+   {
+    "band": "1,000 to 4,999",
+    "won_deals": 132,
+    "value": 40150,
+    "fallback": false
+   },
+   {
+    "band": "5,000+",
+    "won_deals": 118,
+    "value": 96950,
+    "fallback": false
+   }
+  ]
+ },
+ "concentration": {
+  "won_revenue": 26840200,
+  "customers": 341,
+  "top_1_share": 0.069,
+  "top_5_share": 0.279,
+  "top_10_share": 0.324,
+  "accounts_to_half": 39,
+  "accounts_to_80pct": 132,
+  "effective_customers": 53.5
+ },
+ "model_health": {
+  "auc_logistic": 0.606,
+  "auc_forest": 0.699,
+  "primary": "forest",
+  "verdict": "directional"
+ },
+ "segments": [
+  {
+   "segment": "Core",
+   "accounts": 156,
+   "share_of_revenue": 0.25
+  },
+  {
+   "segment": "Volume",
+   "accounts": 247,
+   "share_of_revenue": 0.245
+  },
+  {
+   "segment": "Stretch",
+   "accounts": 215,
+   "share_of_revenue": 0.46
+  },
+  {
+   "segment": "Deprioritize",
+   "accounts": 182,
+   "share_of_revenue": 0.046
+  }
+ ]
+}

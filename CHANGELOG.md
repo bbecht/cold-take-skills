@@ -1,5 +1,22 @@
 # Changelog
 
+## Customer Segmentation
+
+### 1.0.0 (October 2026)
+
+- Logistic regression and random forest on account firmographics, trained on won and lost deals
+- Grouped cross-validation by account: every account with history is scored by models that never saw it
+- The model that ranks held-out accounts better sets the win probability. The other is the second opinion, and gaps of 25 points or more get flagged
+- Four segments from win probability and typical deal value: Core, Volume, Stretch, Deprioritize
+- Concentration risk: top account and top 10 share, accounts to half and 80% of revenue, and revenue from off-fit accounts
+- Pipeline opportunity: open deals weighted by fit, untouched accounts valued by fit, and a ranked work list
+- Key fit attributes labeled Both agree, Curved, Straight line, Weak or No signal, with win rate by value
+- Model check: check score, calibration and a plain verdict. Stops below 100 closed deals
+- Readouts for four seats: CEO or owner, VP Sales or CRO, RevOps, marketing lead
+- Interactive tool with a movable value map, sector and status filters, and account search
+- Plain-language guide to both models: what they do, how they work, how to read them, when not to trust them
+- Synthetic MIT sample data with planted patterns, laid out like Maven Analytics' CRM Sales Opportunities dataset
+
 ## Archie
 
 ### 1.0.1
